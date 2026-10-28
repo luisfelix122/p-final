@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Q'UPA WASI — Pitch de 3 Minutos | Concurso PUCP</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --surface: #f8fafc;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --text-subtle: #94a3b8;
+      --primary: #059669;
+      --primary-dark: #047857;
+      --primary-light: #ecfdf5;
+      --accent: #0284c7;
+      --danger: #dc2626;
+      --warning: #d97706;
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+      --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      --font-display: 'Space Grotesk', var(--font-sans);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      padding: 2rem 1rem 6rem;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    /* Top Bar */
+    .top-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.75rem;
+    }
+
+    .top-meta a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    /* Encabezado */
+    header {
+      margin-bottom: 2rem;
+    }
+
+    .brand-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--primary-light);
+      color: var(--primary-dark);
+      padding: 0.35rem 0.85rem;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      border: 1px solid rgba(5, 150, 105, 0.2);
+    }
+
+    h1 {
+      font-family: var(--font-display);
+      font-size: 2.75rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      color: var(--text-main);
+      margin-bottom: 0.75rem;
+    }
+
+    .subtitle {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      font-weight: 500;
+      margin-bottom: 1.25rem;
+    }
+
+    .badges-bar {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.3rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      background: var(--surface);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+    }
+
+    .badge.highlight {
+      background: var(--primary-light);
+      color: var(--primary-dark);
+      border-color: rgba(5, 150, 105, 0.3);
+    }
+
+    /* Cronómetro Flotante */
+    .timer-sticky {
+      position: sticky;
+      top: 1rem;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 0.85rem 1.35rem;
+      margin: 1.5rem 0 2.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .timer-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .timer-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: var(--text-subtle);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .timer-display {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      font-weight: 800;
+      font-variant-numeric: tabular-nums;
+      color: var(--text-main);
+      line-height: 1;
+    }
+
+    .timer-controls {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .btn {
+      padding: 0.5rem 1rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: #ffffff;
+      color: var(--text-main);
+      cursor: pointer;
+      transition: all 0.15s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .btn:hover {
+      background: var(--surface);
+    }
+
+    .btn.btn-primary {
+      background: var(--text-main);
+      color: #ffffff;
+      border-color: var(--text-main);
+    }
+
+    .btn.btn-primary:hover {
+      background: #334155;
+    }
+
+    /* Sección Cuadro de Datos y Fuentes */
+    .data-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .data-card h2 {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .data-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+    }
+
+    .data-item {
+      background: #ffffff;
+      padding: 1rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+
+    .data-item .tag {
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: var(--primary-dark);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.25rem;
+    }
+
+    .data-item .value {
+      font-family: var(--font-display);
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 0.25rem;
+    }
+
+    .data-item .desc {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    .data-item .source {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-top: 0.35rem;
+    }
+
+    /* Ritual Respiratorio */
+    .breath-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      margin-bottom: 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .breath-text h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+    }
+
+    .breath-text p {
+      font-size: 0.825rem;
+      color: var(--text-muted);
+    }
+
+    .breath-widget {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .breath-circle {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: var(--primary);
+      animation: pulseBreath 18s infinite ease-in-out;
+    }
+
+    @keyframes pulseBreath {
+      0%, 100% { transform: scale(1); opacity: 0.5; }
+      22.2% { transform: scale(1.6); opacity: 1; }
+      55.5% { transform: scale(1.6); opacity: 1; }
+      100% { transform: scale(1); opacity: 0.5; }
+    }
+
+    /* Secciones del Pitch */
+    .act-block {
+      margin-bottom: 3rem;
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.75rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .act-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid var(--surface);
+      padding-bottom: 0.75rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .act-title {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .act-title::before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      background: var(--primary);
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .act-meta {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-subtle);
+    }
+
+    .speech-box {
+      font-size: 1.25rem;
+      line-height: 1.7;
+      color: var(--text-main);
+      font-weight: 500;
+      margin-bottom: 1.25rem;
+      padding-left: 0.5rem;
+      border-left: 3px solid var(--primary-light);
+    }
+
+    .speech-box strong {
+      font-weight: 700;
+      color: #000;
+      background: linear-gradient(180deg, transparent 70%, rgba(5, 150, 105, 0.18) 70%);
+      padding: 0 2px;
+    }
+
+    /* Indicaciones Escénicas */
+    .cues-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 0.75rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem;
+    }
+
+    .cue-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+
+    .cue-label {
+      font-size: 0.7rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--primary-dark);
+    }
+
+    .cue-text {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.35;
+    }
+
+    /* Slides Canvas */
+    .slides-section {
+      margin-top: 3.5rem;
+      border-top: 2px solid var(--border);
+      padding-top: 2rem;
+    }
+
+    .slides-section h2 {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin-bottom: 0.5rem;
+    }
+
+    .slides-section p {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .slides-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .slide-card {
+      aspect-ratio: 16 / 9;
+      background: #ffffff;
+      border: 2px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.2s ease;
+    }
+
+    .slide-card:hover {
+      border-color: var(--primary);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .slide-number {
+      font-size: 0.7rem;
+      font-weight: 800;
+      color: var(--text-subtle);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .slide-title {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.2;
+    }
+
+    .slide-desc {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      border-top: 1px dashed var(--border);
+      padding-top: 0.4rem;
+    }
+
+    /* Preguntas Shark Tank */
+    .faq-section {
+      margin-top: 3.5rem;
+      border-top: 2px solid var(--border);
+      padding-top: 2rem;
+    }
+
+    .faq-section h2 {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin-bottom: 1.25rem;
+    }
+
+    .faq-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    .faq-q {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 0.5rem;
+    }
+
+    .faq-a {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 4rem;
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+      text-align: center;
+      color: var(--text-subtle);
+      font-size: 0.8rem;
+    }
+
+    @media (max-width: 640px) {
+      h1 { font-size: 2rem; }
+      .speech-box { font-size: 1.1rem; }
+      .timer-display { font-size: 1.6rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="top-meta">
+      <span>Universidad Nacional de Piura (UNP) · Semifinal y Final PUCP</span>
+      <span>Líder: Luis Felix Gonzales Sandoval</span>
+    </div>
+
+    <!-- Header Principal -->
+    <header>
+      <div class="brand-tag">
+        🌱 Ecosistema de Economía Circular
+      </div>
+      <h1>Q'UPA WASI</h1>
+      <div class="subtitle">
+        Estación Autónoma con Visión Computacional, Pesaje Asistido y App Móvil de Incentivos
+      </div>
+      <div class="badges-bar">
+        <span class="badge highlight">⏱️ 3 Minutos Exactos (180s)</span>
+        <span class="badge">📊 398 Palabras (~133 PPM)</span>
+        <span class="badge">🎯 Jurado Empresarial PUCP</span>
+        <span class="badge">📍 Piura · Perú</span>
+      </div>
+    </header>
+
+    <!-- Cronómetro Flotante -->
+    <div class="timer-sticky">
+      <div class="timer-info">
+        <span class="timer-label">Cronómetro de Ensayo</span>
+        <span class="timer-display" id="timeDisplay">03:00</span>
+      </div>
+      <div class="timer-controls">
+        <button class="btn btn-primary" id="btnStart" onclick="startTimer()">▶ Iniciar</button>
+        <button class="btn" id="btnReset" onclick="resetTimer()">↺ Reiniciar</button>
+      </div>
+    </div>
+
+    <!-- Protocolo Pre-Pitch -->
+    <div class="breath-card">
+      <div class="breath-text">
+        <h3>Protocolo Pre-Pitch (3 Minutos Antes de Subir)</h3>
+        <p>Inhala 4s diafragmático · Retén 6s sin tensión · Exhala 8s lento. Ancla la voz en el pecho y apaga el temblor.</p>
+      </div>
+      <div class="breath-widget">
+        <div class="breath-circle"></div>
+        <span style="font-size: 0.75rem; font-weight: 700; color: var(--primary-dark);">Ciclo 4-6-8</span>
+      </div>
+    </div>
+
+    <!-- Cuadro de Datos y Fuentes Oficiales -->
+    <div class="data-card">
+      <h2>📈 Métricas Oficiales Respaldadas</h2>
+      <div class="data-grid">
+        <div class="data-item">
+          <div class="tag">Perú (Macro)</div>
+          <div class="value">24,000+ t/día</div>
+          <div class="desc">Solo se valoriza el 2% formalmente. El 98% se destruye por mezcla en origen.</div>
+          <div class="source">Fuente: MINAM / SIGERSOL</div>
+        </div>
+        <div class="data-item">
+          <div class="tag">Piura (Regional)</div>
+          <div class="value">530+ t/día</div>
+          <div class="desc">3ra región con más basura del país; > 70% termina en botaderos como Curumuy.</div>
+          <div class="source">Fuente: OEFA / PIGARS Piura</div>
+        </div>
+        <div class="data-item">
+          <div class="tag">UNP (Campus)</div>
+          <div class="value">65% mezclado</div>
+          <div class="desc">14,000 alumnos generan 1.5 t/día. En el comedor se arruina el material por apatía.</div>
+          <div class="source">Fuente: Diagnóstico UNP</div>
+        </div>
+        <div class="data-item">
+          <div class="tag">Arbitraje de Scrap</div>
+          <div class="value">S/ 0.80 ➔ S/ 2.50</div>
+          <div class="desc">El PET sucio se remata a S/ 0.80; clasificado con 98% de pureza se vende a S/ 2.50/kg.</div>
+          <div class="source">Fuente: Industria Recicladora Formal</div>
+        </div>
+        <div class="data-item">
+          <div class="tag">Validación de Mercado</div>
+          <div class="value">95.3% intención</div>
+          <div class="desc">Encuesta formal a 385 universitarios confirma uso activo si reciben recompensas.</div>
+          <div class="source">Fuente: Muestra n=385 UNP</div>
+        </div>
+        <div class="data-item">
+          <div class="tag">Unit Economics</div>
+          <div class="value">Payback 5 meses</div>
+          <div class="desc">Insumos MVP: S/ 3,500. Ingresos > S/ 800/mes. La estación se paga sola en 5 meses.</div>
+          <div class="source">Fuente: Modelo Financiero Q'UPA WASI</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ACTO 1 -->
+    <div class="act-block">
+      <div class="act-header">
+        <div class="act-title">Acto 1: El Gancho Territorial & Fuentes Oficiales</div>
+        <div class="act-meta">0:00 - 0:45 · 119 palabras</div>
+      </div>
+      <div class="speech-box">
+        "¿Saben cuánto dinero botamos todos los días a la basura? <strong>Literalmente</strong>.<br><br>
+        Según el <strong>MINAM y el sistema SIGERSOL</strong>, el Perú genera más de veinticuatro mil toneladas diarias de residuos, y solo el <strong>dos por ciento</strong> se valoriza.<br><br>
+        El <strong>OEFA</strong> reporta que Piura es la tercera región con más residuos del país, con más de <strong>quinientas treinta toneladas al día</strong> en nuestra provincia, donde más del setenta por ciento termina en botaderos informales.<br><br>
+        Y en nuestra universidad, la UNP, catorce mil estudiantes generamos más de una tonelada diaria; pero en el comedor central, el <strong>sesenta y cinco por ciento</strong> del material aprovechable se destruye en el primer segundo porque los tachos tradicionales mezclan todo y no existen incentivos para separar."
+      </div>
+      <div class="cues-grid">
+        <div class="cue-item">
+          <span class="cue-label">Tono & Intención</span>
+          <span class="cue-text">Pregunta retadora, tono de diagnóstico financiero con autoridad serena.</span>
+        </div>
+        <div class="cue-item">
+          <span class="cue-label">Mirada</span>
+          <span class="cue-text">Fijar al jurado central; barrido lento hacia ambos lados al citar MINAM y OEFA.</span>
+        </div>
+        <div class="cue-item">
+          <span class="cue-label">Manos</span>
+          <span class="cue-text">Palma abierta en la pregunta. Marcar 3 niveles: Perú, Piura y UNP.</span>
+        </div>
+        <div class="cue-item">
+          <span class="cue-label">Pausa</span>
+          <span class="cue-text">Silencio dramático de 1.5s tras "Literalmente".</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ACTO 2 -->
+    <div class="act-block">
+      <div class="act-header">
+        <div class="act-title">Acto 2: La Solución, Tecnología y el Modelo de Negocio</div>
+        <div class="act-meta">0:45 - 2:15 · 192 palabras</div>
+      </div>
+      <div class="speech-box">
+        "Para resolverlo creamos <strong>Q'UPA WASI</strong>, un ecosistema inteligente de economía circular desarrollado por estudiantes de ingeniería informática y electrónica de la UNP.<br><br>
+        Nuestra estación solar autónoma combina <strong>visión artificial en Raspberry Pi 5 y celdas de pesaje</strong> para clasificar los residuos en cinco corrientes con <strong>noventa y ocho por ciento de pureza</strong>.<br><br>
+        Y con la app móvil Q'UPA WASI atacamos la apatía: premiamos cada depósito correcto con puntos canjeables por beneficios en fotocopiadoras y cafeterías aliadas, que financian los descuentos a cambio del tráfico diario de clientes, <strong>sin costarnos un solo sol de caja</strong>.<br><br>
+        Validamos la demanda encuestando a trescientos ochenta y cinco universitarios: el <strong>noventa y cinco punto tres por ciento</strong> confirmó su uso activo.<br><br>
+        Como jurado empresarial, ustedes evalúan números reales:<br>
+        Según la industria recicladora, el plástico sucio de botadero se remata a ochenta céntimos el kilo; pero clasificado por nuestra IA con noventa y ocho por ciento de pureza, <strong>se vende a dos soles cincuenta</strong>. ¡Triplicamos el valor del material!<br><br>
+        Cada estación capta doscientos cincuenta kilos al mes y genera <strong>más de ochocientos soles</strong> entre venta de scrap, telemetría y publicidad local, <strong>amortizando la máquina en solo cinco meses</strong>."
+      </div>
+      <div class="cues-grid">
+        <div class="cue-item">
+          <span class="cue-label">Tono & Intención</span>
+          <span class="cue-text">Energía ascendente, rigor de ingeniería y solvencia al hablar de márgenes.</span>
+        </div>
+        <div class="cue-item">
+          <span class="cue-label">Mirada</span>
+          <span class="cue-text">Conectar con los jurados de negocios al decir "dos soles cincuenta" y "cinco meses".</span>
+        </div>
+        <div class="cue-item">
+          <span class="cue-label">Manos</span>
+          <span class="cue-text">Contraste con ambas manos: mano izquierda abajo (S/ 0.80), mano derecha arriba (S/ 2.50).</span>
+        </div>
+        <div class="cue-item">
+          <span class="cue-label">Pausa</span>
+          <span class="cue-text">Articular con nitidez: "noventa y ocho por ciento de pureza" y "sin costarnos un solo sol".</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ACTO 3 -->
+    <div class="act-block">
+      <div class="act-header">
+        <div class="act-title">Acto 3: El Concurso PUCP, Escalabilidad y Cierre</div>
+        <div class="act-meta">2:15 - 3:00 · 87 palabras</div>
+      </div>
+      <div class="speech-box">
+        "Ganar este concurso de la PUCP representa el <strong>capital semilla y la validación institucional</strong> para construir e instalar nuestro primer módulo piloto frente al comedor de la UNP, impactando a mil quinientos estudiantes al día.<br><br>
+        Demostraremos en campo que los números cierran con rentabilidad real, listos para escalar a campus, colegios y centros comerciales del país.<br><br>
+        Señores del jurado: la basura mezclada siempre será un costo operativo; <strong>segregada con inteligencia es un activo rentable y sostenible</strong>.<br><br>
+        Somos Q'UPA WASI, talento piurano transformando residuos en valor. Muchas gracias."
+      </div>
+      <div class="cues-grid">
+        <div class="cue-item">
+          <span class="cue-label">Tono & Intención</span>
+          <span class="cue-text">Máxima convicción, determinación ganadora y orgullo de la universidad pública.</span>
+        </div>
+        <div class="cue-item">
+          <span class="cue-label">Mirada</span>
+          <span class="cue-text">Contacto visual sostenido y rotativo con cada juez de la mesa.</span>
+        </div>
+        <div class="cue-item">
+          <span class="cue-label">Manos</span>
+          <span class="cue-text">Palmas abiertas al frente invitando a sumarse; bajar con serenidad.</span>
+        </div>
+        <div class="cue-item">
+          <span class="cue-label">Pausa</span>
+          <span class="cue-text">Silencio total de 2s tras "activo rentable y sostenible" antes de agradecer.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide Canvas Minimalista -->
+    <section class="slides-section">
+      <h2>Slide Canvas Minimalista (5 Diapositivas)</h2>
+      <p>Diseñadas bajo el principio Apple: fondo blanco puro, tipografía oscura y menos de 6 palabras por slide.</p>
+      <div class="slides-grid">
+        <div class="slide-card">
+          <span class="slide-number">Slide 01 · Dolor Oficial</span>
+          <div class="slide-title">MINAM 2% | OEFA 70% botaderos</div>
+          <div class="slide-desc">65% de reciclables arruinados en comedor UNP</div>
+        </div>
+        <div class="slide-card">
+          <span class="slide-number">Slide 02 · Solución</span>
+          <div class="slide-title">Q'UPA WASI: Estación Inteligente</div>
+          <div class="slide-desc">Energía solar, 5 tolvas y chasis resistente</div>
+        </div>
+        <div class="slide-card">
+          <span class="slide-number">Slide 03 · Tecnología</span>
+          <div class="slide-title">De S/ 0.80 a S/ 2.50 por kilo</div>
+          <div class="slide-desc">98% pureza con Visión Artificial + App de puntos</div>
+        </div>
+        <div class="slide-card">
+          <span class="slide-number">Slide 04 · Negocio</span>
+          <div class="slide-title">Insumos S/ 3,500 | Retorno 5 meses</div>
+          <div class="slide-desc">Venta Scrap + Suscripción B2B + Publicidad</div>
+        </div>
+        <div class="slide-card">
+          <span class="slide-number">Slide 05 · Tracción</span>
+          <div class="slide-title">1,500 usuarios diarios UNP</div>
+          <div class="slide-desc">Escalable a campus y centros urbanos de Perú</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Preguntas Shark Tank -->
+    <section class="faq-section">
+      <h2>Matriz de Defensa Shark Tank (Q&A de Empresarios)</h2>
+      <div class="faq-item">
+        <div class="faq-q">P: "¿De dónde sacan que en Piura el 70% termina en botaderos?"</div>
+        <div class="faq-a">R: "Del reporte de fiscalización del OEFA y diagnósticos PIGARS de la Municipalidad de Piura. Se generan más de 530 t/día en Piura-Castilla y la mayor parte termina en botaderos a cielo abierto como Curumuy. Nuestro sistema ataca el problema antes de que el camión recolector mezcle todo."</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">P: "¿Cómo sostienen que el plástico sube a S/ 2.50 el kilo?"</div>
+        <div class="faq-a">R: "Precios de lista de industrias transformadoras formales en Perú (San Miguel Industrias, Pamolsa) para PET cristal limpio. El botadero paga S/ 0.80 por merma de suciedad y grasa del 40%. Nosotros clasificamos en el primer segundo con 98% de pureza con IA."</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">P: "¿Por qué los comercios del campus darían descuentos gratis en la app?"</div>
+        <div class="faq-a">R: "Porque conseguir clientes universitarios cuesta dinero. Dar un 10% de descuento a cambio de que la app les lleve cientos de alumnos diarios es su publicidad más barata. Nosotros ponemos la comunidad fidelizada y ellos financian la recompensa sin salida de caja para la startup."</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">P: "¿Por qué afirman que el módulo se amortiza en 5 meses?"</div>
+        <div class="faq-a">R: "Insumos directos de S/ 3,500. Captamos 250 kg/mes en el comedor (~S/ 500 scrap) + Suscripción B2B de telemetría a la universidad de S/ 150/mes (ahorro de 40% en limpieza) + Publicidad local S/ 200/mes. Ingresos > S/ 800/mes. Flujo neto S/ 700/mes: la máquina se paga sola en 5 meses."</div>
+      </div>
+    </section>
+
+    <footer>
+      Q'UPA WASI · Proyecto de Estudiantes de Ingeniería Informática y Electrónica · Universidad Nacional de Piura (UNP)
+    </footer>
+
+  </div>
+
+  <script>
+    let timeLeft = 180;
+    let timerId = null;
+    let isRunning = false;
+
+    function updateDisplay() {
+      const minutes = Math.floor(timeLeft / 60);
+      const seconds = timeLeft % 60;
+      const display = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+      const elem = document.getElementById('timeDisplay');
+      elem.textContent = display;
+      
+      if (timeLeft <= 30 && timeLeft > 0) {
+        elem.style.color = 'var(--danger)';
+      } else if (timeLeft <= 60) {
+        elem.style.color = 'var(--warning)';
+      } else {
+        elem.style.color = 'var(--text-main)';
+      }
+    }
+
+    function startTimer() {
+      if (isRunning) {
+        clearInterval(timerId);
+        isRunning = false;
+        document.getElementById('btnStart').textContent = '▶ Continuar';
+        return;
+      }
+      
+      isRunning = true;
+      document.getElementById('btnStart').textContent = '⏸ Pausar';
+      
+      timerId = setInterval(() => {
+        if (timeLeft > 0) {
+          timeLeft--;
+          updateDisplay();
+        } else {
+          clearInterval(timerId);
+          isRunning = false;
+          document.getElementById('btnStart').textContent = '✔ Finalizado';
+          alert('¡Tiempo cumplido! 3 minutos exactos.');
+        }
+      }, 1000);
+    }
+
+    function resetTimer() {
+      clearInterval(timerId);
+      isRunning = false;
+      timeLeft = 180;
+      document.getElementById('btnStart').textContent = '▶ Iniciar';
+      updateDisplay();
+    }
+  </script>
+</body>
+</html>
