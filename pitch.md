@@ -12,131 +12,130 @@
 
 | # | Diapositiva | Tiempo | Contenido Visual en Pantalla y Fuente | Conteo Palabras |
 |---|---|---|---|---|
-| **1** | **Carátula (Gancho de Entrada)** | 10s | Logo Lab. Emprendimientos + Logo UNP/PUCP + Imagen de Q'UPA WASI *(Fuente: MINAM / SIGERSOL)* | 35 palabras |
-| **2** | **Problema (Evolución de Sectores vs Recolección)** | 10s | Imagen: Industria moderna vs botadero Curumuy *(Fuente: OEFA / PIGARS Piura)* | 43 palabras |
-| **3** | **Clientes (Afectados)** | 10s | Foto de estudiantes y personal de limpieza en el campus *(Fuente: Muestra UNP)* | 30 palabras |
-| **4** | **Actualidad** | 10s | Foto de tachos convencionales con bolsas rotas y basura mezclada *(Fuente: Diagnóstico UNP)* | 27 palabras |
-| **5** | **Presentación** | 10s | Render / Foto principal del módulo Q'UPA WASI con panel solar | 25 palabras |
-| **6** | **Solución (Paso a Paso + Carga Celular + 30s Vaciado)** | 60s | Video sin audio: 4 pasos + telemetría app + vaciado 30s *(Fuente: ODS ONU-CEPAL)* | 114 palabras |
-| **7** | **Modelo de Negocio (Convenios & Promociones)** | 30s | Gráfico simple: S/ 3,500 BOM ➔ Scrap S/ 2.50/kg ➔ Convenios de Promoción *(Fuente: Mercado Formal)* | 51 palabras |
-| **8** | **Beneficios (Encuesta 95.3% & Data ODS)** | 20s | 3 íconos: 1. Recarga solar celular · 2. Data ODS 12.2/12.5 · 3. Vaciado 30s *(Fuente: Encuesta n=385)* | 56 palabras |
-| **9** | **Proyección y Escalabilidad** | 10s | Ruta visual: 4 meses (Piloto UNP) ➔ 8 meses (Municipalidades de Piura + Tributos) | 36 palabras |
-| **10** | **Equipo** | 10s | Fotos de los 4 integrantes con sus roles clave (Software vs Hardware) | 27 palabras |
-| **11** | **Cierre** | 10s | Imagen inspiradora de ciudad limpia + Frase final contundente | 20 palabras |
-| **TOTAL** | **11 Diapositivas** | **~3:00 Minutos** | **Respaldo institucional en cada lámina** | **464 palabras** |
+| **1** | **Carátula (Gancho de Entrada: Perú, Piura, UNP y Turistas)** | 15s | Logo Lab. Emprendimientos + Logo UNP/PUCP + Imagen Q'UPA WASI + Turistas/Olores *(Fuentes: MINAM/OEFA/UNP)* | 67 palabras |
+| **2** | **Problema (Evolución de Sectores vs Recolección)** | 10s | Imagen: Industria moderna vs tachos primitivos de hace 50 años *(Fuente: Innovación Sectorial)* | 33 palabras |
+| **3** | **Usuarios vs Clientes (Delimitación B2B & Vicerrectorado)** | 15s | Comunidad universitaria (usuarios) vs Entidades D.L. 1278 y recicladoras (clientes) + Sello Vicerrectorado | 58 palabras |
+| **4** | **Actualidad** | 10s | Foto de tachos convencionales con bolsas rotas y basura mezclada *(Fuente: Auditoría UNP)* | 31 palabras |
+| **5** | **Presentación** | 10s | Render / Foto principal del módulo Q'UPA WASI con panel solar | 29 palabras |
+| **6** | **Solución (Paso a Paso + Carga Celular + 30s Vaciado)** | 40s | Video sin audio: 4 pasos + telemetría app + vaciado 30s *(Fuente: ODS ONU-CEPAL)* | 96 palabras |
+| **7** | **Modelo de Negocio (B2B, BOM S/ 3,500 y Unit Economics)** | 30s | Gráfico: BOM S/ 3,500 ➔ Triple flujo (Scrap S/ 2.50/kg + Telemetría + Ads) ➔ Payback < 5 meses | 61 palabras |
+| **8** | **Beneficios (Encuesta 95.3% & Data ODS)** | 20s | 3 íconos: 1. Recarga solar celular · 2. Certificación oficial · 3. Vaciado 30s *(Fuente: Encuesta n=385)* | 53 palabras |
+| **9** | **Proyección y Escalabilidad** | 10s | Ruta visual: 4 meses (Piloto UNP) ➔ 8 meses (Municipalidades de Piura + Tributos) | 40 palabras |
+| **10** | **Equipo** | 10s | Fotos de los 4 integrantes con sus roles clave (Software vs Hardware) | 24 palabras |
+| **11** | **Cierre** | 10s | Imagen inspiradora de ciudad limpia + Frase final contundente | 21 palabras |
+| **TOTAL** | **11 Diapositivas** | **~3:15 Minutos** | **Respaldo institucional y delimitación B2B completa** | **513 palabras** |
 
 ---
 
-## 2. Guion Verbatim Calibrado Slide por Slide (464 Palabras)
+## 2. Guion Verbatim Calibrado Slide por Slide (513 Palabras)
 
 ---
 
-### Diapositiva 1: Carátula y Gancho de Entrada (0:00 - 0:10 | 10 segundos | 35 palabras)
-* **Visual en pantalla:** Logo de Lab. de Emprendimientos + Logo institucional UNP/PUCP + Imagen de Q'UPA WASI. *(Pie de lámina: Fuente oficial MINAM / SIGERSOL 2024)*.
-* **Acción:** Plantarse firme en el escenario, mirar al jurado a los ojos y abrir de inmediato con el gancho:
+### Diapositiva 1: Carátula y Gancho de Entrada (0:00 - 0:15 | 15 segundos | 67 palabras)
+* **Visual en pantalla:** Logo Lab. Emprendimientos + Logo institucional UNP/PUCP + Imagen de Q'UPA WASI + Fotografía de impacto: turistas y visitantes percibiendo acumulación de basura y malos olores. *(Pie de lámina: Fuentes oficiales MINAM / SIGERSOL / OEFA / Diagnóstico UNP)*.
+* **Acción:** Plantarse firme en el escenario, mirada fija al centro del jurado y abrir con fuerza:
 
-> "¿Sabían cuánto dinero botamos todos los días a la basura?  
-> Según cifras oficiales del MINAM y SIGERSOL, en el Perú generamos más de veinticuatro mil toneladas diarias y apenas el dos por ciento se logra valorizar."
+> "¿Sabían cuánto dinero botamos todos los días a la basura? Según datos oficiales del MINAM y SIGERSOL, el Perú genera más de veinticuatro mil toneladas diarias y apenas el dos por ciento se valoriza. En Piura, según el OEFA, más de quinientas toneladas terminan en botaderos informales como Curumuy; y en nuestra universidad generamos tonelada y media diaria que turistas y visitantes perciben como malos olores y abandono."
 
-* `[Dirección Escénica]`: Pregunta con tono retador y mirada fija al centro del jurado. Pausa breve de 1 segundo tras la pregunta. Pronunciar con claridad institucional *"MINAM y SIGERSOL"*.
-
----
-
-### Diapositiva 2: Problema (Evolución de Sectores vs Recolección) (0:10 - 0:20 | 10 segundos | 43 palabras)
-* **Visual en pantalla:** *Solo imagen del contraste entre industria moderna y acumulación de residuos + botadero Curumuy. (Pie de lámina: Fuente OEFA - Inventario de Áreas Degradadas / PIGARS Piura)*.
-
-> "Todos los sectores productivos han evolucionado y escalado exponencialmente, pero todos generan residuos y la recolección jamás escaló a ese ritmo. En Piura, según reportes del OEFA, producimos más de quinientas toneladas al día y más del setenta por ciento termina en botaderos informales como Curumuy."
-
-* `[Dirección Escénica]`: Tono analítico y retador. Mirar fijamente al jurado, contrastando el avance industrial con el atraso de la recolección municipal documentado por OEFA.
+* `[Dirección Escénica]`: Tono retador y seguro. Mencionar con firmeza *"MINAM"*, *"OEFA"* y el impacto en *"turistas y visitantes"*.
 
 ---
 
-### Diapositiva 3: Clientes y Afectados (0:20 - 0:30 | 10 segundos | 30 palabras)
-* **Visual en pantalla:** *Fotos de estudiantes conviviendo con residuos y personal de limpieza en el campus. (Pie de lámina: Fuente Diagnóstico de Campo UNP).*
+### Diapositiva 2: Problema (Evolución de Sectores vs Recolección) (0:15 - 0:25 | 10 segundos | 33 palabras)
+* **Visual en pantalla:** *Contraste: Industria moderna automatizada vs recolección en tachos estáticos de hace 50 años. (Pie de lámina: Diagnóstico de Innovación Sectorial).*
 
-> "Los principales afectados somos catorce mil estudiantes y el personal de limpieza de la UNP, que lidiamos a diario con desbordes, malos olores y focos de contaminación en el campus."
+> "Todos los sectores productivos han evolucionado y escalado exponencialmente, pero todos generan residuos y la recolección jamás escaló a ese ritmo: seguimos atrapados en tachos estáticos inventados hace cincuenta años y recojo manual a ciegas."
 
-* `[Dirección Escénica]`: Tono empático. Llevar la mano al pecho al decir *"los principales afectados somos nosotros"*.
+* `[Dirección Escénica]`: Tono analítico. Contrastar con las manos: mano derecha arriba (industria moderna), mano izquierda abajo (recolección primitiva).
 
 ---
 
-### Diapositiva 4: Actualidad (0:30 - 0:40 | 10 segundos | 27 palabras)
+### Diapositiva 3: Usuarios vs Clientes (Delimitación B2B & Tracción) (0:25 - 0:40 | 15 segundos | 58 palabras)
+* **Visual en pantalla:** *Comunidad universitaria (usuarios) vs Entidades obligadas por Ley D.L. 1278 y recicladoras (clientes) + Sello: "Proyecto en revisión - Vicerrectorado de Investigación UNP".*
+
+> "Nuestros usuarios son toda la comunidad universitaria: catorce mil estudiantes, docentes y trabajadores. Pero nuestros verdaderos clientes son las instituciones obligadas por ley a certificar sus residuos y las empresas recicladoras que compran material puro. Ya presentamos formalmente el proyecto al Vicerrectorado de Investigación de la UNP y se encuentra en revisión técnica como nuestro primer cliente de telemetría."
+
+* `[Dirección Escénica]`: Tono estratégico de negocios. Diferenciar con claridad entre quién usa la máquina (la comunidad) y quién paga por la data y el residuo (las instituciones y recicladoras).
+
+---
+
+### Diapositiva 4: Actualidad (0:40 - 0:50 | 10 segundos | 31 palabras)
 * **Visual en pantalla:** *Foto real de tachos tradicionales por colores donde se ve comida mezclada con plástico. (Pie de lámina: Fuente Auditoría Interna de Segregación UNP).*
 
-> "Hoy usamos tachos tradicionales por colores, pero la gente mezcla botellas con comida por pura falta de incentivos, destruyendo el sesenta y cinco por ciento del reciclaje."
+> "Hoy las instituciones usan tachos tradicionales de colores, pero sin incentivos ni control la comida contamina el plástico, destruyendo el sesenta y cinco por ciento del reciclaje y generando sobrecostos de limpieza."
 
 * `[Dirección Escénica]`: Tono de decepción controlada. Señalar la pantalla mostrando el fracaso de la solución actual.
 
 ---
 
-### Diapositiva 5: Presentación de la Solución (0:40 - 0:50 | 10 segundos | 25 palabras)
-* **Visual en pantalla:** *Imagen limpia del módulo Q'UPA WASI con su panel solar.*
+### Diapositiva 5: Presentación de la Solución (0:50 - 1:00 | 10 segundos | 29 palabras)
+* **Visual en pantalla:** *Render / Foto principal del módulo Q'UPA WASI con panel solar.*
 
-> "Para cambiar esta realidad creamos Q'UPA WASI: la primera estación inteligente y autónoma de reciclaje que premia tus buenos hábitos al instante desde el celular."
+> "Para cambiar esto creamos Q'UPA WASI: la primera estación solar inteligente que automatiza la segregación, premia los buenos hábitos al instante y certifica la data de residuos para las instituciones."
+
+* `[Dirección Escénica]`: Cambio radical de energía. Sonrisa de orgullo técnico, postura erguida y voz enérgica.
 
 * `[Dirección Escénica]`: Cambio radical de energía. Sonrisa de orgullo técnico, postura erguida y voz enérgica.
 
 ---
 
-### Diapositiva 6: Solución Paso a Paso + Carga de Celular + Vaciado en 30s (0:50 - 1:50 | 60 segundos | 114 palabras)
-* **Visual en pantalla:** *Video corto sin audio: 4 pasos (puerto USB cargando celular) + telemetría app + vaciado en 30 segundos. (Pie de lámina: Fuente Metodología ODS 12.2 / 12.5 ONU-CEPAL).*
+### Diapositiva 6: Solución Paso a Paso + Carga de Celular + Vaciado en 30s (1:00 - 1:40 | 40 segundos | 96 palabras)
+* **Visual en pantalla:** *Video corto sin audio: 4 pasos (puertos USB carga celular) + telemetría app + vaciado en 30s. (Pie de lámina: Fuente Metodología ODS 12.2 / 12.5 ONU-CEPAL).*
 
-> "Ponerlo en práctica toma cuatro pasos sencillos:  
+> "Funciona en cuatro pasos sencillos:  
 > Primero: La estación identifica el residuo por cámara y peso, abriendo la compuerta con noventa y ocho por ciento de pureza.  
-> Segundo: Abres la app Q'UPA WASI y escaneas tu código.  
-> Tercero: El sistema valida el depósito y te acredita puntos al instante.  
-> Cuarto: Canjeas tus puntos por minutos de recarga solar de celular en la misma estación, fotocopias o promociones.  
-> En paralelo, cerramos la brecha de data reportada por la ONU y CEPAL para los ODS doce punto dos y doce punto cinco pesando cada gramo en tiempo real. Y la app avisa el llenado para un vaciado frontal ergonómico en treinta segundos, sin riesgo alguno."
+> Segundo: Escaneas tu código en la app Q'UPA WASI.  
+> Tercero: Recibes puntos al instante.  
+> Cuarto: Canjeas minutos de recarga solar de celular en el módulo, impresiones o promociones aliadas.  
+> En paralelo, entregamos a la institución telemetría auditable en tiempo real para certificar ante el MINAM y los ODS doce punto dos y doce punto cinco. Y la app alerta el llenado para un vaciado ergonómico en treinta segundos."
 
-* `[Dirección Escénica]`: Enumerar con los dedos de la mano izquierda: 1, 2, 3, 4. Tono didáctico. Señalar con entusiasmo la recarga solar de celular y el vaciado en 30 segundos.
-
----
-
-### Diapositiva 7: Modelo de Negocio y Convenios (1:50 - 2:20 | 30 segundos | 51 palabras)
-* **Visual en pantalla:** *Gráfico limpio: Costo Insumos S/ 3,500 ➔ Venta Scrap S/ 2.50/kg ➔ Convenios de Promoción con Comercios. (Pie de lámina: Fuente Mercado Mayorista de Reciclaje Formal).*
-
-> "Fabricar nuestro módulo cuesta solo tres mil quinientos soles en insumos.  
-> Monetizamos vendiendo el plástico limpio a dos soles cincuenta por kilo, triplicando su valor, sumado a una suscripción mensual de telemetría a la universidad.  
-> Fidelizamos al estudiante mediante convenios con socios clave: comercios locales que financian promociones para captar clientes."
-
-* `[Dirección Escénica]`: Tono seguro de negocios. Mirar fijamente a los empresarios del tribunal. Articular con nitidez *"dos soles cincuenta"* y *"financian promociones"*.
+* `[Dirección Escénica]`: Enumerar con los dedos de la mano izquierda: 1, 2, 3, 4. Tono didáctico. Señalar con entusiasmo la recarga solar de celular, la telemetría ODS y el vaciado en 30 segundos.
 
 ---
 
-### Diapositiva 8: Beneficios, Encuesta y Eficiencia (2:20 - 2:40 | 20 segundos | 56 palabras)
-* **Visual en pantalla:** *95.3% aceptación (Pie de lámina: Fuente Encuesta Técnica UNP n=385, 95% Confianza) + 3 íconos: 1. Recarga solar celular · 2. Data ODS 12.2 y 12.5 · 3. Vaciado en 30s (40% ahorro).*
+### Diapositiva 7: Modelo de Negocio, Unit Economics y Producción (1:40 - 2:10 | 30 segundos | 61 palabras)
+* **Visual en pantalla:** *BOM S/ 3,500 ➔ Triple flujo de ingresos (Venta Scrap S/ 2.50/kg + Telemetría B2B + Ads) ➔ Payback < 5 meses. (Pie de lámina: Modelo Financiero Validado).*
+
+> "Nuestro modelo es B2B sostenible: fabricar cada módulo cuesta tres mil quinientos soles en insumos. Monetizamos por triple vía: venta de plástico limpio a dos soles cincuenta por kilo, suscripción mensual de telemetría institucional y convenios promocionales con comercios locales. Iniciamos con un lote piloto de validación en el campus con retorno de inversión en menos de cinco meses."
+
+* `[Dirección Escénica]`: Tono seguro de negocios. Mirar fijamente a los empresarios del tribunal. Articular con nitidez *"B2B sostenible"*, *"dos soles cincuenta"* y *"retorno en menos de cinco meses"*.
+
+---
+
+### Diapositiva 8: Beneficios, Encuesta y Eficiencia (2:10 - 2:30 | 20 segundos | 53 palabras)
+* **Visual en pantalla:** *95.3% aceptación (Pie de lámina: Fuente Encuesta Técnica UNP n=385, 95% Confianza) + 3 íconos: 1. Recarga solar celular · 2. Certificación oficial · 3. Vaciado 30s (40% ahorro).*
 
 > "Nuestra encuesta técnica a trescientos ochenta y cinco universitarios confirmó noventa y cinco punto tres por ciento de aceptación con tres beneficios:  
-> Primero: Incentivo útil como recarga solar de celular.  
-> Segundo: Data auditable de Piura para ODS doce punto dos y doce punto cinco.  
+> Primero: Utilidad inmediata con recarga solar de celular.  
+> Segundo: Certificación oficial de datos para la universidad.  
 > Y tercero: Vaciado seguro en treinta segundos con cuarenta por ciento de ahorro en limpieza."
 
-* `[Dirección Escénica]`: Marcar con seguridad los 3 puntos: *"recarga solar"*, *"data ODS"* y *"vaciado en treinta segundos"*.
+* `[Dirección Escénica]`: Marcar con seguridad los 3 puntos: *"recarga solar"*, *"certificación oficial"* y *"ahorro en limpieza"*.
 
 ---
 
-### Diapositiva 9: Proyección y Escalabilidad (2:30 - 2:40 | 10 segundos | 36 palabras)
-* **Visual en pantalla:** *Ruta visual de escalabilidad: 4 Meses (Piloto UNP) ➔ 8 Meses (Convenios con Municipalidades de Piura + Beneficios Tributarios).*
+### Diapositiva 9: Proyección y Escalabilidad (2:30 - 2:40 | 10 segundos | 40 palabras)
+* **Visual en pantalla:** *Ruta visual: 4 meses (Piloto UNP / Vicerrectorado) ➔ 8 meses (Municipalidades de Piura + Arbitrios / Beneficios Tributarios).*
 
-> "Nuestra escalabilidad es directa: en cuatro meses validamos el piloto en la UNP; y en ocho meses escalamos mediante convenios con municipalidades de Piura, adaptando los incentivos a beneficios tributarios y conectando una red departamental inteligente."
+> "En cuatro meses validamos el piloto con el Vicerrectorado de la UNP; y en ocho meses escalamos a municipalidades de Piura, vinculando los puntos a beneficios tributarios en arbitrios para los vecinos y creando la primera red departamental inteligente de residuos."
 
-* `[Dirección Escénica]`: Tono ágil y seguro al mencionar *"convenios con municipalidades"* y *"beneficios tributarios"*. Gesto de apertura horizontal con ambas manos.
+* `[Dirección Escénica]`: Tono ágil y seguro al mencionar *"beneficios tributarios"* y *"primera red departamental inteligente"*. Gesto de apertura con ambas manos.
 
 ---
 
-### Diapositiva 10: Equipo (2:40 - 2:50 | 10 segundos | 27 palabras)
+### Diapositiva 10: Equipo (2:40 - 2:50 | 10 segundos | 24 palabras)
 * **Visual en pantalla:** *Fotos de los 4 estudiantes con sus nombres y división técnica (Software vs Electrónica).*
 
-> "Somos estudiantes de la UNP con roles definidos: Luis y Cristopher en desarrollo de software e inteligencia artificial; Joyser y Fernando en electrónica, sensores y energía solar."
+> "Somos estudiantes de la UNP con roles definidos: Luis y Cristopher en software e inteligencia artificial; Joyser y Fernando en electrónica, sensores y energía solar."
 
 * `[Dirección Escénica]`: Tono de camaradería y confianza en las capacidades del equipo para ejecutar.
 
 ---
 
-### Diapositiva 11: Cierre (2:50 - 3:00 | 10 segundos | 20 palabras)
-* **Visual en pantalla:** *Foto de ciudad limpia y moderna + Frase de cierre destacada.*
+### Diapositiva 11: Cierre (2:50 - 3:00 | 10 segundos | 21 palabras)
+* **Visual en pantalla:** *Imagen inspiradora de ciudad limpia y moderna + Frase final contundente.*
 
-> "La basura mezclada siempre será un costo; pero segregada con inteligencia es un recurso valioso.  
+> "La basura mezclada siempre será un costo; pero segregada con inteligencia es un recurso valioso y rentable.  
 > Somos Q'UPA WASI. Muchas gracias."
 
 * `[Dirección Escénica]`: Pausa de 2 segundos antes de decir la frase final. Bajar la velocidad de la voz, mirar a los ojos a todo el jurado, sonreír y agradecer firmemente.
@@ -163,6 +162,34 @@
 ### 4. ¿Por qué afirman que la recolección de residuos no ha escalado como los demás sectores productivos?
 > **Respuesta:**  
 > "Porque en las últimas décadas la industria, el comercio, el agro y la tecnología se automatizaron a escala masiva, pero todos ellos inevitablemente generan residuos. Sin embargo, el sector de recolección jamás evolucionó a esa escala: seguimos usando tachos estáticos de plástico inventados hace cincuenta años, recojo manual a ciegas y pesajes en papel. Q'UPA WASI rompe ese atraso histórico llevando la recolección a la misma escala tecnológica de la industria moderna: trazabilidad IoT, telemetría ODS e incentivos automáticos."
+
+### 5. ¿Cuál es la diferencia exacta entre sus "usuarios" y sus "clientes"? ¿Quién les paga realmente?
+> **Respuesta:**  
+> "Es una distinción de modelo B2B fundamental:  
+> * **Usuarios (quienes interactúan):** Es la **comunidad universitaria** (14,000 personas entre estudiantes, docentes, personal administrativo y de servicios). Ellos depositan el residuo y reciben valor tangible: minutos de recarga solar de celular, impresiones y promociones de comercios aliados.  
+> * **Clientes (quienes pagan y sostienen el negocio):** Son dos grupos específicos y solventes:  
+>   1. **Entidades Generadoras Obligadas por Ley (B2B/B2G):** Universidades, municipalidades y empresas que por el **D.L. 1278 (Ley de Gestión Integral de Residuos Sólidos)** tienen la obligación legal de reportar a SIGERSOL y certificar trazabilidad ambiental bajo riesgo de multas de hasta 100 UIT de OEFA. A ellos les cobramos una suscripción SaaS de S/ 150 a S/ 200 mensuales por módulo para entregarles datos certificados y dashboards ODS 12.2 y 12.5.  
+>   2. **Empresas Transformadoras y Recicladoras Formales:** Compran nuestro scrap de PET cristal segregado en origen con 98% de pureza a S/ 2.50 el kilo (triplicando el precio de acopio informal)."
+
+### 6. ¿Cuáles son las métricas financieras del proyecto para inversionistas (VAN, TIR, Payback y producción inicial)?
+> **Respuesta:**  
+> "Nuestros unit economics y proyecciones financieras están calculados sobre bases técnicas sólidas:  
+> * **Costo de Producción (BOM):** Fabricar cada módulo cuesta exactamente **S/ 3,500 en insumos de hardware** (celda de pesaje HX711, ESP32, cámaras, panel solar de 100 Wp, batería AGM de ciclo profundo y chasis HDPE).  
+> * **Lote Inicial:** Arrancamos con **1 estación prototipo funcional** financiada con capital semilla, y un plan de despliegue de **3 a 5 módulos** en el campus central de la UNP (frente a Comedor, Biblioteca y Pabellones de Ingeniería).  
+> * **Ingreso Promedio Mensual por Estación:** ~S/ 750 a S/ 900 al mes (Scrap PET limpio: ~S/ 450 + Suscripción SaaS telemetría: S/ 180 + Publicidad local en panel: S/ 150).  
+> * **Payback (Periodo de Recuperación):** **4.5 a 5 meses por módulo**.  
+> * **Evaluación Financiera a 3 años (Red de 5 módulos):**  
+>   * **Inversión Inicial:** S/ 17,500.  
+>   * **VAN (Valor Actual Neto al 12% COK):** **S/ 28,450**.  
+>   * **TIR (Tasa Interna de Retorno):** **48.6%**, demostrando una rentabilidad excepcional impulsada por el bajo costo de hardware y la doble vía de monetización (material físico + software recurrente)."
+
+### 7. ¿Cuál es el estado formal del proyecto con el Vicerrectorado de Investigación de la UNP?
+> **Respuesta:**  
+> "El proyecto ya cuenta con tracción institucional concreta: hemos presentado formalmente el expediente técnico y la propuesta de pilotaje ante el **Vicerrectorado de Investigación de la UNP**, y actualmente se encuentra en **etapa de revisión y evaluación técnica**. La meta es suscribir el convenio marco para autorizar la instalación del primer módulo en el punto de mayor tráfico del campus (frente al Comedor Central), convirtiendo a la UNP en la primera universidad pública del norte peruano con telemetría en tiempo real de sus residuos sólidos."
+
+### 8. ¿Por qué las entidades públicas y privadas están legalmente obligadas a certificar sus residuos?
+> **Respuesta:**  
+> "En el Perú, la **Ley de Gestión Integral de Residuos Sólidos (Decreto Legislativo N° 1278)** y su Reglamento (D.S. 014-2017-MINAM) establecen que todo generador del ámbito no municipal (incluyendo universidades, centros comerciales y sedes institucionales) está obligado por ley a formular un Plan de Minimización y Manejo de Residuos Sólidos y presentar su Declaración Anual de Manejo ante el MINAM/SIGERSOL. El incumplimiento o reporte no verificable es sancionado por el **OEFA con multas de hasta 100 UIT**. Q'UPA WASI convierte esta pesada obligación regulatoria en un proceso automático, auditable y en tiempo real."
 
 ---
 
