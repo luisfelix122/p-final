@@ -17,13 +17,13 @@
 | **3** | **Mercado B2B / Quién Paga (D.L. 1278 y Convenio UNP)** | 15s | B2B/B2G: Obligados por Ley D.L. 1278 + Sello: "Convenio en Revisión Técnica UNP" | 45 palabras |
 | **4** | **Actualidad (Tachos Tradicionales: Tiempo, Contaminación y Desánimo)** | 10s | Foto de reciclaje arruinado por comida + Gráfico: 65% material contaminado | 38 palabras |
 | **5** | **Presentación (La App es el Cerebro Exclusivo del Hardware)** | 10s | Módulo Q'UPA WASI + Dashboard de la App Móvil en primer plano | 33 palabras |
-| **6** | **Solución (Paso a Paso, Incentivos Tangibles y Data ODS)** | 40s | Video demostrativo 4 pasos (QR, compuerta, recarga solar, puntos) + Telemetría ODS | 82 palabras |
+| **6** | **Solución (Paso a Paso, Contador de Racha y Data ODS)** | 40s | Video demostrativo 4 pasos (QR, compuerta, racha diaria, recarga solar) + Telemetría ODS | 87 palabras |
 | **7** | **Modelo de Negocio (Suscripción SaaS + Hardware Exclusivo)** | 30s | Gráfico: Adquisición estaciones exclusivas ➔ Suscripción mensual App ➔ Retiro por red aliada | 64 palabras |
 | **8** | **Propuesta de Valor (3 Niveles de Estaciones, Demanda y Auditoría)** | 20s | 3 Niveles (Nivel 3 Universitario) + Estudio de Puntos Estratégicos + 95.3% Adopción | 60 palabras |
 | **9** | **Proyección y Escalabilidad (Público y Privado: Red Departamental)** | 10s | Ruta: 4 meses (Piloto UNP) ➔ 8 meses (Municipios con arbitrios + Centros Comerciales) | 35 palabras |
 | **10** | **Equipo Multidisciplinario (Software/IA vs Hardware/Solar)** | 10s | Software e IA (Informática) vs Hardware y Solar (Electrónica) | 27 palabras |
 | **11** | **Cierre (Slogan de Impacto)** | 10s | Imagen de impacto + "Somos Q'UPA WASI: aquí premiamos tu decisión de cambiar el planeta" | 24 palabras |
-| **TOTAL** | **11 Diapositivas** | **~3:05 Minutos** | **Modelo SaaS Vinculado a Hardware Exclusivo con Trazabilidad ODS** | **484 palabras** |
+| **TOTAL** | **11 Diapositivas** | **~3:08 Minutos** | **Modelo SaaS Vinculado a Hardware Exclusivo con Trazabilidad ODS** | **489 palabras** |
 
 ---
 
@@ -77,17 +77,17 @@
 
 ---
 
-### Diapositiva 6: Solución: Paso a Paso, Incentivos Tangibles y Data ODS (1:00 - 1:40 | 40 segundos | 82 palabras)
-* **Visual en pantalla:** *Video demostrativo de 4 pasos (escaneo QR, compuerta inteligente, recarga solar, dashboard ODS). (Pie de lámina: Metodología ODS 12.2 / 12.5 ONU-CEPAL).*
+### Diapositiva 6: Solución: Paso a Paso, Contador de Racha y Data ODS (1:00 - 1:40 | 40 segundos | 87 palabras)
+* **Visual en pantalla:** *Video demostrativo de 4 pasos (escaneo QR, compuerta inteligente, contador de racha diario en la app, recarga solar, dashboard ODS). (Pie de lámina: Metodología ODS 12.2 / 12.5 ONU-CEPAL).*
 
-> "La experiencia es instantánea y premia al usuario en 4 pasos:  
+> "La experiencia es instantánea y premia la constancia en 4 pasos:  
 > 1. Te acercas: la estación identifica el residuo por cámara y peso abriendo la compuerta con 98% de pureza.  
 > 2. Escaneas tu código QR en la app Q'UPA WASI.  
-> 3. Depositas: el sistema valida el plástico y te acredita puntos al segundo.  
+> 3. Depositas: validamos el residuo, sumas puntos y activas tu contador de racha diario, convirtiendo el reciclaje en un hábito real.  
 > 4. Canjeas: minutos de recarga solar para tu celular en el mismo módulo, impresiones o promociones aliadas.  
-> Mientras el usuario se fideliza con incentivos reales, la institución recibe telemetría auditable en tiempo real para sus metas ODS 12.2 y 12.5."
+> Mientras gamificamos la constancia del usuario, la institución recibe telemetría auditable en tiempo real para sus metas ODS 12.2 y 12.5."
 
-* `[Dirección Escénica]`: Enumerar dinámicamente con los dedos: 1, 2, 3, 4. Tono didáctico y fluido. Enfatizar los incentivos reales y la data ODS.
+* `[Dirección Escénica]`: Enumerar dinámicamente con los dedos: 1, 2, 3, 4. Tono didáctico y fluido. Enfatizar con una sonrisa el *"contador de racha diario"* y la data ODS.
 
 ---
 
