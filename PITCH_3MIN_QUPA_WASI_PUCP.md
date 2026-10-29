@@ -12,145 +12,139 @@
 
 | # | Diapositiva | Tiempo | Contenido Visual en Pantalla y Fuente | Conteo Palabras |
 |---|---|---|---|---|
-| **1** | **Carátula (Gancho de Entrada: 24,000 t/día y 2% Valorizado)** | 15s | Logo Lab. Emprendimientos + Logo UNP/PUCP + Imagen Q'UPA WASI *(Fuente: MINAM)* | 44 palabras |
-| **2** | **Problema (Evolución de Sectores vs Tachos Ciegos)** | 10s | Imagen: Industria 4.0 automatizada vs tachos estáticos de hace 50 años | 32 palabras |
-| **3** | **Mercado B2B / Quién Paga (D.L. 1278 y Prototipo UNP)** | 15s | B2B/B2G: Obligados por Ley D.L. 1278 + Sello: "Evaluación de Financiamiento UNP" | 46 palabras |
-| **4** | **Actualidad (Fallas del Sistema Actual y Pérdida de Valor)** | 10s | Foto de reciclaje arruinado por comida + Gráfico: 65% contaminado *(Fuente: Estudio UNP / MINAM)* | 46 palabras |
-| **5** | **Presentación (La App es el Cerebro de Nuestro Sistema)** | 10s | Módulo Q'UPA WASI + Dashboard de la App Móvil en primer plano | 46 palabras |
-| **6** | **Solución (Flujo Técnico en 5 Pasos Generales + Racha)** | 40s | Video: Tolva de inspección, cámara IA, rieles a contenedor, QR y recarga solar | 88 palabras |
-| **7** | **Modelo de Negocio (Suscripción SaaS + Hardware Propietario)** | 30s | Gráfico: Adquisición estaciones Q'UPA WASI ➔ Suscripción mensual App ➔ Retiro por red aliada | 54 palabras |
-| **8** | **Propuesta de Valor (3 Niveles de Estaciones, Demanda y Aval ODS)** | 20s | 3 Niveles (Nivel 3 Universitario) + Estudio Estratégico + Aval ODS 12.2 / 12.5 + 95.3% Adopción | 64 palabras |
-| **9** | **Alcance Legal y Expansión (Obligatoriedad Pública y Privada)** | 10s | Ruta: 4 meses (Prototipo UNP) ➔ 8 meses (Municipios con arbitrios + Sector Privado D.L. 1278) | 58 palabras |
-| **10** | **Equipo Multidisciplinario (Software/IA vs Hardware/Solar)** | 10s | Software e IA (Informática) vs Hardware y Solar (Electrónica) | 27 palabras |
-| **11** | **Cierre (Slogan de Impacto)** | 10s | Imagen de impacto + "Somos Q'UPA WASI: aquí premiamos tu decisión de cambiar el planeta" | 24 palabras |
-| **TOTAL** | **11 Diapositivas** | **~3:15 Minutos** | **Modelo SaaS Vinculado a Hardware Exclusivo con Trazabilidad ODS** | **529 palabras** |
+| **1** | **Carátula (Gancho de Entrada: 24,000 t/día y 2% Valorizado)** | 15s | Logo Lab. Emprendimientos + Logo UNP/PUCP + Imagen Q'UPA WASI *(Fuente: MINAM)* | 47 palabras |
+| **2** | **Problema (Segregación vs Conectividad)** | 10s | Imagen: Industria 4.0 automatizada vs contenedores ciegos de hace 100 años | 41 palabras |
+| **3** | **Mercado B2B / Quién Paga (D.L. 1278 y Proyectos UNP)** | 15s | Obligados por D.L. 1278 (multas hasta 100 UIT) + Evaluación Vicerrectorado UNP | 45 palabras |
+| **4** | **Actualidad (Fallas del Sistema Actual y Pérdida de Valor)** | 10s | Foto de residuos mezclados en un mismo contenedor sin registro alguno | 47 palabras |
+| **5** | **Presentación de Q'UPA WASI** | 10s | Módulo Q'UPA WASI + Dashboard de la App Móvil en primer plano | 26 palabras |
+| **6** | **Solución (Flujo de 5 Pasos + Visualización en App)** | 40s | Video demostrativo de los 5 pasos (selección, cámara, QR, puntos, canje) + Mapa app | 75 palabras |
+| **7** | **Modelo de Negocio (SaaS Vinculado a Sistema Electrónico)** | 30s | Adquisición de contenedores + Suscripción mensual App + Alianzas con recicladores formales | 51 palabras |
+| **8** | **Beneficios para el Cliente y Aporte al Estado / ODS** | 20s | 5 Beneficios institucionales + Aporte MINAM / ODS 12.2 y 12.5 | 50 palabras |
+| **9** | **Alcance Legal y Proyección Departamental** | 10s | D.L. 1278 transversal + Ruta: 4 meses UNP ➔ 8 meses campus ➔ 1 año otras U y municipios | 51 palabras |
+| **10** | **Equipo y Asesoramiento Multidisciplinario** | 10s | Informática (Luis y Cristopher) vs Electrónica (Fernando y Joyser) + Docentes asesores | 53 palabras |
+| **11** | **Cierre (Slogan Oficial)** | 10s | Logo Q'UPA WASI + "Aquí premiamos tu decisión de cuidar el planeta" | 16 palabras |
+| **TOTAL** | **11 Diapositivas** | **~3:10 Minutos** | **Pitch Oficial Calibrado PUCP** | **502 palabras** |
 
 ---
 
-## 2. Guion Verbatim Calibrado Slide por Slide (529 Palabras)
+## 2. Guion Verbatim Calibrado Slide por Slide (502 Palabras)
 
 ---
 
-### Diapositiva 1: Carátula y Gancho de Entrada (0:00 - 0:15 | 15 segundos | 44 palabras)
+### Diapositiva 1: Carátula y Gancho de Entrada (0:00 - 0:15 | 15 segundos | 47 palabras)
 * **Visual en pantalla:** Logo Lab. Emprendimientos + Logo institucional UNP/PUCP + Imagen de Q'UPA WASI. *(Pie de lámina: Fuente oficial MINAM / SIGERSOL)*.
 * **Acción:** Plantarse firme en el escenario, mirada fija al centro del jurado y abrir con fuerza:
 
-> "¿Sabían cuánto dinero botamos todos los días a la basura? En el Perú generamos más de 24,000 toneladas diarias según el MINAM, y apenas el 2% se valoriza. El 98% restante no es basura: es capital, recursos y oportunidades que se pierden por falta de tecnología en el origen."
+> "¿Sabían cuánto dinero botamos todos los días a la basura?  
+> En el Perú generamos más de 24,000 toneladas diarias según el MINAM, y apenas el 2% se valoriza.  
+> El 98% restante no es basura: es capital, recursos y oportunidades que se pierden por falta de tecnología en el origen."
 
-* `[Dirección Escénica]`: Tono retador y seguro. Mencionar con firmeza *"MINAM"* y remarcar el contraste numérico entre el *"2% valorizado"* y el *"98% de capital perdido"*.
-
----
-
-### Diapositiva 2: Problema (Evolución de Sectores vs Recolección) (0:15 - 0:25 | 10 segundos | 32 palabras)
-* **Visual en pantalla:** *Contraste: Industria 4.0 automatizada vs tachos primitivos obsoletos. (Pie de lámina: Diagnóstico de Innovación Sectorial).*
-
-> "La industria se automatizó, el comercio se digitalizó y las ciudades se conectaron; pero la basura se quedó en el pasado. Vivimos en la era de la inteligencia artificial, pero seguimos botando residuos en tachos ciegos de hace 50 años."
-
-* `[Dirección Escénica]`: Tono analítico y enérgico. Gesto de contraste con las manos: mano derecha alta (industria conectada e IA), mano izquierda baja (tachos ciegos de hace 50 años).
+* `[Dirección Escénica]`: Tono retador y seguro. Mencionar con firmeza *"MINAM"* y contrastar el *"2% valorizado"* contra el *"98% de capital perdido"*.
 
 ---
 
-### Diapositiva 3: Mercado B2B / Quién Paga (D.L. 1278 y Prototipo UNP) (0:25 - 0:40 | 15 segundos | 46 palabras)
-* **Visual en pantalla:** *B2B/B2G: Universidades, Corporaciones y Municipios obligados por Ley D.L. 1278 + Sello: "Evaluación de Financiamiento de Prototipo - Vicerrectorado de Investigación UNP".*
+### Diapositiva 2: Problema (Segregación vs Conectividad) (0:15 - 0:25 | 10 segundos | 41 palabras)
+* **Visual en pantalla:** *Contraste: Industria 4.0 automatizada vs contenedores ciegos de hace 100 años. (Pie de lámina: Diagnóstico de Innovación Sectorial).*
 
-> "Nuestro mercado no depende del bolsillo del estudiante: vendemos a quienes están obligados por ley a certificar sus residuos. El D.L. 1278 exige a universidades, empresas y municipios declarar su gestión ante el MINAM bajo multas de hasta 100 UIT. El Vicerrectorado de Investigación de la UNP ya está evaluando el financiamiento de nuestro primer prototipo."
+> "La industria se automatizó, el comercio se digitalizó y las ciudades se conectaron; pero la segregación de los residuos se quedó en el pasado.  
+> Vivimos en la era de la inteligencia artificial, pero seguimos botando los residuos en contenedores ciegos de hace 100 años."
 
-* `[Dirección Escénica]`: Tono estratégico de negocios. Postura ejecutiva. Destacar *"D.L. 1278"*, *"multas de hasta 100 UIT"* y que el Vicerrectorado de Investigación ya evalúa financiar el prototipo.
-
----
-
-### Diapositiva 4: Actualidad (Fallas del Sistema Actual y Pérdida de Valor) (0:40 - 0:50 | 10 segundos | 46 palabras)
-* **Visual en pantalla:** *Foto real de reciclaje arruinado por restos orgánicos en contenedor único + Indicador: 65% de material arruinado en origen. (Pie de lámina: Fuente Estudio de Caracterización y Segregación UNP 2026 / Guía Metodológica MINAM).*
-
-> "El sistema actual fracasa: demanda el doble de tiempo en mantenimiento, y cuando un usuario ve que todo al final se mezcla en el mismo contenedor, se desmotiva y deja de reciclar. Según nuestro estudio técnico en el campus, el 65% del material potencialmente reciclable se arruina por contaminación cruzada."
-
-* `[Dirección Escénica]`: Tono de decepción controlada y sentido común. Señalar la pantalla evidenciando la desmotivación del usuario y el 65% de pérdida documentada en el estudio.
+* `[Dirección Escénica]`: Tono analítico y enérgico. Gesto de contraste con las manos: mano derecha arriba (industria conectada e IA), mano izquierda abajo (contenedores ciegos de hace 100 años).
 
 ---
 
-### Diapositiva 5: Presentación (La App es el Cerebro de Nuestro Sistema) (0:50 - 1:00 | 10 segundos | 46 palabras)
-* **Visual en pantalla:** *Render de la estación inteligente Q'UPA WASI con la interfaz de la App Móvil y el Dashboard en primer plano.*
+### Diapositiva 3: Mercado B2B / Quién Paga (D.L. 1278 y Proyectos UNP) (0:25 - 0:40 | 15 segundos | 45 palabras)
+* **Visual en pantalla:** *B2B/B2G: Universidades, Corporaciones y Municipios obligados por Ley D.L. 1278 + Sello: "Evaluación de Proyectos - Vicerrectorado de Investigación UNP".*
 
-> "Frente a este problema creamos Q'UPA WASI: la estación inteligente donde el hardware y el software resuelven la segregación en origen. La app es el cerebro de nuestro sistema: con ella existe identificación del usuario, telemetría de pesaje en tiempo real, gestión de incentivos y reportes legales automáticos."
+> "Las instituciones públicas y privadas están obligadas a declarar sus residuos según el Decreto Legislativo 1278 ante el MINAM bajo multas de hasta 100 UIT.  
+> En la UNP, el Vicerrectorado de Investigación ya evalúa proyectos innovadores para solucionar este tipo de problemáticas regionales."
 
-* `[Dirección Escénica]`: Subida de energía y orgullo técnico. Enfatizar con claridad: *"la app es el cerebro de nuestro sistema: con ella existe identificación, telemetría e incentivos"*.
-
----
-
-### Diapositiva 6: Solución: Flujo Técnico en 5 Pasos Generales + Racha (1:00 - 1:40 | 40 segundos | 88 palabras)
-* **Visual en pantalla:** *Animación/Video del flujo técnico en 5 pasos: tolva de inspección ➔ cámara superior con IA ➔ tolva motorizada sobre rieles al contenedor ➔ escaneo QR con contador de racha ➔ recarga solar.*
-
-> "El proceso es simple, transparente y consta de 5 pasos generales:  
-> 1. Presionas inicio y colocas el residuo en la tolva de inspección.  
-> 2. La cámara superior analiza el material con visión artificial y valida su clasificación con alta confianza, sin enviar nada al azar.  
-> 3. La tolva motorizada se desplaza sobre rieles hasta el contenedor correcto, registrando el tránsito y pesaje digital del residuo.  
-> 4. Escaneas tu código QR en la app para sumar puntos y activar tu contador de racha diario.  
-> 5. Canjeas tus beneficios acumulados, como minutos de recarga solar de celular en la misma estación."
-
-* `[Dirección Escénica]`: Enumerar con los dedos del 1 al 5. Tono didáctico, técnico y fluido. Sonreír al destacar el *"contador de racha diario"* y la recarga solar.
+* `[Dirección Escénica]`: Tono estratégico de negocios. Postura ejecutiva. Destacar *"Decreto Legislativo 1278"*, *"multas de hasta 100 UIT"* y la evaluación activa en el *"Vicerrectorado de Investigación"*.
 
 ---
 
-### Diapositiva 7: Modelo de Negocio (Suscripción SaaS + Hardware Propietario) (1:40 - 2:10 | 30 segundos | 54 palabras)
-* **Visual en pantalla:** *Flujo: Adquisición de estaciones exclusivas Q'UPA WASI ➔ Suscripción mensual App SaaS ➔ Red de recicladores aliados retira residuo ➔ Venta PET Cristal S/ 2.50/kg. (Pie de lámina: Modelo Asset-Light de Software Vinculado).*
+### Diapositiva 4: Actualidad (Fallas del Sistema Actual y Pérdida de Valor) (0:40 - 0:50 | 10 segundos | 47 palabras)
+* **Visual en pantalla:** *Foto real de residuos mezclados en un contenedor único sin registro. (Pie de lámina: Diagnóstico de Segregación en Fuentes UNP).*
 
-> "Operamos con un modelo SaaS vinculado a hardware propietario: la institución adquiere las estaciones Q'UPA WASI y paga una suscripción mensual por la plataforma de software, telemetría y soporte continuo. La recolección la realiza nuestra red asociada de recicladores formales, y nosotros capturamos ingresos recurrentes por la app más el margen de la venta del plástico puro."
+> "El sistema actual está fracasando: a pesar de haber iniciativas de reciclaje, los usuarios terminan sin motivación al ver que su esfuerzo ha sido en vano. Al final todos los residuos terminan en el mismo contenedor, perdiendo su valor económico y sin ningún registro alguno."
 
-* `[Dirección Escénica]`: Mirada directa al jurado empresarial. Articular con convicción: *"suscripción mensual de software"*, *"red asociada de recicladores"* y *"monetización dual"*.
-
----
-
-### Diapositiva 8: Propuesta de Valor (3 Niveles de Estaciones, Demanda y Aval ODS) (2:10 - 2:30 | 20 segundos | 64 palabras)
-* **Visual en pantalla:** *Tabla de 3 Paquetes: Nivel 1 (Esencial), Nivel 2 (Conectado), Nivel 3 (Avanzado IA/Solar - Recomendado UNP) + Estudio Técnico de Puntos Estratégicos + Aval Oficial ODS 12.2 / 12.5 y MINAM + Validación de Demanda (95.3% adopción).*
-
-> "Ofrecemos 3 niveles de estaciones: desde la versión básica hasta el Nivel 3 Avanzado con IA y panel solar, recomendado para la universidad. Incluimos el estudio técnico de puntos estratégicos y avalamos la información con reportes mensuales auditables para el MINAM y los ODS 12.2 y 12.5. Validamos además que el 95.3% de los usuarios encuestados adoptará activamente el sistema gracias a los incentivos."
-
-* `[Dirección Escénica]`: Presentar con aplomo los 3 niveles de estaciones, el valor agregado del estudio de puntos estratégicos, el aval de la data ODS y la validación de adopción activa.
+* `[Dirección Escénica]`: Tono de decepción controlada y sentido común. Señalar la pantalla evidenciando la desmotivación del usuario y la pérdida de valor económico.
 
 ---
 
-### Diapositiva 9: Alcance Legal y Expansión (Obligatoriedad Pública y Privada) (2:30 - 2:40 | 10 segundos | 58 palabras)
-* **Visual en pantalla:** *Ámbito de aplicación del D.L. 1278: Sector Público (Municipalidades con Arbitrios) y Sector Privado (Clínicas, Centros Comerciales, Oficinas Corporativas) obligados a certificar reportes.*
+### Diapositiva 5: Presentación de Q'UPA WASI (0:50 - 1:00 | 10 segundos | 26 palabras)
+* **Visual en pantalla:** *Render del módulo inteligente Q'UPA WASI con la interfaz de la App Móvil en primer plano.*
 
-> "La Ley D.L. 1278 no distingue tamaños: aplica obligatoriamente a todas las entidades públicas y privadas del país. En 4 meses validamos el primer prototipo financiado en la UNP; y en 8 meses expandimos la cobertura a municipalidades para otorgar beneficios tributarios en arbitrios a vecinos, y a empresas privadas que necesitan certificar sus reportes ambientales."
+> "Frente a esta problemática nace Q'UPA WASI: una app que premia a los usuarios por saber clasificar sus residuos en nuestra red de contenedores inteligentes."
 
-* `[Dirección Escénica]`: Gesto de autoridad legal y solidez institucional. Enfatizar *"aplica obligatoriamente a todo el sector público y privado"* y *"beneficios tributarios en arbitrios"*.
-
----
-
-### Diapositiva 10: Equipo Multidisciplinario (Software/IA vs Hardware/Solar) (2:40 - 2:50 | 10 segundos | 27 palabras)
-* **Visual en pantalla:** *Fotos de los 4 fundadores UNP divididos por especialidad: Software e IA (Informática) vs Hardware y Solar (Electrónica).*
-
-> "Somos un equipo técnico complementario de la UNP: en el software e inteligencia artificial de la app, Luis y Cristopher; y en la ingeniería de hardware, sensórica y energía solar, Joyser y Fernando."
-
-* `[Dirección Escénica]`: Sonrisa de equipo, postura firme y orgullo de complementariedad técnica real.
+* `[Dirección Escénica]`: Subida de energía y orgullo técnico. Presentar la marca con fuerza y seguridad vocal: *"Q'UPA WASI"*.
 
 ---
 
-### Diapositiva 11: Cierre y Slogan de Impacto (2:50 - 3:00 | 10 segundos | 24 palabras)
-* **Visual en pantalla:** *Logo oficial Q'UPA WASI + Slogan central: "Aquí premiamos tu decisión de cambiar el planeta" + Contacto y QR.*
+### Diapositiva 6: Solución (Flujo de 5 Pasos + Visualización en App) (1:00 - 1:40 | 40 segundos | 75 palabras)
+* **Visual en pantalla:** *Animación del flujo de 5 pasos en el módulo inteligente + Pantalla de la app con el mapa de tachos disponibles en el campus.*
 
-> "La basura mezclada siempre será un gasto; pero valorizada con tecnología es riqueza y futuro. Somos Q'UPA WASI: aquí premiamos tu decisión de cambiar el planeta. Muchas gracias."
+> "El proceso de reciclar es simple y transparente:  
+> 1. Paso 1: Seleccionas el material que vas a dejar.  
+> 2. Paso 2: La cámara captura el material y valida lo seleccionado.  
+> 3. Paso 3: Si lo anterior fue correcto, el sistema te otorga puntos en un código QR.  
+> 4. Paso 4: Escaneas tu código y reclamas tus puntos en la aplicación.  
+> 5. Paso 5: Canjeas tus puntos por algún beneficio dentro de la app.  
+> Además, en la app podrás visualizar los tachos disponibles en el campus."
 
-* `[Dirección Escénica]`: Bajar ligeramente el ritmo para que cada palabra resuene. Mirada fija a los evaluadores, sonrisa cálida, pausa de 2 segundos y agradecimiento final.
-
----
-
-### Diapositiva 10: Equipo Multidisciplinario (Software/IA vs Hardware/Solar) (2:40 - 2:50 | 10 segundos | 27 palabras)
-* **Visual en pantalla:** *Fotos de los 4 fundadores UNP divididos por especialidad: Software e IA (Informática) vs Hardware y Solar (Electrónica).*
-
-> "Somos un equipo técnico complementario de la UNP: en el software e inteligencia artificial de la app, Luis y Cristopher; y en la ingeniería de hardware, sensórica y energía solar, Joyser y Fernando."
-
-* `[Dirección Escénica]`: Sonrisa de equipo, postura firme y orgullo de complementariedad técnica real.
+* `[Dirección Escénica]`: Enumerar con los dedos de la mano izquierda del 1 al 5. Tono didáctico, claro y fluido. Resaltar la facilidad de uso y la visualización de tachos en el campus.
 
 ---
 
-### Diapositiva 11: Cierre y Slogan de Impacto (2:50 - 3:00 | 10 segundos | 24 palabras)
-* **Visual en pantalla:** *Logo oficial Q'UPA WASI + Slogan central: "Aquí premiamos tu decisión de cambiar el planeta" + Contacto y QR.*
+### Diapositiva 7: Modelo de Negocio (SaaS Vinculado a Sistema Electrónico) (1:40 - 2:10 | 30 segundos | 51 palabras)
+* **Visual en pantalla:** *Adquisición de contenedores + Suscripción mensual App SaaS + Alianzas con recicladores formales. (Pie de lámina: Modelo Software as a Service).*
 
-> "La basura mezclada siempre será un gasto; pero valorizada con tecnología es riqueza y futuro. Somos Q'UPA WASI: aquí premiamos tu decisión de cambiar el planeta. Muchas gracias."
+> "Operamos con un modelo SaaS (Software as a Service o software como servicio) vinculado a un sistema electrónico de nuestra propiedad: la institución adquiere los contenedores y paga una suscripción mensual por la aplicación.  
+> Contamos con alianzas con empresas recicladoras formales que facilitan la recolección de los residuos, generando un valor económico."
 
-* `[Dirección Escénica]`: Bajar ligeramente el ritmo para que cada palabra resuene. Mirada fija a los evaluadores, sonrisa cálida, pausa de 2 segundos y agradecimiento final.
+* `[Dirección Escénica]`: Mirada directa al jurado empresarial. Articular con convicción: *"modelo SaaS"*, *"sistema electrónico de nuestra propiedad"* y *"alianzas con recicladores formales"*.
+
+---
+
+### Diapositiva 8: Beneficios para el Cliente y Aporte al Estado / ODS (2:10 - 2:30 | 20 segundos | 50 palabras)
+* **Visual en pantalla:** *5 Beneficios Institucionales + Aporte al Estado: Aporte al MINAM y registros en avance de los ODS 12.2 y 12.5.*
+
+> "Nuestros clientes obtienen los siguientes beneficios:  
+> 1. Ahorro operativo.  
+> 2. Estudio técnico.  
+> 3. Reportes auditables.  
+> 4. Prestigio institucional.  
+> 5. Seguridad y cumplimiento de la ley.  
+> Y como aporte al Estado: generamos aportes directos al MINAM y registros en cuanto al avance de los ODS 12.2 y 12.5."
+
+* `[Dirección Escénica]`: Enumerar con autoridad los 5 beneficios para la institución y remarcar el impacto para el Estado y los ODS 12.2 y 12.5.
+
+---
+
+### Diapositiva 9: Alcance Legal y Proyección Departamental (2:30 - 2:40 | 10 segundos | 51 palabras)
+* **Visual en pantalla:** *Ruta de expansión temporal: 4 meses (Prototipo UNP) ➔ 8 meses (Campus UNP) ➔ 1 año (Otras Universidades y Municipalidades).*
+
+> "El D.L. 1278 no distingue entre entidades públicas ni privadas; por eso, nuestra proyección es que en 4 meses validemos el primer prototipo funcional en la UNP, en 8 meses expandirnos a todo el campus universitario, y en el plazo de 1 año queremos llegar a otras universidades y a municipalidades."
+
+* `[Dirección Escénica]`: Gesto de visión y crecimiento con las manos abiertas. Remarcar *"4 meses"*, *"8 meses"* y *"1 año"*.
+
+---
+
+### Diapositiva 10: Equipo y Asesoramiento Multidisciplinario (2:40 - 2:50 | 10 segundos | 53 palabras)
+* **Visual en pantalla:** *Fotos de los 4 integrantes: Ingeniería Informática (Software) e Ingeniería Electrónica (Hardware) + Panel de docentes especialistas asesores.*
+
+> "Nuestro equipo está conformado por dos estudiantes de Ingeniería Informática: Luis y Cristopher, quienes son encargados del software; y dos estudiantes de Ingeniería Electrónica: Fernando y Joyser, que es quien les habla. Aparte, contamos con el asesoramiento continuo de docentes especialistas en informática, electrónica, ingeniería ambiental y economía."
+
+* `[Dirección Escénica]`: Tono cálido y seguro. Señalarse al decir *"Joyser, que es quien les habla"*, sonreír con aplomo y destacar el respaldo docente.
+
+---
+
+### Diapositiva 11: Cierre (Slogan Oficial) (2:50 - 3:00 | 10 segundos | 16 palabras)
+* **Visual en pantalla:** *Logo oficial Q'UPA WASI + Slogan central: "Aquí premiamos tu decisión de cuidar el planeta" + Contacto.*
+
+> "Somos Q'UPA WASI y aquí premiamos tu decisión de cuidar el planeta. Muchas gracias."
+
+* `[Dirección Escénica]`: Pausa breve de 1 segundo. Mirar a los ojos a todo el jurado, sonreír con calidez y agradecer con firmeza.
 
 ---
 
