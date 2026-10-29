@@ -16,18 +16,18 @@
 | **2** | **Problema** | 10s | Solo imagen de acumulación de residuos + Dato gráfico "2%" | 29 palabras |
 | **3** | **Clientes (Afectados)** | 10s | Foto de estudiantes y personal de limpieza en el campus | 30 palabras |
 | **4** | **Actualidad** | 10s | Foto de tachos convencionales con bolsas rotas y basura mezclada | 27 palabras |
-| **5** | **Presentación** | 10s | Render / Foto principal del módulo Q'UPA WASI | 25 palabras |
-| **6** | **Solución (Paso a Paso)** | 60s | Video demostrativo sin audio o carrusel de 4 pasos de uso + vaciado | 115 palabras |
-| **7** | **Modelo de Negocio** | 30s | Gráfico simple: S/ 3,500 insumos ➔ Venta Scrap S/ 2.50/kg ➔ Socios | 56 palabras |
-| **8** | **Beneficios** | 20s | 3 íconos: 1. Incentivo rápido · 2. Cero mezcla · 3. 40% ahorro limpieza | 41 palabras |
-| **9** | **Proyección** | 10s | Línea de tiempo visual: 4 meses (Piloto UNP) ➔ 8 meses (5 estaciones) | 28 palabras |
+| **5** | **Presentación** | 10s | Render / Foto principal del módulo Q'UPA WASI con panel solar | 25 palabras |
+| **6** | **Solución (Paso a Paso + ODS)** | 60s | Video demostrativo sin audio: 4 pasos + dashboard de data en tiempo real + vaciado ergonómico | 110 palabras |
+| **7** | **Modelo de Negocio** | 30s | Gráfico simple: S/ 3,500 insumos ➔ Venta Scrap S/ 2.50/kg ➔ Socios Clave | 53 palabras |
+| **8** | **Beneficios (ODS y Valor)** | 20s | 3 íconos: 1. Incentivo directo · 2. Data auditable ODS (Piura) · 3. 40% ahorro limpieza | 48 palabras |
+| **9** | **Proyección y Escalabilidad** | 10s | Ruta visual de escalabilidad: 4 meses (Piloto UNP) ➔ 8 meses (Red Municipal de Piura) | 33 palabras |
 | **10** | **Equipo** | 10s | Fotos de los 4 integrantes con sus roles clave (Software vs Hardware) | 27 palabras |
-| **11** | **Cierre** | 10s | Imagen inspiradora de campus limpio + Frase final contundente | 20 palabras |
-| **TOTAL** | **11 Diapositivas** | **180s (3:00)** | **Apoyo visual sin títulos pesados** | **398 palabras** |
+| **11** | **Cierre** | 10s | Imagen inspiradora de ciudad limpia + Frase final contundente | 20 palabras |
+| **TOTAL** | **11 Diapositivas** | **180s (3:00)** | **Apoyo visual sin títulos pesados** | **402 palabras** |
 
 ---
 
-## 2. Guion Verbatim Calibrado Slide por Slide (398 Palabras Exactas)
+## 2. Guion Verbatim Calibrado Slide por Slide (402 Palabras Exactas)
 
 ---
 
@@ -74,49 +74,49 @@
 
 ---
 
-### Diapositiva 6: Solución Paso a Paso (0:40 - 1:40 | 60 segundos | 115 palabras)
-* **Visual en pantalla:** *Video corto sin audio o secuencia gráfica de 4 pasos de interacción + vaciado.*
+### Diapositiva 6: Solución Paso a Paso (0:40 - 1:40 | 60 segundos | 110 palabras)
+* **Visual en pantalla:** *Video corto sin audio o secuencia gráfica: 4 pasos + pantalla de telemetría ODS + vaciado ergonómico.*
 
 > "Ponerlo en práctica toma cuatro pasos muy sencillos:  
-> Primero: Te acercas con tu residuo; la estación lo identifica con una cámara inteligente, verifica su peso y abre automáticamente la compuerta correcta, alcanzando un noventa y ocho por ciento de pureza sin mezclas.  
-> Segundo: Abres la aplicación Q'UPA WASI y escaneas tu código en la pantalla.  
-> Tercero: El sistema valida el depósito y te acredita puntos al instante en tu perfil.  
-> Cuarto: Canjeas tus puntos por impresiones, fotocopias y descuentos en cafeterías aliadas del campus.  
-> Y para el personal de limpieza, la estación cuenta con bandejas frontales ergonómicas que permiten retirar las bolsas sin esfuerzo, sin contacto directo con los residuos y sin riesgo de cortes."
+> Primero: Te acercas con tu residuo; la estación lo identifica con cámara inteligente y celda de pesaje, abriendo la compuerta correcta con noventa y ocho por ciento de pureza.  
+> Segundo: Abres la app Q'UPA WASI y escaneas tu código.  
+> Tercero: El sistema valida el depósito y te acredita puntos inmediatos.  
+> Cuarto: Canjeas tus puntos por impresiones, fotocopias y descuentos en cafeterías aliadas.  
+> En paralelo, el sistema registra cada gramo en tiempo real, generando la primera base de datos verificable de residuos alineada a los Objetivos de Desarrollo Sostenible, mientras sus bandejas frontales ergonómicas protegen al personal de limpieza de cortes y sobreesfuerzos."
 
-* `[Dirección Escénica]`: Narración fluida y descriptiva. Enumerar con los dedos de la mano izquierda cada paso (1, 2, 3, 4). Tono pedagógico y claro.
+* `[Dirección Escénica]`: Enumerar con los dedos de la mano izquierda: 1, 2, 3, 4. Tono didáctico. Enfatizar el valor de la data registrada y la protección a los trabajadores.
 
 ---
 
-### Diapositiva 7: Modelo de Negocio (1:40 - 2:10 | 30 segundos | 56 palabras)
-* **Visual en pantalla:** *Gráfico limpio: Costo S/ 3,500 ➔ Venta Scrap S/ 2.50/kg ➔ Alianzas con comercios.*
+### Diapositiva 7: Modelo de Negocio (1:40 - 2:10 | 30 segundos | 53 palabras)
+* **Visual en pantalla:** *Gráfico limpio: Costo Insumos S/ 3,500 ➔ Venta Scrap S/ 2.50/kg ➔ Socios Clave.*
 
 > "Fabricar nuestro módulo cuesta solo tres mil quinientos soles en insumos.  
-> Monetizamos vendiendo el plástico limpio a dos soles cincuenta por kilo a industrias transformadoras, triplicando su valor, sumado a una suscripción mensual de telemetría a la universidad.  
+> Monetizamos vendiendo el plástico limpio a dos soles cincuenta por kilo, triplicando su valor, sumado a una suscripción mensual de telemetría a la universidad.  
 > Fidelizamos al estudiante con recompensas que financian nuestros socios clave: las fotocopiadoras locales que compiten por captar clientes."
 
 * `[Dirección Escénica]`: Tono seguro de negocios. Mirar fijamente a los empresarios del tribunal. Articular con nitidez *"dos soles cincuenta"* y *"socios clave"*.
 
 ---
 
-### Diapositiva 8: Beneficios (2:10 - 2:30 | 20 segundos | 41 palabras)
-* **Visual en pantalla:** *Solo 3 iconos grandes con palabras mínimas: 1. Incentivo directo · 2. Cero mezcla · 3. 40% ahorro.*
+### Diapositiva 8: Beneficios (2:10 - 2:30 | 20 segundos | 48 palabras)
+* **Visual en pantalla:** *3 íconos grandes: 1. Incentivo rápido · 2. Data auditable ODS (Piura) · 3. 40% ahorro limpieza.*
 
 > "Ofrecemos tres propuestas de valor concretas:  
-> Primero: Incentivo directo y fácil acceso para el estudiante.  
-> Segundo: Cero contaminación cruzada, garantizando material puro y comercializable.  
-> Y tercero: Ahorro del cuarenta por ciento en tiempo y esfuerzo físico para el personal de limpieza."
+> Primero: Incentivo directo y fácil acceso para el usuario.  
+> Segundo: La primera base de datos hiperlocal y auditable de Piura para certificar metas ODS, resolviendo la falta de datos municipales confiables.  
+> Y tercero: Ahorro del cuarenta por ciento en tiempo de limpieza."
 
-* `[Dirección Escénica]`: Marcar cada beneficio con la mano de forma pausada y contundente.
+* `[Dirección Escénica]`: Marcar cada beneficio con la mano de forma pausada y contundente. Resaltar con firmeza *"primera base de datos confiable de Piura"*.
 
 ---
 
-### Diapositiva 9: Proyección (2:30 - 2:40 | 10 segundos | 28 palabras)
-* **Visual en pantalla:** *Línea de tiempo simple: 4 Meses (Piloto UNP) | 8 Meses (5 Estaciones en Facultades).*
+### Diapositiva 9: Proyección y Escalabilidad (2:30 - 2:40 | 10 segundos | 33 palabras)
+* **Visual en pantalla:** *Ruta visual de escalabilidad: 4 Meses (Piloto UNP) ➔ 8 Meses (Red Municipal del Departamento de Piura).*
 
-> "En cuatro meses instalamos el primer piloto en el comedor de la UNP; y en ocho meses sumamos cinco estaciones en facultades clave con venta recurrente de material."
+> "Nuestra escalabilidad es directa: en cuatro meses validamos el piloto en el campus de la UNP; y en ocho meses escalamos a diferentes municipalidades de Piura, conectando una red departamental de estaciones inteligentes."
 
-* `[Dirección Escénica]`: Gesto de avance horizontal con la mano derecha, proyectando crecimiento y visión.
+* `[Dirección Escénica]`: Gesto de apertura horizontal con ambas manos, transmitiendo visión de expansión territorial y municipal.
 
 ---
 
@@ -130,7 +130,7 @@
 ---
 
 ### Diapositiva 11: Cierre (2:50 - 3:00 | 10 segundos | 20 palabras)
-* **Visual en pantalla:** *Foto de campus limpio y moderno + Frase de cierre destacada.*
+* **Visual en pantalla:** *Foto de ciudad limpia y moderna + Frase de cierre destacada.*
 
 > "La basura mezclada siempre será un costo; pero segregada con inteligencia es un recurso valioso.  
 > Somos Q'UPA WASI. Muchas gracias."
@@ -141,19 +141,13 @@
 
 ## 3. Matriz de Preguntas de Defensa (Rúbrica Oficial)
 
-### 1. ¿Cómo se delimita exactamente el público objetivo?
+### 1. ¿Cómo se vincula el proyecto con los Objetivos de Desarrollo Sostenible (ODS)?
 > **Respuesta:**  
-> "Tenemos dos usuarios directos:  
-> * **Usuario activo (Estudiantes y docentes):** 14,000 personas en la UNP que consumen botellas y envases diariamente en el comedor y necesitan incentivos para no botar la basura al piso o mezclarla.  
-> * **Usuario operativo (Personal de limpieza):** Trabajadores que hoy sufren sobreesfuerzo lumbar y cortes al manipular tachos fijos; con nuestras bandejas frontales y alertas de llenado reducen un 40% su tiempo de recolección."
+> "Aportamos directamente a 3 ODS:  
+> * **ODS 11 (Ciudades y Comunidades Sostenibles):** Reducimos la saturación de botaderos en Piura y transformamos los espacios públicos en puntos limpios tecnificados.  
+> * **ODS 12 (Producción y Consumo Responsables):** Eliminamos la contaminación cruzada en origen, reincorporando el 98% del material a la economía circular.  
+> * **ODS 13 (Acción por el Clima):** Generamos la primera base de datos hiperlocal y auditable de residuos de Piura, permitiendo a municipalidades e instituciones medir su reducción real de huella de carbono con datos duros y no con estimados en papel."
 
-### 2. ¿Por qué las fotocopiadoras y cafeterías financiarían los descuentos?
+### 2. ¿Cómo garantizan la escalabilidad a nivel de municipalidades?
 > **Respuesta:**  
-> "Porque para un pequeño negocio del campus, anunciarse o conseguir que un alumno entre a su local cuesta dinero. Ofrecer 10% de descuento o una impresión gratuita a cambio de que la app Q'UPA WASI les canalice cientos de clientes diariamente es su estrategia de marketing más barata y efectiva. Es un modelo de tráfico cruzado donde nosotros ponemos la comunidad y ellos financian el beneficio."
-
-### 3. ¿Cómo aseguran que el proyecto no quede solo en una idea de concurso?
-> **Respuesta:**  
-> "Porque no dependemos de compras públicas lentas:  
-> 1. El costo de insumos del prototipo es de apenas S/ 3,500, accesible con el capital semilla del concurso.  
-> 2. Contamos con el respaldo de 385 encuestados en el campus con 95.3% de aceptación.  
-> 3. El equipo tiene las dos mitades técnicas cubiertas: informática para la IA y app, y electrónica para la sensórica y el panel solar."
+> "Empezamos en la UNP porque es un entorno controlado de 14,000 personas con dinámicas similares a una pequeña ciudad. Una vez calibrada la adopción y los unit economics, nuestro modelo escala fácilmente hacia municipalidades distritales y provinciales de Piura (como Piura, Castilla y Sullana) porque no les pedimos compras públicas millonarias: les ofrecemos estaciones alimentadas con energía solar que se pagan solas mediante la venta de scrap y reducen sus costos de recolección, entregándoles datos auditables para el cumplimiento de sus metas del MINAM y programas de incentivos."
