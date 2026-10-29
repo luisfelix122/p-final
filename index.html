@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Q'UPA WASI — Plataforma de Pitch Oficial & Defensa PUCP</title>
+  <title>Q'UPA WASI</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
@@ -29,7 +29,7 @@
       --purple-light: #f5f3ff;
       --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
       --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07);
-      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
+      --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
       --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
       --font-display: 'Space Grotesk', var(--font-sans);
     }
@@ -45,100 +45,26 @@
     }
     .container { max-width: 960px; margin: 0 auto; }
 
-    /* Top Meta Bar */
-    .top-meta {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+    /* Header Limpio */
+    header {
       margin-bottom: 1.25rem;
-      font-size: 0.825rem;
-      color: var(--text-muted);
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 0.65rem;
-      flex-wrap: wrap;
-      gap: 0.5rem;
     }
-
-    /* Header */
-    header { margin-bottom: 1.5rem; }
-    .brand-tag {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      background: var(--primary-light);
-      color: var(--primary-dark);
-      padding: 0.3rem 0.85rem;
-      border-radius: 9999px;
-      font-size: 0.75rem;
-      font-weight: 700;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      margin-bottom: 0.75rem;
-      border: 1px solid rgba(5, 150, 105, 0.2);
-    }
-
     h1 {
       font-family: var(--font-display);
-      font-size: 2.6rem;
+      font-size: 2.75rem;
       font-weight: 800;
       letter-spacing: -0.03em;
       line-height: 1.1;
       color: var(--text-main);
-      margin-bottom: 0.4rem;
     }
 
-    .subtitle {
-      font-size: 1.05rem;
-      color: var(--text-muted);
-      font-weight: 500;
-      margin-bottom: 1rem;
-    }
-
-    .badges-bar {
-      display: flex;
-      gap: 0.5rem;
-      flex-wrap: wrap;
-      margin-bottom: 1.5rem;
-    }
-
-    .badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.35rem;
-      padding: 0.25rem 0.65rem;
-      border-radius: 9999px;
-      font-size: 0.75rem;
-      font-weight: 600;
-      background: var(--surface);
-      color: var(--text-muted);
-      border: 1px solid var(--border);
-    }
-    .badge.highlight {
-      background: var(--primary-light);
-      color: var(--primary-dark);
-      border-color: rgba(5, 150, 105, 0.3);
-    }
-    .badge.accent {
-      background: var(--accent-light);
-      color: var(--accent);
-      border-color: rgba(2, 132, 199, 0.3);
-    }
-    .badge.purple {
-      background: var(--purple-light);
-      color: var(--purple);
-      border-color: rgba(124, 58, 237, 0.3);
-    }
-
-    /* Multi-Tab Navigation */
+    /* 3 Pestañas Estáticas (No flotantes) */
     .tabs-nav-wrapper {
-      position: sticky;
-      top: 0;
-      z-index: 90;
-      background: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(10px);
+      position: relative;
+      background: #ffffff;
       padding: 0.5rem 0;
       border-bottom: 2px solid var(--border);
-      margin-bottom: 2rem;
+      margin-bottom: 1.75rem;
     }
     .tabs-nav {
       display: flex;
@@ -203,9 +129,13 @@
       to { opacity: 1; transform: translateY(0); }
     }
 
-    /* Cronómetro Flotante (Tab 1) */
+    /* Cronómetro Flotante Sticky (Exclusivo de Tab 1 al scrollear) */
     .timer-sticky {
-      background: var(--surface);
+      position: sticky;
+      top: 1rem;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.97);
+      backdrop-filter: blur(12px);
       border: 1px solid var(--border);
       border-radius: 12px;
       padding: 0.85rem 1.25rem;
@@ -213,12 +143,12 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      box-shadow: var(--shadow-sm);
+      box-shadow: var(--shadow-lg);
     }
 
     .timer-display {
       font-family: var(--font-display);
-      font-size: 2rem;
+      font-size: 2.1rem;
       font-weight: 800;
       font-variant-numeric: tabular-nums;
       color: var(--text-main);
@@ -235,8 +165,8 @@
 
     .timer-controls { display: flex; gap: 0.5rem; }
     .btn {
-      padding: 0.45rem 0.95rem;
-      font-size: 0.825rem;
+      padding: 0.5rem 1rem;
+      font-size: 0.85rem;
       font-weight: 600;
       border-radius: 8px;
       border: 1px solid var(--border);
@@ -385,6 +315,34 @@
       letter-spacing: 0.05em;
       display: block;
       margin-bottom: 0.15rem;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.25rem 0.65rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      background: var(--surface);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+    }
+    .badge.highlight {
+      background: var(--primary-light);
+      color: var(--primary-dark);
+      border-color: rgba(5, 150, 105, 0.3);
+    }
+    .badge.accent {
+      background: var(--accent-light);
+      color: var(--accent);
+      border-color: rgba(2, 132, 199, 0.3);
+    }
+    .badge.purple {
+      background: var(--purple-light);
+      color: var(--purple);
+      border-color: rgba(124, 58, 237, 0.3);
     }
 
     /* Q&A Section (Tab 2) */
@@ -645,7 +603,7 @@
       color: var(--text-main);
     }
 
-    /* Tab 4: Sources Table */
+    /* Fuentes Table */
     .table-container {
       overflow-x: auto;
       border: 1px solid var(--border);
@@ -687,7 +645,7 @@
     }
 
     @media (max-width: 640px) {
-      h1 { font-size: 2rem; }
+      h1 { font-size: 2.2rem; }
       .speech-box { font-size: 1.1rem; }
       .timer-display { font-size: 1.6rem; }
       .tabs-nav { gap: 0.25rem; }
@@ -698,26 +656,11 @@
 <body>
   <div class="container">
 
-    <div class="top-meta">
-      <span>11 Diapositivas Oficiales Verbatim · 3:00 Minutos Exactos</span>
-      <span class="badge highlight">Orador: Joyser Vásquez</span>
-    </div>
-
     <header>
-      <div class="brand-tag">🌱 Ecosistema de Reciclaje Inteligente</div>
       <h1>Q'UPA WASI</h1>
-      <div class="subtitle">Portal Maestro de Pitch, Banco de Preguntas para el Equipo y Guía Visual PUCP</div>
-      <div class="badges-bar">
-        <span class="badge highlight">⏱️ ~3:10 Minutos</span>
-        <span class="badge">📝 502 Palabras (~155 PPM)</span>
-        <span class="badge highlight">📱 Q'UPA WASI: App + Red IoT</span>
-        <span class="badge accent">💰 S/ 2.50 / kg PET Cristal (98% Pureza)</span>
-        <span class="badge purple">⚡ BOM S/ 3,500 · Payback 4.5-5 meses</span>
-        <span class="badge">🏛️ Ley D.L. 1278 · ODS 12.2 / 12.5</span>
-      </div>
     </header>
 
-    <!-- Multi-Tab Navigation Bar -->
+    <!-- 3 Pestañas Estáticas -->
     <div class="tabs-nav-wrapper">
       <nav class="tabs-nav">
         <button class="tab-btn active" onclick="openTab('tab-pitch')" id="btn-tab-pitch">
@@ -729,9 +672,6 @@
         <button class="tab-btn" onclick="openTab('tab-slides')" id="btn-tab-slides">
           <span>📽️</span> Guía de Slides (Cristopher) <span class="tab-pill">x6 Video & 3D</span>
         </button>
-        <button class="tab-btn" onclick="openTab('tab-sources')" id="btn-tab-sources">
-          <span>📊</span> Fuentes & Respaldo Oficial <span class="tab-pill">10 Métricas</span>
-        </button>
       </nav>
     </div>
 
@@ -740,10 +680,10 @@
     <!-- ========================================== -->
     <div id="tab-pitch" class="tab-pane active">
 
-      <!-- Cronómetro Sticky -->
+      <!-- Cronómetro Sticky Flotante (Se mantiene visible al subir/bajar en Tab 1) -->
       <div class="timer-sticky">
         <div>
-          <span class="timer-label">Cronómetro Oficial de Ensayo</span>
+          <span class="timer-label">Cronómetro de Ensayo (3:00)</span>
           <div class="timer-display" id="timeDisplay">03:00</div>
         </div>
         <div class="timer-controls">
@@ -1281,7 +1221,7 @@
               <li><strong>Sensor Ultrasónico JSN-SR04T (Mide Volumen / Nivel):</strong> Mide la distancia libre desde el techo del contenedor hasta los residuos. Las botellas de plástico vacías ocupan muchísimo volumen pero pesan casi nada: 50 botellas infladas pueden saturar el tacho volumétricamente aunque apenas pesen 1.5 kg.</li>
             </ul>
             <div class="qa-highlight-box">
-              <strong>Sinergia Técnica:</strong> Si solo usáramos peso, el tacho se desbordaría físicamente sin darnos cuenta. Si solo usáramos ultrasonido, no podríamos liquidar el dinero del scrap ni auditar las metas del MINAM. La combinación de ambos es lo que hace inteligente al sistema.
+              <strong>Sinergia Técnica:</strong> Si solo usáramos peso, el tacho se desbordaría físicamente sin darnos cuenta. Si solo usáramos volumen, no podríamos liquidar el dinero del scrap ni auditar las metas del MINAM. La combinación de ambos es lo que hace inteligente al sistema.
             </div>
           </div>
         </div>
@@ -1489,6 +1429,89 @@
 
       </div><!-- Fin Grid Q&A -->
 
+      <!-- TABLA MAESTRA DE FUENTES Y METODOLOGÍA DENTRO DE TAB 2 -->
+      <div style="margin-top: 3.5rem;">
+        <div class="qa-header-box">
+          <h2>Tabla Maestra de Fuentes, Metodología y Respaldo Institucional</h2>
+          <p>Base empírica y regulatoria verificable ante el jurado de la PUCP, inversionistas y autoridades universitarias.</p>
+        </div>
+
+        <div class="table-container">
+          <table class="sources-table">
+            <thead>
+              <tr>
+                <th>Dato / Afirmación</th>
+                <th>Cifra Exacta</th>
+                <th>Fuente Institucional Oficial</th>
+                <th>Metodología / Documento de Respaldo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Generación Nacional de Basura</strong></td>
+                <td>23,853 t/día (~24,000 t/día)</td>
+                <td><span class="badge highlight">MINAM / SIGERSOL</span></td>
+                <td>Sistema de Información para la Gestión de Residuos Sólidos (SIGERSOL Municipal) y Notas Técnicas MINAM.</td>
+              </tr>
+              <tr>
+                <td><strong>Tasa de Valorización Nacional</strong></td>
+                <td>~1.8% a 2.0% valorizado</td>
+                <td><span class="badge highlight">MINAM / DGRS</span></td>
+                <td>Informe Nacional sobre el Estado del Medio Ambiente (INEMA) - Dirección General de Residuos Sólidos.</td>
+              </tr>
+              <tr>
+                <td><strong>Generación en Piura</strong></td>
+                <td>>530 t/día (Provincia)</td>
+                <td><span class="badge highlight">Muni. Piura / MINAM</span></td>
+                <td>Plan Integral de Gestión Ambiental de Residuos Sólidos (PIGARS Piura).</td>
+              </tr>
+              <tr>
+                <td><strong>Disposición en Botaderos Críticos</strong></td>
+                <td>>70% en áreas degradadas (Curumuy, Castilla km 8.5)</td>
+                <td><span class="badge highlight">OEFA</span></td>
+                <td>Inventario Nacional de Áreas Degradadas por Residuos Sólidos (Supervisión ambiental a botaderos a cielo abierto).</td>
+              </tr>
+              <tr>
+                <td><strong>Contaminación en el Sistema Actual</strong></td>
+                <td>65% de reciclables arruinados por mezcla</td>
+                <td><span class="badge">Estudio UNP 2026</span></td>
+                <td>Diagnóstico técnico de segregación en fuentes en comedor y facultades UNP según Guía Metodológica MINAM.</td>
+              </tr>
+              <tr>
+                <td><strong>Vacío de Data ODS 12.2 y 12.5</strong></td>
+                <td>Ausencia de telemetría y pesaje continuo en Sudamérica</td>
+                <td><span class="badge highlight">PNUMA & CEPAL</span></td>
+                <td>Global Waste Management Outlook (PNUMA) e Informe Regional de Monitoreo ODS (CEPAL).</td>
+              </tr>
+              <tr>
+                <td><strong>Aceptación del Sistema de Incentivos</strong></td>
+                <td>95.3% intención activa de uso</td>
+                <td><span class="badge">Encuesta UNP 2026</span></td>
+                <td>Muestra probabilística de n = 388 universitarios, 95% de confianza, ±5% de error muestral (Pregunta 12: 64.9% sí definitivamente + 30.4% probablemente sí).</td>
+              </tr>
+              <tr>
+                <td><strong>Cero Carga Operativa y Retiro Veloz</strong></td>
+                <td>Menos de 30 segundos por recojo vía red aliada</td>
+                <td><span class="badge">Pruebas Campo UNP</span></td>
+                <td>Cronometraje de retiro directo con bandejas modulares HDPE permitiendo retiro inmediato a la empresa recicladora aliada.</td>
+              </tr>
+              <tr>
+                <td><strong>Costo BOM del Prototipo MVP</strong></td>
+                <td>S/ 3,500 en insumos de hardware</td>
+                <td><span class="badge purple">BOM Ingeniería</span></td>
+                <td>Cotización: celda de carga HX711, ESP32-S3 / RPi, panel monocristalino 100 Wp, batería AGM 35 Ah, chasis HDPE.</td>
+              </tr>
+              <tr>
+                <td><strong>Precio de Venta PET Cristal Limpio</strong></td>
+                <td>S/ 2.50 / kg (98% pureza)</td>
+                <td><span class="badge accent">Mercado Formal</span></td>
+                <td>Cotización directa con empresas formales transformadoras de PET (vs S/ 0.80 en centros de acopio informales sucios).</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
     </div><!-- Fin Tab 2 -->
 
 
@@ -1666,94 +1689,6 @@
 
     </div><!-- Fin Tab 3 -->
 
-
-    <!-- ========================================== -->
-    <!-- TAB 4: FUENTES Y RESPALDO INSTITUCIONAL    -->
-    <!-- ========================================== -->
-    <div id="tab-sources" class="tab-pane">
-
-      <div class="qa-header-box">
-        <h2>Tabla Maestra de Fuentes, Metodología y Respaldo Institucional</h2>
-        <p>Base empírica y regulatoria verificable ante el jurado de la PUCP, inversionistas y autoridades universitarias.</p>
-      </div>
-
-      <div class="table-container">
-        <table class="sources-table">
-          <thead>
-            <tr>
-              <th>Dato / Afirmación</th>
-              <th>Cifra Exacta</th>
-              <th>Fuente Institucional Oficial</th>
-              <th>Metodología / Documento de Respaldo</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><strong>Generación Nacional de Basura</strong></td>
-              <td>23,853 t/día (~24,000 t/día)</td>
-              <td><span class="badge highlight">MINAM / SIGERSOL</span></td>
-              <td>Sistema de Información para la Gestión de Residuos Sólidos (SIGERSOL Municipal) y Notas Técnicas MINAM.</td>
-            </tr>
-            <tr>
-              <td><strong>Tasa de Valorización Nacional</strong></td>
-              <td>~1.8% a 2.0% valorizado</td>
-              <td><span class="badge highlight">MINAM / DGRS</span></td>
-              <td>Informe Nacional sobre el Estado del Medio Ambiente (INEMA) - Dirección General de Residuos Sólidos.</td>
-            </tr>
-            <tr>
-              <td><strong>Generación en Piura</strong></td>
-              <td>>530 t/día (Provincia)</td>
-              <td><span class="badge highlight">Muni. Piura / MINAM</span></td>
-              <td>Plan Integral de Gestión Ambiental de Residuos Sólidos (PIGARS Piura).</td>
-            </tr>
-            <tr>
-              <td><strong>Disposición en Botaderos Críticos</strong></td>
-              <td>>70% en áreas degradadas (Curumuy, Castilla km 8.5)</td>
-              <td><span class="badge highlight">OEFA</span></td>
-              <td>Inventario Nacional de Áreas Degradadas por Residuos Sólidos (Supervisión ambiental a botaderos a cielo abierto).</td>
-            </tr>
-            <tr>
-              <td><strong>Contaminación en el Sistema Actual</strong></td>
-              <td>65% de reciclables arruinados por mezcla</td>
-              <td><span class="badge">Estudio UNP 2026</span></td>
-              <td>Diagnóstico técnico de segregación en fuentes en comedor y facultades UNP según Guía Metodológica MINAM.</td>
-            </tr>
-            <tr>
-              <td><strong>Vacío de Data ODS 12.2 y 12.5</strong></td>
-              <td>Ausencia de telemetría y pesaje continuo en Sudamérica</td>
-              <td><span class="badge highlight">PNUMA & CEPAL</span></td>
-              <td>Global Waste Management Outlook (PNUMA) e Informe Regional de Monitoreo ODS (CEPAL).</td>
-            </tr>
-            <tr>
-              <td><strong>Aceptación del Sistema de Incentivos</strong></td>
-              <td>95.3% intención activa de uso</td>
-              <td><span class="badge">Encuesta UNP 2026</span></td>
-              <td>Muestra probabilística de n = 388 universitarios, 95% de confianza, ±5% de error muestral (Pregunta 12: 64.9% sí definitivamente + 30.4% probablemente sí).</td>
-            </tr>
-            <tr>
-              <td><strong>Cero Carga Operativa y Retiro Veloz</strong></td>
-              <td>Menos de 30 segundos por recojo vía red aliada</td>
-              <td><span class="badge">Pruebas Campo UNP</span></td>
-              <td>Cronometraje de retiro directo con bandejas modulares HDPE permitiendo retiro inmediato a la empresa recicladora aliada.</td>
-            </tr>
-            <tr>
-              <td><strong>Costo BOM del Prototipo MVP</strong></td>
-              <td>S/ 3,500 en insumos de hardware</td>
-              <td><span class="badge purple">BOM Ingeniería</span></td>
-              <td>Cotización: celda de carga HX711, ESP32-S3 / RPi, panel monocristalino 100 Wp, batería AGM 35 Ah, chasis HDPE.</td>
-            </tr>
-            <tr>
-              <td><strong>Precio de Venta PET Cristal Limpio</strong></td>
-              <td>S/ 2.50 / kg (98% pureza)</td>
-              <td><span class="badge accent">Mercado Formal</span></td>
-              <td>Cotización directa con empresas formales transformadoras de PET (vs S/ 0.80 en centros de acopio informales sucios).</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-    </div><!-- Fin Tab 4 -->
-
     <footer>
       Q'UPA WASI · Concurso de Emprendimiento e Innovación PUCP · Universidad Nacional de Piura (UNP) · Piura, Perú
     </footer>
@@ -1761,7 +1696,7 @@
   </div>
 
   <script>
-    // Navegación por Pestañas
+    // Navegación por 3 Pestañas Estáticas
     function openTab(tabId) {
       document.querySelectorAll('.tab-pane').forEach(el => el.classList.remove('active'));
       document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
