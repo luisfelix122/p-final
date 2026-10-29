@@ -13,21 +13,21 @@
 | # | Diapositiva | Tiempo | Contenido Visual en Pantalla | Conteo Palabras |
 |---|---|---|---|---|
 | **1** | **Carátula** | 0s | Logo Lab. Emprendimientos + Logo UNP/PUCP + Imagen de Q'UPA WASI | *(Sin diálogo)* |
-| **2** | **Problema** | 10s | Solo imagen de acumulación de residuos + Dato gráfico "2%" | 29 palabras |
+| **2** | **Problema (Evolución de Sectores vs Recolección)** | 10s | Imagen: Industria moderna vs acumulación de residuos + Gráfico "2%" | 38 palabras |
 | **3** | **Clientes (Afectados)** | 10s | Foto de estudiantes y personal de limpieza en el campus | 30 palabras |
 | **4** | **Actualidad** | 10s | Foto de tachos convencionales con bolsas rotas y basura mezclada | 27 palabras |
 | **5** | **Presentación** | 10s | Render / Foto principal del módulo Q'UPA WASI con panel solar | 25 palabras |
-| **6** | **Solución (Paso a Paso + Carga Celular + 30s Vaciado)** | 60s | Video sin audio: 4 pasos (puertos USB carga celular) + telemetría app + vaciado en 30s | 118 palabras |
+| **6** | **Solución (Paso a Paso + Carga Celular + 30s Vaciado)** | 60s | Video sin audio: 4 pasos (puertos USB carga celular) + telemetría app + vaciado en 30s | 110 palabras |
 | **7** | **Modelo de Negocio (Convenios & Promociones)** | 30s | Gráfico simple: S/ 3,500 insumos ➔ Venta Scrap S/ 2.50/kg ➔ Convenios de Promoción | 51 palabras |
 | **8** | **Beneficios (Encuesta 95.3% & Data ODS)** | 20s | 3 íconos: 1. Recarga solar celular · 2. Data ODS 12.2 y 12.5 · 3. Vaciado 30s (40% ahorro) | 54 palabras |
 | **9** | **Proyección y Escalabilidad** | 10s | Ruta visual: 4 meses (Piloto UNP) ➔ 8 meses (Municipalidades de Piura + Tributos) | 36 palabras |
 | **10** | **Equipo** | 10s | Fotos de los 4 integrantes con sus roles clave (Software vs Hardware) | 27 palabras |
 | **11** | **Cierre** | 10s | Imagen inspiradora de ciudad limpia + Frase final contundente | 20 palabras |
-| **TOTAL** | **11 Diapositivas** | **180s (3:00)** | **Apoyo visual sin títulos pesados** | **417 palabras** |
+| **TOTAL** | **11 Diapositivas** | **180s (3:00)** | **Apoyo visual sin títulos pesados** | **418 palabras** |
 
 ---
 
-## 2. Guion Verbatim Calibrado Slide por Slide (417 Palabras Exactas)
+## 2. Guion Verbatim Calibrado Slide por Slide (418 Palabras Exactas)
 
 ---
 
@@ -37,13 +37,12 @@
 
 ---
 
-### Diapositiva 2: Problema (0:00 - 0:10 | 10 segundos | 29 palabras)
-* **Visual en pantalla:** *Solo imagen de impacto de residuos acumulados + gráfico del 2%.*
+### Diapositiva 2: Problema (0:00 - 0:10 | 10 segundos | 38 palabras)
+* **Visual en pantalla:** *Solo imagen del contraste entre industria moderna y acumulación de residuos + gráfico del 2%.*
 
-> "¿Saben cuánto dinero botamos todos los días a la basura?  
-> En el Perú generamos más de veinticuatro mil toneladas diarias y apenas el dos por ciento se logra valorizar."
+> "Todos los sectores productivos han evolucionado y escalado exponencialmente, pero todos generan residuos y la recolección jamás escaló a ese ritmo. En el Perú generamos veinticuatro mil toneladas diarias de basura y apenas el dos por ciento se valoriza."
 
-* `[Dirección Escénica]`: Pregunta con tono retador y mirada fija al centro del jurado. Pausa breve de 1 segundo tras la pregunta.
+* `[Dirección Escénica]`: Tono analítico y retador. Mirar fijamente al jurado, marcando con la voz el contraste entre la evolución industrial y el atraso de la recolección.
 
 ---
 
@@ -74,15 +73,15 @@
 
 ---
 
-### Diapositiva 6: Solución Paso a Paso + Carga de Celular + Vaciado en 30s (0:40 - 1:40 | 60 segundos | 118 palabras)
+### Diapositiva 6: Solución Paso a Paso + Carga de Celular + Vaciado en 30s (0:40 - 1:40 | 60 segundos | 110 palabras)
 * **Visual en pantalla:** *Video corto sin audio: 4 pasos (puerto USB cargando celular) + alerta de app + vaciado en 30 segundos.*
 
 > "Ponerlo en práctica toma cuatro pasos sencillos:  
-> Primero: Te acercas con tu residuo; la estación lo identifica con cámara inteligente y celda de pesaje, abriendo la compuerta con noventa y ocho por ciento de pureza.  
+> Primero: La estación identifica el residuo por cámara y peso, abriendo la compuerta con noventa y ocho por ciento de pureza.  
 > Segundo: Abres la app Q'UPA WASI y escaneas tu código.  
 > Tercero: El sistema valida el depósito y te acredita puntos al instante.  
-> Cuarto: Canjeas tus puntos por minutos de recarga solar de celular en la misma estación, fotocopias o promociones aliadas.  
-> En paralelo, cerramos la brecha de data en Sudamérica para los ODS doce punto dos y doce punto cinco registrando cada gramo en tiempo real. Y la app avisa el nivel de llenado para un vaciado frontal ergonómico en solo treinta segundos, sin riesgo de cortes."
+> Cuarto: Canjeas tus puntos por minutos de recarga solar de celular en la misma estación, fotocopias o promociones.  
+> En paralelo, cerramos la brecha de data en Sudamérica para los ODS doce punto dos y doce punto cinco pesando cada gramo en tiempo real. Y la app avisa el llenado para un vaciado frontal ergonómico en treinta segundos, sin riesgo alguno."
 
 * `[Dirección Escénica]`: Enumerar con los dedos de la mano izquierda: 1, 2, 3, 4. Tono didáctico. Señalar con entusiasmo la recarga solar de celular y el vaciado en 30 segundos.
 
@@ -155,3 +154,7 @@
 ### 3. ¿Por qué mencionan los ODS 12.2 y 12.5 y la falta de data en Sudamérica?
 > **Respuesta:**  
 > "Porque a nivel regional en Sudamérica y en el Perú existe un vacío de datos verificado: el **ODS 12.2** exige gestión eficiente de recursos, pero los municipios no miden cuánto material reincorporan realmente; y el **ODS 12.5** busca reducir desechos al 2030, pero hoy solo se reportan estimaciones en papel no auditables. Q'UPA WASI resuelve este problema de raíz: cada residuo se identifica con cámara y se pesa digitalmente en tiempo real, generando la **primera base de datos verificable y georreferenciada de residuos de Piura**."
+
+### 4. ¿Por qué afirman que la recolección de residuos no ha escalado como los demás sectores productivos?
+> **Respuesta:**  
+> "Porque en las últimas décadas la industria, el comercio, el agro y la tecnología se automatizaron a escala masiva, pero todos ellos inevitablemente generan residuos. Sin embargo, el sector de recolección jamás evolucionó a esa escala: seguimos usando tachos estáticos de plástico inventados hace cincuenta años, recojo manual a ciegas y pesajes en papel. Q'UPA WASI rompe ese atraso histórico llevando la recolección a la misma escala tecnológica de la industria moderna: trazabilidad IoT, telemetría ODS e incentivos automáticos."
