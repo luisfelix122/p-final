@@ -12,131 +12,127 @@
 
 | # | Diapositiva | Tiempo | Contenido Visual en Pantalla y Fuente | Conteo Palabras |
 |---|---|---|---|---|
-| **1** | **Carátula (Gancho de Entrada: Perú, Piura, UNP y Turistas)** | 15s | Logo Lab. Emprendimientos + Logo UNP/PUCP + Imagen Q'UPA WASI + Turistas/Olores *(Fuentes: MINAM/OEFA/UNP)* | 67 palabras |
-| **2** | **Problema (Evolución de Sectores vs Recolección)** | 10s | Imagen: Industria moderna vs tachos primitivos de hace 50 años *(Fuente: Innovación Sectorial)* | 33 palabras |
-| **3** | **Usuarios vs Clientes (Licenciamiento de App SaaS)** | 15s | Comunidad universitaria (usuarios) vs Clientes de App SaaS (Vicerrectorado) + Sello de convenio | 65 palabras |
-| **4** | **Actualidad** | 10s | Foto de tachos convencionales con bolsas rotas y basura mezclada *(Fuente: Auditoría UNP)* | 31 palabras |
-| **5** | **Presentación (La App es el Cerebro de Todo)** | 10s | Módulo Q'UPA WASI + Dashboard de la App Móvil en primer plano | 38 palabras |
-| **6** | **Solución (Paso a Paso + Carga Celular + Recojo en Red)** | 40s | Video sin audio: 4 pasos + telemetría app + recojo en 30s *(Fuente: ODS ONU-CEPAL)* | 96 palabras |
-| **7** | **Modelo de Negocio (SaaS Llave en Mano + Venta Scrap)** | 30s | Gráfico: Cliente financia estaciones ➔ Suscripción mensual App SaaS + Recojo por empresa aliada + Venta Scrap puro | 58 palabras |
-| **8** | **Beneficios (Encuesta 95.3% & Data ODS)** | 20s | 3 íconos: 1. Recarga solar celular · 2. Certificación oficial · 3. Cero carga operativa *(Fuente: Encuesta n=385)* | 56 palabras |
-| **9** | **Proyección y Escalabilidad** | 10s | Ruta visual: 4 meses (Piloto UNP) ➔ 8 meses (Municipalidades de Piura + Tributos) | 40 palabras |
-| **10** | **Equipo** | 10s | Fotos de los 4 integrantes con sus roles clave (Software vs Hardware) | 24 palabras |
-| **11** | **Cierre** | 10s | Imagen inspiradora de ciudad limpia + Frase final contundente | 21 palabras |
-| **TOTAL** | **11 Diapositivas** | **~3:20 Minutos** | **Modelo de Negocio SaaS Asset-Light centrado en la App** | **525 palabras** |
+| **1** | **Carátula (Gancho de Entrada: 24,000 t/día y 2% Valorizado)** | 15s | Logo Lab. Emprendimientos + Logo UNP/PUCP + Imagen Q'UPA WASI *(Fuente: MINAM)* | 44 palabras |
+| **2** | **Problema (Evolución de Sectores vs Tachos Ciegos)** | 10s | Imagen: Industria 4.0 automatizada vs tachos estáticos de hace 50 años | 32 palabras |
+| **3** | **Mercado B2B / Quién Paga (D.L. 1278 y Convenio UNP)** | 15s | B2B/B2G: Obligados por Ley D.L. 1278 + Sello: "Convenio en Revisión Técnica UNP" | 45 palabras |
+| **4** | **Actualidad (Tachos Tradicionales: Tiempo, Contaminación y Desánimo)** | 10s | Foto de reciclaje arruinado por comida + Gráfico: 65% material contaminado | 38 palabras |
+| **5** | **Presentación (La App es el Cerebro Exclusivo del Hardware)** | 10s | Módulo Q'UPA WASI + Dashboard de la App Móvil en primer plano | 33 palabras |
+| **6** | **Solución (Paso a Paso, Incentivos Tangibles y Data ODS)** | 40s | Video demostrativo 4 pasos (QR, compuerta, recarga solar, puntos) + Telemetría ODS | 82 palabras |
+| **7** | **Modelo de Negocio (Suscripción SaaS + Hardware Exclusivo)** | 30s | Gráfico: Adquisición estaciones exclusivas ➔ Suscripción mensual App ➔ Retiro por red aliada | 64 palabras |
+| **8** | **Propuesta de Valor (3 Niveles de Estaciones, Demanda y Auditoría)** | 20s | 3 Niveles (Nivel 3 Universitario) + Estudio de Puntos Estratégicos + 95.3% Adopción | 60 palabras |
+| **9** | **Proyección y Escalabilidad (Público y Privado: Red Departamental)** | 10s | Ruta: 4 meses (Piloto UNP) ➔ 8 meses (Municipios con arbitrios + Centros Comerciales) | 35 palabras |
+| **10** | **Equipo Multidisciplinario (Software/IA vs Hardware/Solar)** | 10s | Software e IA (Informática) vs Hardware y Solar (Electrónica) | 27 palabras |
+| **11** | **Cierre (Slogan de Impacto)** | 10s | Imagen de impacto + "Somos Q'UPA WASI: aquí premiamos tu decisión de cambiar el planeta" | 24 palabras |
+| **TOTAL** | **11 Diapositivas** | **~3:05 Minutos** | **Modelo SaaS Vinculado a Hardware Exclusivo con Trazabilidad ODS** | **484 palabras** |
 
 ---
 
-## 2. Guion Verbatim Calibrado Slide por Slide (525 Palabras)
+## 2. Guion Verbatim Calibrado Slide por Slide (484 Palabras)
 
 ---
 
-### Diapositiva 1: Carátula y Gancho de Entrada (0:00 - 0:15 | 15 segundos | 67 palabras)
-* **Visual en pantalla:** Logo Lab. Emprendimientos + Logo institucional UNP/PUCP + Imagen de Q'UPA WASI + Fotografía de impacto: turistas y visitantes percibiendo acumulación de basura y malos olores. *(Pie de lámina: Fuentes oficiales MINAM / SIGERSOL / OEFA / Diagnóstico UNP)*.
+### Diapositiva 1: Carátula y Gancho de Entrada (0:00 - 0:15 | 15 segundos | 44 palabras)
+* **Visual en pantalla:** Logo Lab. Emprendimientos + Logo institucional UNP/PUCP + Imagen de Q'UPA WASI. *(Pie de lámina: Fuente oficial MINAM / SIGERSOL)*.
 * **Acción:** Plantarse firme en el escenario, mirada fija al centro del jurado y abrir con fuerza:
 
-> "¿Sabían cuánto dinero botamos todos los días a la basura? Según datos oficiales del MINAM y SIGERSOL, el Perú genera más de veinticuatro mil toneladas diarias y apenas el dos por ciento se valoriza. En Piura, según el OEFA, más de quinientas toneladas terminan en botaderos informales como Curumuy; y en nuestra universidad generamos tonelada y media diaria que turistas y visitantes perciben como malos olores y abandono."
+> "¿Sabían cuánto dinero botamos todos los días a la basura? En el Perú generamos más de 24,000 toneladas diarias según el MINAM, y apenas el 2% se valoriza. El 98% restante no es basura: es capital, recursos y oportunidades que se pierden por falta de tecnología en el origen."
 
-* `[Dirección Escénica]`: Tono retador y seguro. Mencionar con firmeza *"MINAM"*, *"OEFA"* y el impacto en *"turistas y visitantes"*.
-
----
-
-### Diapositiva 2: Problema (Evolución de Sectores vs Recolección) (0:15 - 0:25 | 10 segundos | 33 palabras)
-* **Visual en pantalla:** *Contraste: Industria moderna automatizada vs recolección en tachos estáticos de hace 50 años. (Pie de lámina: Diagnóstico de Innovación Sectorial).*
-
-> "Todos los sectores productivos han evolucionado y escalado exponencialmente, pero todos generan residuos y la recolección jamás escaló a ese ritmo: seguimos atrapados en tachos estáticos inventados hace cincuenta años y recojo manual a ciegas."
-
-* `[Dirección Escénica]`: Tono analítico. Contrastar con las manos: mano derecha arriba (industria moderna), mano izquierda abajo (recolección primitiva).
+* `[Dirección Escénica]`: Tono retador y seguro. Mencionar con firmeza *"MINAM"* y remarcar el contraste numérico entre el *"2% valorizado"* y el *"98% de capital perdido"*.
 
 ---
 
-### Diapositiva 3: Usuarios vs Clientes (Licenciamiento de la App) (0:25 - 0:40 | 15 segundos | 65 palabras)
-* **Visual en pantalla:** *Comunidad universitaria (usuarios) vs Entidades obligadas por Ley D.L. 1278 y recicladoras (clientes) + Sello: "Convenio en revisión - Vicerrectorado de Investigación UNP".*
+### Diapositiva 2: Problema (Evolución de Sectores vs Recolección) (0:15 - 0:25 | 10 segundos | 32 palabras)
+* **Visual en pantalla:** *Contraste: Industria 4.0 automatizada vs tachos primitivos obsoletos. (Pie de lámina: Diagnóstico de Innovación Sectorial).*
 
-> "Nuestros usuarios son toda la comunidad universitaria: catorce mil estudiantes, docentes y trabajadores. Pero nuestros verdaderos clientes son las instituciones que pagan la suscripción mensual de la app para certificar sus residuos ante el MINAM y las empresas recicladoras que compran material puro. El Vicerrectorado de Investigación de la UNP ya tiene en revisión nuestro convenio como primer cliente institucional de la app."
+> "La industria se automatizó, el comercio se digitalizó y las ciudades se conectaron; pero la basura se quedó en el pasado. Vivimos en la era de la inteligencia artificial, pero seguimos botando residuos en tachos ciegos de hace 50 años."
 
-* `[Dirección Escénica]`: Tono estratégico de negocios. Diferenciar con claridad entre quién usa la máquina (la comunidad) y quién paga mensualmente por la plataforma de software (la universidad).
-
----
-
-### Diapositiva 4: Actualidad (0:40 - 0:50 | 10 segundos | 31 palabras)
-* **Visual en pantalla:** *Foto real de tachos tradicionales por colores donde se ve comida mezclada con plástico. (Pie de lámina: Fuente Auditoría Interna de Segregación UNP).*
-
-> "Hoy las instituciones usan tachos tradicionales de colores, pero sin incentivos ni control la comida contamina el plástico, destruyendo el sesenta y cinco por ciento del reciclaje y generando sobrecostos de limpieza."
-
-* `[Dirección Escénica]`: Tono de decepción controlada. Señalar la pantalla mostrando el fracaso de la solución actual.
+* `[Dirección Escénica]`: Tono analítico y enérgico. Gesto de contraste con las manos: mano derecha alta (industria conectada e IA), mano izquierda baja (tachos ciegos de hace 50 años).
 
 ---
 
-### Diapositiva 5: Presentación de la Solución (La App es el Cerebro) (0:50 - 1:00 | 10 segundos | 38 palabras)
-* **Visual en pantalla:** *Render del módulo Q'UPA WASI con la interfaz de la App Móvil y el Dashboard en primer plano.*
+### Diapositiva 3: Mercado B2B / Quién Paga (D.L. 1278 y Convenio UNP) (0:25 - 0:40 | 15 segundos | 45 palabras)
+* **Visual en pantalla:** *B2B/B2G: Universidades, Corporaciones y Municipios obligados por Ley D.L. 1278 + Sello: "Convenio en revisión técnica - Vicerrectorado de Investigación UNP".*
 
-> "Para cambiar esto creamos Q'UPA WASI: la plataforma tecnológica que convierte cualquier tacho en una estación inteligente. La app es el cerebro de todo: sin ella son solo tachos ciegos; con ella, es telemetría, incentivos y control legal en tiempo real."
+> "Nuestro mercado no depende del bolsillo del estudiante: vendemos a quienes están obligados por ley a certificar sus residuos. El D.L. 1278 exige a universidades, empresas y municipios declarar su gestión ante el MINAM bajo multas de hasta 100 UIT. El Vicerrectorado de Investigación de la UNP ya tiene en revisión técnica nuestro primer convenio."
 
-* `[Dirección Escénica]`: Cambio radical de energía. Enfatizar con la voz: *"la app es el cerebro de todo"*. Postura erguida y sonrisa de orgullo técnico.
-
----
-
-### Diapositiva 6: Solución Paso a Paso + Carga de Celular + Recojo en 30s (1:00 - 1:40 | 40 segundos | 96 palabras)
-* **Visual en pantalla:** *Video corto sin audio: 4 pasos (puertos USB carga celular) + telemetría app + recojo en 30s. (Pie de lámina: Fuente Metodología ODS 12.2 / 12.5 ONU-CEPAL).*
-
-> "Funciona en cuatro pasos sencillos:  
-> Primero: La estación identifica el residuo por cámara y peso, abriendo la compuerta con noventa y ocho por ciento de pureza.  
-> Segundo: Escaneas tu código en la app Q'UPA WASI.  
-> Tercero: Recibes puntos al instante.  
-> Cuarto: Canjeas minutos de recarga solar de celular en el módulo, impresiones o promociones aliadas.  
-> En paralelo, entregamos a la institución telemetría auditable en tiempo real para certificar ante el MINAM y los ODS doce punto dos y doce punto cinco. Y la app alerta el llenado para el recojo programado por nuestra red aliada en apenas treinta segundos."
-
-* `[Dirección Escénica]`: Enumerar con los dedos de la mano izquierda: 1, 2, 3, 4. Tono didáctico. Señalar con entusiasmo la recarga solar de celular, la telemetría ODS y el recojo veloz en 30 segundos.
+* `[Dirección Escénica]`: Tono estratégico de negocios. Postura ejecutiva. Destacar *"D.L. 1278"*, *"multas de hasta 100 UIT"* y la tracción real con el *"Vicerrectorado de Investigación"*.
 
 ---
 
-### Diapositiva 7: Modelo de Negocio (SaaS Llave en Mano + Venta Scrap) (1:40 - 2:10 | 30 segundos | 58 palabras)
-* **Visual en pantalla:** *Gráfico de flujo: Cliente financia estaciones (CAPEX) ➔ Suscripción mensual App SaaS (Ingreso recurrente) ➔ Empresa recicladora aliada retira residuo (Cero fricción operativa) ➔ Venta Scrap S/ 2.50/kg (Ganancia directa). (Pie de lámina: Modelo SaaS Llave en Mano Asset-Light).*
+### Diapositiva 4: Actualidad (Tachos Tradicionales: Tiempo, Contaminación y Desánimo) (0:40 - 0:50 | 10 segundos | 38 palabras)
+* **Visual en pantalla:** *Foto real de reciclaje arruinado por restos orgánicos + Indicador: 65% de material contaminado en origen. (Pie de lámina: Auditoría Interna de Segregación UNP).*
 
-> "Nuestro modelo es Software as a Service llave en mano: la institución financia las estaciones y paga la suscripción mensual de la app. El cliente se olvida de la recolección: nuestra red de empresas recicladoras aliadas retira el material alertada por la plataforma. Nosotros capturamos ingresos recurrentes por el software y monetizamos la venta del plástico puro."
+> "Los tachos tradicionales fracasan: demandan el doble de tiempo en mantenimiento, y cuando un usuario ve que todo al final se mezcla en la misma bolsa, se desmotiva y deja de reciclar. Hoy, el 65% del material potencialmente reciclable se arruina en el mismo tacho por contaminación cruzada."
 
-* `[Dirección Escénica]`: Tono seguro de negocios. Mirar fijamente a los empresarios del tribunal. Articular con nitidez *"Software as a Service llave en mano"*, *"el cliente se olvida de la recolección"* y *"nosotros capturamos ingresos recurrentes"*.
-
----
-
-### Diapositiva 8: Beneficios, Encuesta y Cero Fricción (2:10 - 2:30 | 20 segundos | 56 palabras)
-* **Visual en pantalla:** *95.3% aceptación (Pie de lámina: Fuente Encuesta Técnica UNP n=385, 95% Confianza) + 3 íconos: 1. Recarga solar celular · 2. Certificación oficial · 3. Cero carga operativa (retiro en 30s por red aliada).*
-
-> "Nuestra encuesta técnica a trescientos ochenta y cinco universitarios confirmó noventa y cinco punto tres por ciento de aceptación con tres beneficios:  
-> Primero: Utilidad inmediata con recarga solar de celular.  
-> Segundo: Certificación oficial de datos para la universidad.  
-> Y tercero: Cero carga operativa para la institución gracias al retiro directo de nuestra red aliada en menos de treinta segundos."
-
-* `[Dirección Escénica]`: Marcar con seguridad los 3 puntos: *"recarga solar"*, *"certificación oficial"* y *"cero carga operativa"*.
+* `[Dirección Escénica]`: Tono de decepción controlada y sentido común. Señalar la pantalla evidenciando la desmotivación del usuario y el material contaminado.
 
 ---
 
-### Diapositiva 9: Proyección y Escalabilidad (2:30 - 2:40 | 10 segundos | 40 palabras)
-* **Visual en pantalla:** *Ruta visual: 4 meses (Piloto UNP / Vicerrectorado) ➔ 8 meses (Municipalidades de Piura + Arbitrios / Beneficios Tributarios).*
+### Diapositiva 5: Presentación de Q'UPA WASI (La App es el Cerebro) (0:50 - 1:00 | 10 segundos | 33 palabras)
+* **Visual en pantalla:** *Render de la estación inteligente Q'UPA WASI con la interfaz de la App Móvil en primer plano.*
 
-> "En cuatro meses validamos el piloto con el Vicerrectorado de la UNP; y en ocho meses escalamos a municipalidades de Piura, vinculando los puntos a beneficios tributarios en arbitrios para los vecinos y creando la primera red departamental inteligente de residuos."
+> "Frente a tachos mudos creamos Q'UPA WASI: la estación inteligente donde el hardware solo cobra vida a través de nuestra app. La app es el cerebro: sin ella es solo metal; con ella, es trazabilidad, telemetría y valor económico inmediato."
 
-* `[Dirección Escénica]`: Tono ágil y seguro al mencionar *"beneficios tributarios"* y *"primera red departamental inteligente"*. Gesto de apertura con ambas manos.
-
----
-
-### Diapositiva 10: Equipo (2:40 - 2:50 | 10 segundos | 24 palabras)
-* **Visual en pantalla:** *Fotos de los 4 estudiantes con sus nombres y división técnica (Software vs Electrónica).*
-
-> "Somos estudiantes de la UNP con roles definidos: Luis y Cristopher en software e inteligencia artificial; Joyser y Fernando en electrónica, sensores y energía solar."
-
-* `[Dirección Escénica]`: Tono de camaradería y confianza en las capacidades del equipo para ejecutar.
+* `[Dirección Escénica]`: Subida de energía y entusiasmo. Marcar el contraste: *"sin ella es solo metal; con ella, es trazabilidad y valor económico"*.
 
 ---
 
-### Diapositiva 11: Cierre (2:50 - 3:00 | 10 segundos | 21 palabras)
-* **Visual en pantalla:** *Imagen inspiradora de ciudad limpia y moderna + Frase final contundente.*
+### Diapositiva 6: Solución: Paso a Paso, Incentivos Tangibles y Data ODS (1:00 - 1:40 | 40 segundos | 82 palabras)
+* **Visual en pantalla:** *Video demostrativo de 4 pasos (escaneo QR, compuerta inteligente, recarga solar, dashboard ODS). (Pie de lámina: Metodología ODS 12.2 / 12.5 ONU-CEPAL).*
 
-> "La basura mezclada siempre será un costo; pero segregada con inteligencia es un recurso valioso y rentable.  
-> Somos Q'UPA WASI. Muchas gracias."
+> "La experiencia es instantánea y premia al usuario en 4 pasos:  
+> 1. Te acercas: la estación identifica el residuo por cámara y peso abriendo la compuerta con 98% de pureza.  
+> 2. Escaneas tu código QR en la app Q'UPA WASI.  
+> 3. Depositas: el sistema valida el plástico y te acredita puntos al segundo.  
+> 4. Canjeas: minutos de recarga solar para tu celular en el mismo módulo, impresiones o promociones aliadas.  
+> Mientras el usuario se fideliza con incentivos reales, la institución recibe telemetría auditable en tiempo real para sus metas ODS 12.2 y 12.5."
 
-* `[Dirección Escénica]`: Pausa de 2 segundos antes de decir la frase final. Bajar la velocidad de la voz, mirar a los ojos a todo el jurado, sonreír y agradecer firmemente.
+* `[Dirección Escénica]`: Enumerar dinámicamente con los dedos: 1, 2, 3, 4. Tono didáctico y fluido. Enfatizar los incentivos reales y la data ODS.
+
+---
+
+### Diapositiva 7: Modelo de Negocio (Suscripción SaaS + Hardware Exclusivo) (1:40 - 2:10 | 30 segundos | 64 palabras)
+* **Visual en pantalla:** *Flujo: Adquisición de estaciones exclusivas Q'UPA WASI ➔ Suscripción mensual App SaaS ➔ Red de recicladores aliados retira residuo ➔ Venta PET Cristal S/ 2.50/kg. (Pie de lámina: Modelo Asset-Light de Software Vinculado).*
+
+> "Operamos con un modelo SaaS vinculado a hardware exclusivo: la institución adquiere las estaciones Q'UPA WASI y paga una suscripción mensual por la plataforma de software, telemetría y soporte continuo. Ninguna otra app funciona con nuestros módulos. La recolección la ejecuta nuestra red de recicladores formales aliados, y nosotros monetizamos la suscripción recurrente de la app más el margen del plástico puro."
+
+* `[Dirección Escénica]`: Mirada directa al jurado empresarial. Articular con convicción: *"modelo SaaS vinculado a hardware exclusivo"*, *"ninguna otra app funciona con nuestros módulos"* y *"suscripción recurrente"*.
+
+---
+
+### Diapositiva 8: Propuesta de Valor, Paquetes y Demanda (2:10 - 2:30 | 20 segundos | 60 palabras)
+* **Visual en pantalla:** *Tabla de 3 Paquetes: Nivel 1 (Esencial), Nivel 2 (Conectado), Nivel 3 (Avanzado IA/Solar - Recomendado UNP) + Estudio Técnico de Puntos Estratégicos + Validación de Demanda: 95.3% adopción usuarios (n=385) y 100% necesidad legal de entidades.*
+
+> "Ofrecemos 3 niveles de estaciones: desde la versión básica hasta el Nivel 3 Avanzado con IA y panel solar, recomendado para campus universitarios. Incluimos el estudio técnico de puntos estratégicos y entregamos reportes mensuales auditables. La demanda está validada: el 95.3% de los usuarios encuestados confirmó su adopción activa por los incentivos, y las instituciones garantizan su cumplimiento legal ambiental."
+
+* `[Dirección Escénica]`: Presentar con aplomo los 3 niveles de estaciones, el valor agregado del estudio de puntos estratégicos y la validación dual (usuarios activos y entidades obligadas).
+
+---
+
+### Diapositiva 9: Proyección y Escalabilidad (Público y Privado: Red Departamental) (2:30 - 2:40 | 10 segundos | 35 palabras)
+* **Visual en pantalla:** *Ruta visual de expansión: 4 meses (Piloto UNP) ➔ 8 meses (Municipalidades con Arbitrios + Complejos Comerciales, Clínicas y Terminales en todo Piura).*
+
+> "Nuestra escalabilidad no se detiene en las universidades: la ley aplica a todo el sector público y privado. En 4 meses validamos el piloto UNP; y en 8 meses escalamos a municipios con descuentos en arbitrios y a complejos comerciales en todo el departamento."
+
+* `[Dirección Escénica]`: Gesto amplio de visión y crecimiento departamental. Remarcar *"sector público y privado"* y *"descuentos en arbitrios"*.
+
+---
+
+### Diapositiva 10: Equipo Multidisciplinario (Software/IA vs Hardware/Solar) (2:40 - 2:50 | 10 segundos | 27 palabras)
+* **Visual en pantalla:** *Fotos de los 4 fundadores UNP divididos por especialidad: Software e IA (Informática) vs Hardware y Solar (Electrónica).*
+
+> "Somos un equipo técnico complementario de la UNP: en el software e inteligencia artificial de la app, Luis y Cristopher; y en la ingeniería de hardware, sensórica y energía solar, Joyser y Fernando."
+
+* `[Dirección Escénica]`: Sonrisa de equipo, postura firme y orgullo de complementariedad técnica real.
+
+---
+
+### Diapositiva 11: Cierre y Slogan de Impacto (2:50 - 3:00 | 10 segundos | 24 palabras)
+* **Visual en pantalla:** *Logo oficial Q'UPA WASI + Slogan central: "Aquí premiamos tu decisión de cambiar el planeta" + Contacto y QR.*
+
+> "La basura mezclada siempre será un gasto; pero valorizada con tecnología es riqueza y futuro. Somos Q'UPA WASI: aquí premiamos tu decisión de cambiar el planeta. Muchas gracias."
+
+* `[Dirección Escénica]`: Bajar ligeramente el ritmo para que cada palabra resuene. Mirada fija a los evaluadores, sonrisa cálida, pausa de 2 segundos y agradecimiento final.
 
 ---
 
@@ -169,17 +165,17 @@
 >   1. **Entidades Generadoras Obligadas por Ley (B2B/B2G):** Universidades, municipalidades y empresas que por el **D.L. 1278 (Ley de Gestión Integral de Residuos Sólidos)** tienen la obligación legal de reportar a SIGERSOL y certificar trazabilidad ambiental bajo riesgo de multas de hasta 100 UIT de OEFA. A ellos les cobramos una suscripción SaaS de S/ 150 a S/ 200 mensuales por módulo para entregarles datos certificados y dashboards ODS 12.2 y 12.5.  
 >   2. **Empresas Transformadoras y Recicladoras Formales:** Compran nuestro scrap de PET cristal segregado en origen con 98% de pureza a S/ 2.50 el kilo (triplicando el precio de acopio informal)."
 
-### 6. ¿Cuáles son las métricas financieras del proyecto para inversionistas (VAN, TIR, Payback y producción inicial)?
+### 6. ¿Cuáles son las opciones de estaciones (paquetes) y las métricas financieras del proyecto?
 > **Respuesta:**  
-> "Nuestros unit economics y proyecciones financieras están calculados sobre bases técnicas sólidas:  
-> * **Costo de Producción (BOM):** Fabricar cada módulo cuesta exactamente **S/ 3,500 en insumos de hardware** (celda de pesaje HX711, ESP32, cámaras, panel solar de 100 Wp, batería AGM de ciclo profundo y chasis HDPE).  
-> * **Lote Inicial:** Arrancamos con **1 estación prototipo funcional** financiada con capital semilla, y un plan de despliegue de **3 a 5 módulos** en el campus central de la UNP (frente a Comedor, Biblioteca y Pabellones de Ingeniería).  
-> * **Ingreso Promedio Mensual por Estación:** ~S/ 750 a S/ 900 al mes (Scrap PET limpio: ~S/ 450 + Suscripción SaaS telemetría: S/ 180 + Publicidad local en panel: S/ 150).  
-> * **Payback (Periodo de Recuperación):** **4.5 a 5 meses por módulo**.  
-> * **Evaluación Financiera a 3 años (Red de 5 módulos):**  
->   * **Inversión Inicial:** S/ 17,500.  
->   * **VAN (Valor Actual Neto al 12% COK):** **S/ 28,450**.  
->   * **TIR (Tasa Interna de Retorno):** **48.6%**, demostrando una rentabilidad excepcional impulsada por el bajo costo de hardware y la doble vía de monetización (material físico + software recurrente)."
+> "Ofrecemos tres niveles de estaciones según las necesidades del cliente:  
+> * **Nivel 1 (Esencial):** Pesaje básico y compuerta con sensores para puntos de bajo tránsito.  
+> * **Nivel 2 (Conectado):** Telemetría continua, control de volumen ultrasónico y sincronización con la app móvil.  
+> * **Nivel 3 (Avanzado IA / Solar - Recomendado UNP):** Clasificación por visión computacional, celda de carga HX711, panel solar monocristalino de 100 Wp, batería AGM y puertos USB para recarga de celular. Su costo de insumos de hardware (BOM) es de **S/ 3,500**.  
+> Incluimos sin costo adicional el **estudio técnico de puntos estratégicos** de tráfico en el campus o sede.  
+> * **Métricas de Rentabilidad:**  
+>   * **Ingreso Promedio Mensual por Estación:** ~S/ 750 a S/ 900 (Scrap PET limpio: ~S/ 450 + Suscripción SaaS: S/ 180 + Publicidad en panel: S/ 150).  
+>   * **Payback:** **4.5 a 5 meses por módulo**.  
+>   * **Red de 5 módulos a 3 años:** Inversión de S/ 17,500 | **VAN (12% COK): S/ 28,450** | **TIR: 48.6%**."
 
 ### 7. ¿Cuál es el estado formal del proyecto con el Vicerrectorado de Investigación de la UNP?
 > **Respuesta:**  
@@ -191,12 +187,12 @@
 
 ### 9. ¿Por qué afirman que su verdadero producto es la app y no los tachos de basura?
 > **Respuesta:**  
-> "Porque los tachos son solo un contenedor físico; sin nuestra tecnología, un tacho no identifica, no pesa, no entrega incentivos ni certifica datos ante el Estado. Nuestro modelo es **Hardware-Enabled SaaS (Software as a Service) Llave en Mano**:  
-> 1. **El cliente asume el CAPEX:** La institución o empresa financia la compra de las estaciones físicas (S/ 3,500 por módulo).  
-> 2. **Operación tercerizada sin fricción (Llave en mano):** La institución cliente no gasta tiempo de su personal ni se preocupa por la basura: la recolección la realiza nuestra red vinculada de empresas recicladoras formales (EO-RS / asociaciones registradas), que reciben alertas automáticas de llenado y rutas optimizadas desde la app. El cliente se desentiende por completo de la logística operativa y solo recibe reportes limpios y certificados.  
-> 3. **Nosotros vendemos el software:** Les cobramos una suscripción mensual recurrente por la app móvil, la gestión de puntos, el dashboard de telemetría y los reportes oficiales auditables para el MINAM y OEFA.  
-> 4. **Ganancia del scrap:** El material segregado con 98% de pureza se vende a la industria transformadora formal (S/ 2.50/kg), convirtiéndose en un margen neto directo para nosotros.  
-> Esto nos convierte en un negocio **altamente escalable y liviano en activos (asset-light)**: no compramos camiones de basura, no cargamos planillas de limpieza, sino que escalamos a nivel nacional articulando a los actores mediante software."
+> "Porque los tachos son solo un contenedor físico; sin nuestra tecnología, un tacho no identifica, no pesa, no entrega incentivos ni certifica datos ante el Estado. Nuestro modelo es **SaaS Vinculado a Hardware Exclusivo**:  
+> 1. **Hardware Exclusivo:** Las estaciones físicas solo operan con el software de Q'UPA WASI; no vendemos el código ni permitimos otra app. El cliente adquiere los módulos según el nivel elegido (S/ 3,500 para Nivel 3).  
+> 2. **Suscripción Mensual SaaS:** La institución paga una mensualidad recurrente por el uso de la app, el sistema de puntos, el dashboard de telemetría y los reportes oficiales auditables para el MINAM y OEFA.  
+> 3. **Recolección Articulada:** La recolección la realiza nuestra red asociada de recicladores formales (EO-RS / asociaciones registradas) que reciben alertas de llenado por la app. El cliente no sobrecarga a su personal de limpieza.  
+> 4. **Monetización Dual:** Ganamos por la suscripción mensual del software más el margen neto de venta del material de alta pureza (S/ 2.50/kg).  
+> Es un modelo **asset-light y altamente escalable**: no compramos camiones de basura ni cargamos planillas de recolección municipal, sino que escalamos a nivel departamental y nacional a través del software."
 
 ---
 
