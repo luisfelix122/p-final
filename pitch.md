@@ -1,7 +1,7 @@
 # Q'UPA WASI — Guion Oficial de 3 Minutos y Estructura de 11 Diapositivas
 
 > **Ubicación:** `OneDrive\Escritorio\p-final\pitch.md` *(Sincronizado con `index.html` y GitHub Pages)*  
-> **Proyecto:** Q'UPA WASI (Estación Inteligente + App Móvil)  
+> **Proyecto:** Q'UPA WASI (Estación Inteligente Solar + App Móvil)  
 > **Equipo:** Estudiantes de Ingeniería Informática e Ingeniería Electrónica y Telecomunicaciones — Universidad Nacional de Piura (UNP)  
 > **Integrantes:** Luis Felix Gonzales Sandoval, Cristopher Carrasco, Joyser Vásquez, Fernando Zapata  
 > **Formato de Competencia:** 11 Diapositivas sin títulos extensos (solo imágenes/video sin audio/gráficos) | 3:00 Minutos exactos (180 segundos) | Palabras sencillas y precisas (cero tecnicismos innecesarios).
@@ -17,17 +17,17 @@
 | **3** | **Clientes (Afectados)** | 10s | Foto de estudiantes y personal de limpieza en el campus | 30 palabras |
 | **4** | **Actualidad** | 10s | Foto de tachos convencionales con bolsas rotas y basura mezclada | 27 palabras |
 | **5** | **Presentación** | 10s | Render / Foto principal del módulo Q'UPA WASI con panel solar | 25 palabras |
-| **6** | **Solución (Paso a Paso + ODS 12.2 y 12.5)** | 60s | Video demostrativo sin audio: 4 pasos + dashboard de data en tiempo real + vaciado ergonómico | 114 palabras |
-| **7** | **Modelo de Negocio (Convenios)** | 30s | Gráfico simple: S/ 3,500 insumos ➔ Venta Scrap S/ 2.50/kg ➔ Convenios con Socios Clave | 53 palabras |
-| **8** | **Beneficios (Encuesta 95.3% & Data ODS)** | 20s | 3 íconos: 1. Incentivo rápido · 2. Data ODS 12.2 y 12.5 (Piura) · 3. 40% ahorro limpieza | 57 palabras |
-| **9** | **Proyección y Escalabilidad** | 10s | Ruta visual: 4 meses (Piloto UNP) ➔ 8 meses (Convenios con Municipalidades de Piura + Tributos) | 36 palabras |
+| **6** | **Solución (Paso a Paso + Carga Celular + 30s Vaciado)** | 60s | Video sin audio: 4 pasos (puertos USB carga celular) + telemetría app + vaciado en 30s | 118 palabras |
+| **7** | **Modelo de Negocio (Convenios & Promociones)** | 30s | Gráfico simple: S/ 3,500 insumos ➔ Venta Scrap S/ 2.50/kg ➔ Convenios de Promoción | 51 palabras |
+| **8** | **Beneficios (Encuesta 95.3% & Data ODS)** | 20s | 3 íconos: 1. Recarga solar celular · 2. Data ODS 12.2 y 12.5 · 3. Vaciado 30s (40% ahorro) | 54 palabras |
+| **9** | **Proyección y Escalabilidad** | 10s | Ruta visual: 4 meses (Piloto UNP) ➔ 8 meses (Municipalidades de Piura + Tributos) | 36 palabras |
 | **10** | **Equipo** | 10s | Fotos de los 4 integrantes con sus roles clave (Software vs Hardware) | 27 palabras |
 | **11** | **Cierre** | 10s | Imagen inspiradora de ciudad limpia + Frase final contundente | 20 palabras |
-| **TOTAL** | **11 Diapositivas** | **180s (3:00)** | **Apoyo visual sin títulos pesados** | **418 palabras** |
+| **TOTAL** | **11 Diapositivas** | **180s (3:00)** | **Apoyo visual sin títulos pesados** | **417 palabras** |
 
 ---
 
-## 2. Guion Verbatim Calibrado Slide por Slide (418 Palabras Exactas)
+## 2. Guion Verbatim Calibrado Slide por Slide (417 Palabras Exactas)
 
 ---
 
@@ -74,40 +74,40 @@
 
 ---
 
-### Diapositiva 6: Solución Paso a Paso + Data ODS (0:40 - 1:40 | 60 segundos | 114 palabras)
-* **Visual en pantalla:** *Video corto sin audio o secuencia gráfica: 4 pasos + pantalla de telemetría ODS + vaciado ergonómico.*
+### Diapositiva 6: Solución Paso a Paso + Carga de Celular + Vaciado en 30s (0:40 - 1:40 | 60 segundos | 118 palabras)
+* **Visual en pantalla:** *Video corto sin audio: 4 pasos (puerto USB cargando celular) + alerta de app + vaciado en 30 segundos.*
 
-> "Ponerlo en práctica toma cuatro pasos muy sencillos:  
-> Primero: Te acercas con tu residuo; la estación lo identifica con cámara inteligente y celda de pesaje, abriendo la compuerta correcta con noventa y ocho por ciento de pureza.  
+> "Ponerlo en práctica toma cuatro pasos sencillos:  
+> Primero: Te acercas con tu residuo; la estación lo identifica con cámara inteligente y celda de pesaje, abriendo la compuerta con noventa y ocho por ciento de pureza.  
 > Segundo: Abres la app Q'UPA WASI y escaneas tu código.  
-> Tercero: El sistema valida el depósito y te acredita puntos inmediatos.  
-> Cuarto: Canjeas tus puntos por impresiones, fotocopias y descuentos en cafeterías aliadas.  
-> En paralelo, cerramos una brecha crítica: en Sudamérica no existe data confiable para los ODS doce punto dos y doce punto cinco sobre reducción de residuos; nuestro sistema registra cada gramo en tiempo real, mientras sus bandejas frontales ergonómicas protegen al personal de limpieza de cortes y sobreesfuerzos."
+> Tercero: El sistema valida el depósito y te acredita puntos al instante.  
+> Cuarto: Canjeas tus puntos por minutos de recarga solar de celular en la misma estación, fotocopias o promociones aliadas.  
+> En paralelo, cerramos la brecha de data en Sudamérica para los ODS doce punto dos y doce punto cinco registrando cada gramo en tiempo real. Y la app avisa el nivel de llenado para un vaciado frontal ergonómico en solo treinta segundos, sin riesgo de cortes."
 
-* `[Dirección Escénica]`: Enumerar con los dedos de la mano izquierda: 1, 2, 3, 4. Tono didáctico. Enfatizar con autoridad la mención de *"Sudamérica no tiene data para los ODS 12.2 y 12.5"*.
+* `[Dirección Escénica]`: Enumerar con los dedos de la mano izquierda: 1, 2, 3, 4. Tono didáctico. Señalar con entusiasmo la recarga solar de celular y el vaciado en 30 segundos.
 
 ---
 
-### Diapositiva 7: Modelo de Negocio y Convenios (1:40 - 2:10 | 30 segundos | 53 palabras)
-* **Visual en pantalla:** *Gráfico limpio: Costo Insumos S/ 3,500 ➔ Venta Scrap S/ 2.50/kg ➔ Convenios con Socios Clave.*
+### Diapositiva 7: Modelo de Negocio y Convenios (1:40 - 2:10 | 30 segundos | 51 palabras)
+* **Visual en pantalla:** *Gráfico limpio: Costo Insumos S/ 3,500 ➔ Venta Scrap S/ 2.50/kg ➔ Convenios de Promoción con Comercios.*
 
 > "Fabricar nuestro módulo cuesta solo tres mil quinientos soles en insumos.  
 > Monetizamos vendiendo el plástico limpio a dos soles cincuenta por kilo, triplicando su valor, sumado a una suscripción mensual de telemetría a la universidad.  
-> Fidelizamos al estudiante mediante convenios con socios clave: las fotocopiadoras locales que financian los beneficios para captar clientes."
+> Fidelizamos al estudiante mediante convenios con socios clave: comercios locales que financian promociones para captar clientes."
 
-* `[Dirección Escénica]`: Tono seguro de negocios. Mirar fijamente a los empresarios del tribunal. Articular con nitidez *"dos soles cincuenta"* y *"convenios con socios clave"*.
+* `[Dirección Escénica]`: Tono seguro de negocios. Mirar fijamente a los empresarios del tribunal. Articular con nitidez *"dos soles cincuenta"* y *"financian promociones"*.
 
 ---
 
-### Diapositiva 8: Beneficios y Encuesta (2:10 - 2:30 | 20 segundos | 57 palabras)
-* **Visual en pantalla:** *Cifra destacada: 95.3% aceptación (n=385) + 3 íconos: 1. Incentivo directo · 2. Data ODS 12.2 y 12.5 · 3. 40% ahorro limpieza.*
+### Diapositiva 8: Beneficios, Encuesta y Eficiencia (2:10 - 2:30 | 20 segundos | 54 palabras)
+* **Visual en pantalla:** *95.3% aceptación (n=385) + 3 íconos: 1. Recarga solar celular · 2. Data ODS 12.2 y 12.5 · 3. Vaciado en 30s (40% ahorro).*
 
-> "Ofrecemos tres propuestas de valor validadas en nuestra encuesta a trescientos ochenta y cinco universitarios con noventa y cinco punto tres por ciento de aceptación:  
-> Primero: Incentivo directo y fácil acceso.  
-> Segundo: La primera base de datos auditable de Piura para los ODS doce punto dos y doce punto cinco.  
-> Y tercero: Ahorro del cuarenta por ciento en tiempo de limpieza."
+> "Nuestra encuesta a trescientos ochenta y cinco universitarios confirmó noventa y cinco punto tres por ciento de aceptación con tres beneficios:  
+> Primero: Incentivo útil como recarga solar de celular.  
+> Segundo: Data auditable de Piura para ODS doce punto dos y doce punto cinco.  
+> Y tercero: Vaciado seguro en treinta segundos con cuarenta por ciento de ahorro en limpieza."
 
-* `[Dirección Escénica]`: Marcar con orgullo el *"noventa y cinco punto tres por ciento"* y la *"primera base de datos de Piura para los ODS"*.
+* `[Dirección Escénica]`: Marcar con seguridad los 3 puntos: *"recarga solar"*, *"data ODS"* y *"vaciado en treinta segundos"*.
 
 ---
 
@@ -141,23 +141,17 @@
 
 ## 3. Matriz de Preguntas de Defensa (Rúbrica Oficial y Sugerencias del Asesor)
 
-### 1. ¿Por qué mencionan los ODS 12.2 y 12.5 y la falta de data en Sudamérica?
+### 1. ¿Cómo funciona la recarga de celular y por qué no entregan dinero en efectivo?
 > **Respuesta:**  
-> "Porque a nivel regional en Sudamérica y en el Perú existe un vacío de datos verificado por organismos internacionales:  
-> * **ODS 12.2:** Exige gestión sostenible y uso eficiente de los recursos naturales, pero los municipios no miden cuánto material reincorporan realmente a la cadena de valor.  
-> * **ODS 12.5:** Busca reducir la generación de desechos mediante reciclado y reutilización al 2030, pero hoy solo se reportan estimaciones en papel que no son auditables ni fiables.  
-> Q'UPA WASI resuelve este problema de raíz: cada residuo se identifica con cámara y se pesa digitalmente con celda de carga en tiempo real, generando la **primera base de datos verificable y georreferenciada de residuos** de Piura para que las instituciones y municipios certifiquen su cumplimiento real de los ODS."
+> "Entregar dinero en efectivo genera incentivos perversos y costos de administración bancaria inviables. Nuestro enfoque es entregar **utilidad inmediata sin costo de caja**: la estación está equipada con un panel solar monocristalino de 100 Wp y una batería AGM de ciclo profundo que alimentan tres puertos USB de carga rápida temporizada. El usuario deposita sus botellas o latas y la app le activa minutos de carga directa para su teléfono en el propio módulo. Es una solución práctica que resuelve una necesidad urgente de los estudiantes en el campus y no cuesta un solo sol de caja."
 
-### 2. ¿Qué convenios sustentan la operación y cómo aseguran que no les cueste dinero?
+### 2. ¿Cómo logran vaciar la estación en solo 30 segundos frente a los 5 minutos convencionales?
 > **Respuesta:**  
-> "Manejamos una estrategia de 4 tipos de convenios:  
-> 1. **Convenios Institucionales (UNP):** Autorización de espacio físico techado y de alto tránsito frente al comedor central.  
-> 2. **Convenios Comerciales Locales (Tráfico Cruzado):** Concesionarios, librerías y fotocopiadoras del campus otorgan los descuentos (10% en copias o menús) a cambio de los cientos de clientes fidelizados que la app les envía diariamente; a nosotros no nos cuesta efectivo.  
-> 3. **Convenios con Plantas Transformadoras:** Venta directa de PET cristal limpio (98% pureza) a S/ 2.50 el kilo a empresas formales de reciclaje.  
-> 4. **Convenios con Municipalidades de Piura:** Para escalar hacia espacios públicos, permitiendo que los vecinos canjeen puntos por beneficios tributarios (descuentos en arbitrios por segregación en la fuente)."
+> "En los tachos convencionales, el trabajador de limpieza debe meter los brazos al fondo del contenedor fijo, lidiar con bolsas rotas, lixiviados y riesgo constante de cortes con latas o vidrios, demorando entre 4 y 5 minutos por tacho.  
+> Q'UPA WASI resuelve esto con dos innovaciones:  
+> 1. **Alertas en la App:** Los sensores ultrasónicos notifican al personal en su celular cuando un compartimento llega al 80%, evitando que hagan rondas a ciegas a revisar tachos vacíos.  
+> 2. **Bandejas Frontales Ergonómicas:** La estación se abre por delante y los contenedores modulares de plástico virgen HDPE se deslizan suavemente hacia afuera mediante rieles. El operario retira la bolsa limpia a la altura de la cintura en **menos de 30 segundos**, sin sobreesfuerzo lumbar ni riesgo biológico."
 
-### 3. ¿Cuáles fueron los resultados exactos de la encuesta de validación?
+### 3. ¿Por qué mencionan los ODS 12.2 y 12.5 y la falta de data en Sudamérica?
 > **Respuesta:**  
-> "Encuestamos a **385 personas en el campus de la UNP** (muestra estadísticamente representativa con 95% de nivel de confianza y 5% de margen de error):  
-> * **95.3%** declaró su disposición activa a utilizar la estación inteligente de forma continua si cuenta con incentivos canjeables en su celular.  
-> * **78%** reconoció que hoy no separa residuos porque los tachos actuales son confusos, están lejos o sienten que al final todo se junta en el camión de basura. Esto demuestra que la falta de segregación no es desinterés, sino falta de incentivos y tecnología adecuada."
+> "Porque a nivel regional en Sudamérica y en el Perú existe un vacío de datos verificado: el **ODS 12.2** exige gestión eficiente de recursos, pero los municipios no miden cuánto material reincorporan realmente; y el **ODS 12.5** busca reducir desechos al 2030, pero hoy solo se reportan estimaciones en papel no auditables. Q'UPA WASI resuelve este problema de raíz: cada residuo se identifica con cámara y se pesa digitalmente en tiempo real, generando la **primera base de datos verificable y georreferenciada de residuos de Piura**."
