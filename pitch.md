@@ -19,15 +19,15 @@
 | **5** | **Presentación** | 10s | Render / Foto principal del módulo Q'UPA WASI con panel solar | 25 palabras |
 | **6** | **Solución (Paso a Paso + ODS)** | 60s | Video demostrativo sin audio: 4 pasos + dashboard de data en tiempo real + vaciado ergonómico | 110 palabras |
 | **7** | **Modelo de Negocio** | 30s | Gráfico simple: S/ 3,500 insumos ➔ Venta Scrap S/ 2.50/kg ➔ Socios Clave | 53 palabras |
-| **8** | **Beneficios (ODS y Valor)** | 20s | 3 íconos: 1. Incentivo directo · 2. Data auditable ODS (Piura) · 3. 40% ahorro limpieza | 48 palabras |
-| **9** | **Proyección y Escalabilidad** | 10s | Ruta visual de escalabilidad: 4 meses (Piloto UNP) ➔ 8 meses (Red Municipal de Piura) | 33 palabras |
+| **8** | **Beneficios (ODS y Valor)** | 20s | 3 íconos: 1. Incentivo rápido · 2. Data auditable ODS (Piura) · 3. 40% ahorro limpieza | 48 palabras |
+| **9** | **Proyección y Escalabilidad** | 10s | Ruta visual de escalabilidad: 4 meses (Piloto UNP) ➔ 8 meses (Municipalidades de Piura + Beneficios Tributarios) | 37 palabras |
 | **10** | **Equipo** | 10s | Fotos de los 4 integrantes con sus roles clave (Software vs Hardware) | 27 palabras |
 | **11** | **Cierre** | 10s | Imagen inspiradora de ciudad limpia + Frase final contundente | 20 palabras |
-| **TOTAL** | **11 Diapositivas** | **180s (3:00)** | **Apoyo visual sin títulos pesados** | **402 palabras** |
+| **TOTAL** | **11 Diapositivas** | **180s (3:00)** | **Apoyo visual sin títulos pesados** | **406 palabras** |
 
 ---
 
-## 2. Guion Verbatim Calibrado Slide por Slide (402 Palabras Exactas)
+## 2. Guion Verbatim Calibrado Slide por Slide (406 Palabras Exactas)
 
 ---
 
@@ -107,16 +107,16 @@
 > Segundo: La primera base de datos hiperlocal y auditable de Piura para certificar metas ODS, resolviendo la falta de datos municipales confiables.  
 > Y tercero: Ahorro del cuarenta por ciento en tiempo de limpieza."
 
-* `[Dirección Escénica]`: Marcar cada beneficio con la mano de forma pausada y contundente. Resaltar con firmeza *"primera base de datos confiable de Piura"*.
+* `[Dirección Escénica]`: Marcar cada beneficio con la mano de forma pausada y contundente. Resaltar con firmeza *"primera base de datos de Piura"*.
 
 ---
 
-### Diapositiva 9: Proyección y Escalabilidad (2:30 - 2:40 | 10 segundos | 33 palabras)
-* **Visual en pantalla:** *Ruta visual de escalabilidad: 4 Meses (Piloto UNP) ➔ 8 Meses (Red Municipal del Departamento de Piura).*
+### Diapositiva 9: Proyección y Escalabilidad (2:30 - 2:40 | 10 segundos | 37 palabras)
+* **Visual en pantalla:** *Ruta visual de escalabilidad: 4 Meses (Piloto UNP) ➔ 8 Meses (Municipalidades de Piura + Beneficios Tributarios).*
 
-> "Nuestra escalabilidad es directa: en cuatro meses validamos el piloto en el campus de la UNP; y en ocho meses escalamos a diferentes municipalidades de Piura, conectando una red departamental de estaciones inteligentes."
+> "Nuestra escalabilidad es directa: en cuatro meses validamos el piloto en la UNP; y en ocho meses escalamos a diferentes municipalidades de Piura, adaptando los incentivos a beneficios tributarios y conectando una red departamental de estaciones inteligentes."
 
-* `[Dirección Escénica]`: Gesto de apertura horizontal con ambas manos, transmitiendo visión de expansión territorial y municipal.
+* `[Dirección Escénica]`: Tono ágil y seguro al mencionar *"beneficios tributarios"* como un salto natural para los vecinos en municipalidades. Gesto de apertura horizontal con ambas manos.
 
 ---
 
@@ -141,13 +141,17 @@
 
 ## 3. Matriz de Preguntas de Defensa (Rúbrica Oficial)
 
-### 1. ¿Cómo se vincula el proyecto con los Objetivos de Desarrollo Sostenible (ODS)?
+### 1. ¿Cómo funcionan los incentivos cuando escalen a municipalidades?
+> **Respuesta:**  
+> "En el campus universitario el incentivo es estudiantil (fotocopias, impresiones, cafetería). Al escalar a las municipalidades de Piura, el sistema se adapta para que los vecinos acumulen puntos canjeables por **beneficios tributarios**, como descuentos en arbitrios municipales por segregación en la fuente. Las municipalidades ya contemplan estos programas por ley, pero hoy no tienen cómo verificar quién realmente recicla; Q'UPA WASI les da la trazabilidad digital exacta."
+
+### 2. ¿Cómo se vincula el proyecto con los Objetivos de Desarrollo Sostenible (ODS)?
 > **Respuesta:**  
 > "Aportamos directamente a 3 ODS:  
 > * **ODS 11 (Ciudades y Comunidades Sostenibles):** Reducimos la saturación de botaderos en Piura y transformamos los espacios públicos en puntos limpios tecnificados.  
 > * **ODS 12 (Producción y Consumo Responsables):** Eliminamos la contaminación cruzada en origen, reincorporando el 98% del material a la economía circular.  
 > * **ODS 13 (Acción por el Clima):** Generamos la primera base de datos hiperlocal y auditable de residuos de Piura, permitiendo a municipalidades e instituciones medir su reducción real de huella de carbono con datos duros y no con estimados en papel."
 
-### 2. ¿Cómo garantizan la escalabilidad a nivel de municipalidades?
+### 3. ¿Cómo garantizan la escalabilidad a nivel de municipalidades?
 > **Respuesta:**  
 > "Empezamos en la UNP porque es un entorno controlado de 14,000 personas con dinámicas similares a una pequeña ciudad. Una vez calibrada la adopción y los unit economics, nuestro modelo escala fácilmente hacia municipalidades distritales y provinciales de Piura (como Piura, Castilla y Sullana) porque no les pedimos compras públicas millonarias: les ofrecemos estaciones alimentadas con energía solar que se pagan solas mediante la venta de scrap y reducen sus costos de recolección, entregándoles datos auditables para el cumplimiento de sus metas del MINAM y programas de incentivos."
