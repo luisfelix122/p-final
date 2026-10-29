@@ -12,8 +12,8 @@
 
 | # | Diapositiva | Tiempo | Contenido Visual en Pantalla | Conteo Palabras |
 |---|---|---|---|---|
-| **1** | **Carátula** | 0s | Logo Lab. Emprendimientos + Logo UNP/PUCP + Imagen de Q'UPA WASI | *(Sin diálogo)* |
-| **2** | **Problema (Evolución de Sectores vs Recolección)** | 10s | Imagen: Industria moderna vs acumulación de residuos + Gráfico "2%" | 38 palabras |
+| **1** | **Carátula (Gancho de Entrada)** | 10s | Logo Lab. Emprendimientos + Logo UNP/PUCP + Imagen de Q'UPA WASI | 29 palabras |
+| **2** | **Problema (Evolución de Sectores vs Recolección)** | 10s | Imagen: Industria moderna vs acumulación de residuos + Curumuy | 39 palabras |
 | **3** | **Clientes (Afectados)** | 10s | Foto de estudiantes y personal de limpieza en el campus | 30 palabras |
 | **4** | **Actualidad** | 10s | Foto de tachos convencionales con bolsas rotas y basura mezclada | 27 palabras |
 | **5** | **Presentación** | 10s | Render / Foto principal del módulo Q'UPA WASI con panel solar | 25 palabras |
@@ -23,26 +23,31 @@
 | **9** | **Proyección y Escalabilidad** | 10s | Ruta visual: 4 meses (Piloto UNP) ➔ 8 meses (Municipalidades de Piura + Tributos) | 36 palabras |
 | **10** | **Equipo** | 10s | Fotos de los 4 integrantes con sus roles clave (Software vs Hardware) | 27 palabras |
 | **11** | **Cierre** | 10s | Imagen inspiradora de ciudad limpia + Frase final contundente | 20 palabras |
-| **TOTAL** | **11 Diapositivas** | **180s (3:00)** | **Apoyo visual sin títulos pesados** | **418 palabras** |
+| **TOTAL** | **11 Diapositivas** | **~3:00 Minutos** | **Apoyo visual sin títulos pesados** | **448 palabras** |
 
 ---
 
-## 2. Guion Verbatim Calibrado Slide por Slide (418 Palabras Exactas)
+## 2. Guion Verbatim Calibrado Slide por Slide (448 Palabras)
 
 ---
 
-### Diapositiva 1: Carátula (0:00 | 0 segundos)
-* **Visual en pantalla:** Logo de Lab. de Emprendimientos + Logo institucional + Imagen de Q'UPA WASI.
-* **Acción:** Plantarse firme en el escenario, mirar al jurado, sonreír con seguridad y empezar de inmediato sin decir "buenos días".
+### Diapositiva 1: Carátula y Gancho de Entrada (0:00 - 0:10 | 10 segundos | 29 palabras)
+* **Visual en pantalla:** Logo de Lab. de Emprendimientos + Logo institucional UNP/PUCP + Imagen de Q'UPA WASI.
+* **Acción:** Plantarse firme en el escenario, mirar al jurado a los ojos y abrir de inmediato con el gancho:
+
+> "¿Sabían cuánto dinero botamos todos los días a la basura?  
+> En el Perú generamos más de veinticuatro mil toneladas diarias y apenas el dos por ciento se logra valorizar."
+
+* `[Dirección Escénica]`: Pregunta con tono retador y mirada fija al centro del jurado. Pausa breve de 1 segundo tras la pregunta.
 
 ---
 
-### Diapositiva 2: Problema (0:00 - 0:10 | 10 segundos | 38 palabras)
-* **Visual en pantalla:** *Solo imagen del contraste entre industria moderna y acumulación de residuos + gráfico del 2%.*
+### Diapositiva 2: Problema (Evolución de Sectores vs Recolección) (0:10 - 0:20 | 10 segundos | 39 palabras)
+* **Visual en pantalla:** *Solo imagen del contraste entre industria moderna y acumulación de residuos + botadero Curumuy.*
 
-> "Todos los sectores productivos han evolucionado y escalado exponencialmente, pero todos generan residuos y la recolección jamás escaló a ese ritmo. En el Perú generamos veinticuatro mil toneladas diarias de basura y apenas el dos por ciento se valoriza."
+> "Todos los sectores productivos han evolucionado y escalado exponencialmente, pero todos generan residuos y la recolección jamás escaló a ese ritmo. En Piura producimos más de quinientas toneladas al día, y más del setenta por ciento termina en botaderos informales como Curumuy."
 
-* `[Dirección Escénica]`: Tono analítico y retador. Mirar fijamente al jurado, marcando con la voz el contraste entre la evolución industrial y el atraso de la recolección.
+* `[Dirección Escénica]`: Tono analítico y retador. Mirar fijamente al jurado, contrastando el avance industrial con el atraso de la recolección municipal.
 
 ---
 
