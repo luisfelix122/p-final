@@ -14,20 +14,20 @@
 |---|---|---|---|---|
 | **1** | **Carátula (Gancho de Entrada: Perú, Piura, UNP y Turistas)** | 15s | Logo Lab. Emprendimientos + Logo UNP/PUCP + Imagen Q'UPA WASI + Turistas/Olores *(Fuentes: MINAM/OEFA/UNP)* | 67 palabras |
 | **2** | **Problema (Evolución de Sectores vs Recolección)** | 10s | Imagen: Industria moderna vs tachos primitivos de hace 50 años *(Fuente: Innovación Sectorial)* | 33 palabras |
-| **3** | **Usuarios vs Clientes (Delimitación B2B & Vicerrectorado)** | 15s | Comunidad universitaria (usuarios) vs Entidades D.L. 1278 y recicladoras (clientes) + Sello Vicerrectorado | 58 palabras |
+| **3** | **Usuarios vs Clientes (Licenciamiento de App SaaS)** | 15s | Comunidad universitaria (usuarios) vs Clientes de App SaaS (Vicerrectorado) + Sello de convenio | 65 palabras |
 | **4** | **Actualidad** | 10s | Foto de tachos convencionales con bolsas rotas y basura mezclada *(Fuente: Auditoría UNP)* | 31 palabras |
-| **5** | **Presentación** | 10s | Render / Foto principal del módulo Q'UPA WASI con panel solar | 29 palabras |
+| **5** | **Presentación (La App es el Cerebro de Todo)** | 10s | Módulo Q'UPA WASI + Dashboard de la App Móvil en primer plano | 38 palabras |
 | **6** | **Solución (Paso a Paso + Carga Celular + 30s Vaciado)** | 40s | Video sin audio: 4 pasos + telemetría app + vaciado 30s *(Fuente: ODS ONU-CEPAL)* | 96 palabras |
-| **7** | **Modelo de Negocio (B2B, BOM S/ 3,500 y Unit Economics)** | 30s | Gráfico: BOM S/ 3,500 ➔ Triple flujo (Scrap S/ 2.50/kg + Telemetría + Ads) ➔ Payback < 5 meses | 61 palabras |
+| **7** | **Modelo de Negocio (SaaS Asset-Light + Venta Scrap)** | 30s | Gráfico: Cliente asume tachos (CAPEX) ➔ Suscripción mensual App SaaS + Venta Scrap puro | 57 palabras |
 | **8** | **Beneficios (Encuesta 95.3% & Data ODS)** | 20s | 3 íconos: 1. Recarga solar celular · 2. Certificación oficial · 3. Vaciado 30s *(Fuente: Encuesta n=385)* | 53 palabras |
 | **9** | **Proyección y Escalabilidad** | 10s | Ruta visual: 4 meses (Piloto UNP) ➔ 8 meses (Municipalidades de Piura + Tributos) | 40 palabras |
 | **10** | **Equipo** | 10s | Fotos de los 4 integrantes con sus roles clave (Software vs Hardware) | 24 palabras |
 | **11** | **Cierre** | 10s | Imagen inspiradora de ciudad limpia + Frase final contundente | 21 palabras |
-| **TOTAL** | **11 Diapositivas** | **~3:15 Minutos** | **Respaldo institucional y delimitación B2B completa** | **513 palabras** |
+| **TOTAL** | **11 Diapositivas** | **~3:20 Minutos** | **Modelo de Negocio SaaS Asset-Light centrado en la App** | **525 palabras** |
 
 ---
 
-## 2. Guion Verbatim Calibrado Slide por Slide (513 Palabras)
+## 2. Guion Verbatim Calibrado Slide por Slide (525 Palabras)
 
 ---
 
@@ -50,12 +50,12 @@
 
 ---
 
-### Diapositiva 3: Usuarios vs Clientes (Delimitación B2B & Tracción) (0:25 - 0:40 | 15 segundos | 58 palabras)
-* **Visual en pantalla:** *Comunidad universitaria (usuarios) vs Entidades obligadas por Ley D.L. 1278 y recicladoras (clientes) + Sello: "Proyecto en revisión - Vicerrectorado de Investigación UNP".*
+### Diapositiva 3: Usuarios vs Clientes (Licenciamiento de la App) (0:25 - 0:40 | 15 segundos | 65 palabras)
+* **Visual en pantalla:** *Comunidad universitaria (usuarios) vs Entidades obligadas por Ley D.L. 1278 y recicladoras (clientes) + Sello: "Convenio en revisión - Vicerrectorado de Investigación UNP".*
 
-> "Nuestros usuarios son toda la comunidad universitaria: catorce mil estudiantes, docentes y trabajadores. Pero nuestros verdaderos clientes son las instituciones obligadas por ley a certificar sus residuos y las empresas recicladoras que compran material puro. Ya presentamos formalmente el proyecto al Vicerrectorado de Investigación de la UNP y se encuentra en revisión técnica como nuestro primer cliente de telemetría."
+> "Nuestros usuarios son toda la comunidad universitaria: catorce mil estudiantes, docentes y trabajadores. Pero nuestros verdaderos clientes son las instituciones que pagan la suscripción mensual de la app para certificar sus residuos ante el MINAM y las empresas recicladoras que compran material puro. El Vicerrectorado de Investigación de la UNP ya tiene en revisión nuestro convenio como primer cliente institucional de la app."
 
-* `[Dirección Escénica]`: Tono estratégico de negocios. Diferenciar con claridad entre quién usa la máquina (la comunidad) y quién paga por la data y el residuo (las instituciones y recicladoras).
+* `[Dirección Escénica]`: Tono estratégico de negocios. Diferenciar con claridad entre quién usa la máquina (la comunidad) y quién paga mensualmente por la plataforma de software (la universidad).
 
 ---
 
@@ -68,14 +68,12 @@
 
 ---
 
-### Diapositiva 5: Presentación de la Solución (0:50 - 1:00 | 10 segundos | 29 palabras)
-* **Visual en pantalla:** *Render / Foto principal del módulo Q'UPA WASI con panel solar.*
+### Diapositiva 5: Presentación de la Solución (La App es el Cerebro) (0:50 - 1:00 | 10 segundos | 38 palabras)
+* **Visual en pantalla:** *Render del módulo Q'UPA WASI con la interfaz de la App Móvil y el Dashboard en primer plano.*
 
-> "Para cambiar esto creamos Q'UPA WASI: la primera estación solar inteligente que automatiza la segregación, premia los buenos hábitos al instante y certifica la data de residuos para las instituciones."
+> "Para cambiar esto creamos Q'UPA WASI: la plataforma tecnológica que convierte cualquier tacho en una estación inteligente. La app es el cerebro de todo: sin ella son solo tachos ciegos; con ella, es telemetría, incentivos y control legal en tiempo real."
 
-* `[Dirección Escénica]`: Cambio radical de energía. Sonrisa de orgullo técnico, postura erguida y voz enérgica.
-
-* `[Dirección Escénica]`: Cambio radical de energía. Sonrisa de orgullo técnico, postura erguida y voz enérgica.
+* `[Dirección Escénica]`: Cambio radical de energía. Enfatizar con la voz: *"la app es el cerebro de todo"*. Postura erguida y sonrisa de orgullo técnico.
 
 ---
 
@@ -93,12 +91,12 @@
 
 ---
 
-### Diapositiva 7: Modelo de Negocio, Unit Economics y Producción (1:40 - 2:10 | 30 segundos | 61 palabras)
-* **Visual en pantalla:** *BOM S/ 3,500 ➔ Triple flujo de ingresos (Venta Scrap S/ 2.50/kg + Telemetría B2B + Ads) ➔ Payback < 5 meses. (Pie de lámina: Modelo Financiero Validado).*
+### Diapositiva 7: Modelo de Negocio (SaaS Asset-Light + Venta Scrap) (1:40 - 2:10 | 30 segundos | 57 palabras)
+* **Visual en pantalla:** *Gráfico de flujo: Cliente invierte en tachos (CAPEX) ➔ Suscripción mensual App SaaS (Ingreso recurrente) ➔ Venta Scrap S/ 2.50/kg (Ganancia directa). (Pie de lámina: Modelo Asset-Light sin costo logístico).*
 
-> "Nuestro modelo es B2B sostenible: fabricar cada módulo cuesta tres mil quinientos soles en insumos. Monetizamos por triple vía: venta de plástico limpio a dos soles cincuenta por kilo, suscripción mensual de telemetría institucional y convenios promocionales con comercios locales. Iniciamos con un lote piloto de validación en el campus con retorno de inversión en menos de cinco meses."
+> "Nuestro modelo de negocio es Software as a Service: la institución financia la inversión inicial de los tachos y nosotros les licenciamos la app con una suscripción mensual. La universidad se encarga del vaciado con su propio personal, mientras nosotros capturamos ingresos recurrentes por la app y nos quedamos con la ganancia de la venta del plástico puro."
 
-* `[Dirección Escénica]`: Tono seguro de negocios. Mirar fijamente a los empresarios del tribunal. Articular con nitidez *"B2B sostenible"*, *"dos soles cincuenta"* y *"retorno en menos de cinco meses"*.
+* `[Dirección Escénica]`: Tono seguro de negocios. Mirar fijamente a los empresarios del tribunal. Articular con nitidez *"Software as a Service"*, *"la institución financia los tachos"* y *"nosotros capturamos ingresos recurrentes"*."*
 
 ---
 
@@ -190,6 +188,15 @@
 ### 8. ¿Por qué las entidades públicas y privadas están legalmente obligadas a certificar sus residuos?
 > **Respuesta:**  
 > "En el Perú, la **Ley de Gestión Integral de Residuos Sólidos (Decreto Legislativo N° 1278)** y su Reglamento (D.S. 014-2017-MINAM) establecen que todo generador del ámbito no municipal (incluyendo universidades, centros comerciales y sedes institucionales) está obligado por ley a formular un Plan de Minimización y Manejo de Residuos Sólidos y presentar su Declaración Anual de Manejo ante el MINAM/SIGERSOL. El incumplimiento o reporte no verificable es sancionado por el **OEFA con multas de hasta 100 UIT**. Q'UPA WASI convierte esta pesada obligación regulatoria en un proceso automático, auditable y en tiempo real."
+
+### 9. ¿Por qué afirman que su verdadero producto es la app y no los tachos de basura?
+> **Respuesta:**  
+> "Porque los tachos son solo un contenedor físico; sin nuestra tecnología, un tacho no identifica, no pesa, no entrega incentivos ni certifica datos ante el Estado. Nuestro modelo es **Hardware-Enabled SaaS (Software as a Service)**:  
+> 1. **El cliente asume el CAPEX:** La institución o empresa invierte en la fabricación o compra de las estaciones físicas (S/ 3,500 por módulo).  
+> 2. **El cliente asume la operación:** La universidad o empresa se encarga del vaciado y limpieza con su propio personal, quienes ahora ahorran 40% de tiempo gracias a las alertas de la app.  
+> 3. **Nosotros vendemos el software:** Les cobramos una suscripción mensual recurrente por la app móvil, la gestión de puntos, el dashboard de telemetría y los reportes oficiales auditables para el MINAM y OEFA.  
+> 4. **Ganancia del scrap:** El material segregado con 98% de pureza se vende a la industria transformadora formal (S/ 2.50/kg), convirtiéndose en un margen neto directo para nosotros.  
+> Esto nos convierte en un negocio **altamente escalable y liviano en activos (asset-light)**: no compramos camiones de basura, no contratamos cuadrillas de limpieza municipal, sino que escalamos a nivel nacional mediante software."
 
 ---
 
