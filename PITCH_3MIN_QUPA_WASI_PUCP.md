@@ -17,17 +17,17 @@
 | **3** | **Clientes (Afectados)** | 10s | Foto de estudiantes y personal de limpieza en el campus | 30 palabras |
 | **4** | **Actualidad** | 10s | Foto de tachos convencionales con bolsas rotas y basura mezclada | 27 palabras |
 | **5** | **Presentación** | 10s | Render / Foto principal del módulo Q'UPA WASI con panel solar | 25 palabras |
-| **6** | **Solución (Paso a Paso + ODS)** | 60s | Video demostrativo sin audio: 4 pasos + dashboard de data en tiempo real + vaciado ergonómico | 110 palabras |
-| **7** | **Modelo de Negocio** | 30s | Gráfico simple: S/ 3,500 insumos ➔ Venta Scrap S/ 2.50/kg ➔ Socios Clave | 53 palabras |
-| **8** | **Beneficios (ODS y Valor)** | 20s | 3 íconos: 1. Incentivo rápido · 2. Data auditable ODS (Piura) · 3. 40% ahorro limpieza | 48 palabras |
-| **9** | **Proyección y Escalabilidad** | 10s | Ruta visual de escalabilidad: 4 meses (Piloto UNP) ➔ 8 meses (Municipalidades de Piura + Beneficios Tributarios) | 37 palabras |
+| **6** | **Solución (Paso a Paso + ODS 12.2 y 12.5)** | 60s | Video demostrativo sin audio: 4 pasos + dashboard de data en tiempo real + vaciado ergonómico | 114 palabras |
+| **7** | **Modelo de Negocio (Convenios)** | 30s | Gráfico simple: S/ 3,500 insumos ➔ Venta Scrap S/ 2.50/kg ➔ Convenios con Socios Clave | 53 palabras |
+| **8** | **Beneficios (Encuesta 95.3% & Data ODS)** | 20s | 3 íconos: 1. Incentivo rápido · 2. Data ODS 12.2 y 12.5 · 3. 40% ahorro limpieza | 57 palabras |
+| **9** | **Proyección y Escalabilidad** | 10s | Ruta visual: 4 meses (Piloto UNP) ➔ 8 meses (Convenios con Municipalidades de Piura + Tributos) | 36 palabras |
 | **10** | **Equipo** | 10s | Fotos de los 4 integrantes con sus roles clave (Software vs Hardware) | 27 palabras |
 | **11** | **Cierre** | 10s | Imagen inspiradora de ciudad limpia + Frase final contundente | 20 palabras |
-| **TOTAL** | **11 Diapositivas** | **180s (3:00)** | **Apoyo visual sin títulos pesados** | **406 palabras** |
+| **TOTAL** | **11 Diapositivas** | **180s (3:00)** | **Apoyo visual sin títulos pesados** | **418 palabras** |
 
 ---
 
-## 2. Guion Verbatim Calibrado Slide por Slide (406 Palabras Exactas)
+## 2. Guion Verbatim Calibrado Slide por Slide (418 Palabras Exactas)
 
 ---
 
@@ -74,7 +74,7 @@
 
 ---
 
-### Diapositiva 6: Solución Paso a Paso (0:40 - 1:40 | 60 segundos | 110 palabras)
+### Diapositiva 6: Solución Paso a Paso + Data ODS (0:40 - 1:40 | 60 segundos | 114 palabras)
 * **Visual en pantalla:** *Video corto sin audio o secuencia gráfica: 4 pasos + pantalla de telemetría ODS + vaciado ergonómico.*
 
 > "Ponerlo en práctica toma cuatro pasos muy sencillos:  
@@ -82,41 +82,41 @@
 > Segundo: Abres la app Q'UPA WASI y escaneas tu código.  
 > Tercero: El sistema valida el depósito y te acredita puntos inmediatos.  
 > Cuarto: Canjeas tus puntos por impresiones, fotocopias y descuentos en cafeterías aliadas.  
-> En paralelo, el sistema registra cada gramo en tiempo real, generando la primera base de datos verificable de residuos alineada a los Objetivos de Desarrollo Sostenible, mientras sus bandejas frontales ergonómicas protegen al personal de limpieza de cortes y sobreesfuerzos."
+> En paralelo, cerramos una brecha crítica: en Sudamérica no existe data confiable para los ODS doce punto dos y doce punto cinco sobre reducción de residuos; nuestro sistema registra cada gramo en tiempo real, mientras sus bandejas frontales ergonómicas protegen al personal de limpieza de cortes y sobreesfuerzos."
 
-* `[Dirección Escénica]`: Enumerar con los dedos de la mano izquierda: 1, 2, 3, 4. Tono didáctico. Enfatizar el valor de la data registrada y la protección a los trabajadores.
+* `[Dirección Escénica]`: Enumerar con los dedos de la mano izquierda: 1, 2, 3, 4. Tono didáctico. Enfatizar con autoridad la mención de *"Sudamérica no tiene data para los ODS 12.2 y 12.5"*.
 
 ---
 
-### Diapositiva 7: Modelo de Negocio (1:40 - 2:10 | 30 segundos | 53 palabras)
-* **Visual en pantalla:** *Gráfico limpio: Costo Insumos S/ 3,500 ➔ Venta Scrap S/ 2.50/kg ➔ Socios Clave.*
+### Diapositiva 7: Modelo de Negocio y Convenios (1:40 - 2:10 | 30 segundos | 53 palabras)
+* **Visual en pantalla:** *Gráfico limpio: Costo Insumos S/ 3,500 ➔ Venta Scrap S/ 2.50/kg ➔ Convenios con Socios Clave.*
 
 > "Fabricar nuestro módulo cuesta solo tres mil quinientos soles en insumos.  
 > Monetizamos vendiendo el plástico limpio a dos soles cincuenta por kilo, triplicando su valor, sumado a una suscripción mensual de telemetría a la universidad.  
-> Fidelizamos al estudiante con recompensas que financian nuestros socios clave: las fotocopiadoras locales que compiten por captar clientes."
+> Fidelizamos al estudiante mediante convenios con socios clave: las fotocopiadoras locales que financian los beneficios para captar clientes."
 
-* `[Dirección Escénica]`: Tono seguro de negocios. Mirar fijamente a los empresarios del tribunal. Articular con nitidez *"dos soles cincuenta"* y *"socios clave"*.
+* `[Dirección Escénica]`: Tono seguro de negocios. Mirar fijamente a los empresarios del tribunal. Articular con nitidez *"dos soles cincuenta"* y *"convenios con socios clave"*.
 
 ---
 
-### Diapositiva 8: Beneficios (2:10 - 2:30 | 20 segundos | 48 palabras)
-* **Visual en pantalla:** *3 íconos grandes: 1. Incentivo directo · 2. Data auditable ODS (Piura) · 3. 40% ahorro limpieza.*
+### Diapositiva 8: Beneficios y Encuesta (2:10 - 2:30 | 20 segundos | 57 palabras)
+* **Visual en pantalla:** *Cifra destacada: 95.3% aceptación (n=385) + 3 íconos: 1. Incentivo directo · 2. Data ODS 12.2 y 12.5 · 3. 40% ahorro limpieza.*
 
-> "Ofrecemos tres propuestas de valor concretas:  
-> Primero: Incentivo directo y fácil acceso para el usuario.  
-> Segundo: La primera base de datos hiperlocal y auditable de Piura para certificar metas ODS, resolviendo la falta de datos municipales confiables.  
+> "Ofrecemos tres propuestas de valor validadas en nuestra encuesta a trescientos ochenta y cinco universitarios con noventa y cinco punto tres por ciento de aceptación:  
+> Primero: Incentivo directo y fácil acceso.  
+> Segundo: La primera base de datos auditable de Piura para los ODS doce punto dos y doce punto cinco.  
 > Y tercero: Ahorro del cuarenta por ciento en tiempo de limpieza."
 
-* `[Dirección Escénica]`: Marcar cada beneficio con la mano de forma pausada y contundente. Resaltar con firmeza *"primera base de datos de Piura"*.
+* `[Dirección Escénica]`: Marcar con orgullo el *"noventa y cinco punto tres por ciento"* y la *"primera base de datos de Piura para los ODS"*.
 
 ---
 
-### Diapositiva 9: Proyección y Escalabilidad (2:30 - 2:40 | 10 segundos | 37 palabras)
-* **Visual en pantalla:** *Ruta visual de escalabilidad: 4 Meses (Piloto UNP) ➔ 8 Meses (Municipalidades de Piura + Beneficios Tributarios).*
+### Diapositiva 9: Proyección y Escalabilidad (2:30 - 2:40 | 10 segundos | 36 palabras)
+* **Visual en pantalla:** *Ruta visual de escalabilidad: 4 Meses (Piloto UNP) ➔ 8 Meses (Convenios con Municipalidades de Piura + Beneficios Tributarios).*
 
-> "Nuestra escalabilidad es directa: en cuatro meses validamos el piloto en la UNP; y en ocho meses escalamos a diferentes municipalidades de Piura, adaptando los incentivos a beneficios tributarios y conectando una red departamental de estaciones inteligentes."
+> "Nuestra escalabilidad es directa: en cuatro meses validamos el piloto en la UNP; y en ocho meses escalamos mediante convenios con municipalidades de Piura, adaptando los incentivos a beneficios tributarios y conectando una red departamental inteligente."
 
-* `[Dirección Escénica]`: Tono ágil y seguro al mencionar *"beneficios tributarios"* como un salto natural para los vecinos en municipalidades. Gesto de apertura horizontal con ambas manos.
+* `[Dirección Escénica]`: Tono ágil y seguro al mencionar *"convenios con municipalidades"* y *"beneficios tributarios"*. Gesto de apertura horizontal con ambas manos.
 
 ---
 
@@ -139,19 +139,25 @@
 
 ---
 
-## 3. Matriz de Preguntas de Defensa (Rúbrica Oficial)
+## 3. Matriz de Preguntas de Defensa (Rúbrica Oficial y Sugerencias del Asesor)
 
-### 1. ¿Cómo funcionan los incentivos cuando escalen a municipalidades?
+### 1. ¿Por qué mencionan los ODS 12.2 y 12.5 y la falta de data en Sudamérica?
 > **Respuesta:**  
-> "En el campus universitario el incentivo es estudiantil (fotocopias, impresiones, cafetería). Al escalar a las municipalidades de Piura, el sistema se adapta para que los vecinos acumulen puntos canjeables por **beneficios tributarios**, como descuentos en arbitrios municipales por segregación en la fuente. Las municipalidades ya contemplan estos programas por ley, pero hoy no tienen cómo verificar quién realmente recicla; Q'UPA WASI les da la trazabilidad digital exacta."
+> "Porque a nivel regional en Sudamérica y en el Perú existe un vacío de datos verificado por organismos internacionales:  
+> * **ODS 12.2:** Exige gestión sostenible y uso eficiente de los recursos naturales, pero los municipios no miden cuánto material reincorporan realmente a la cadena de valor.  
+> * **ODS 12.5:** Busca reducir la generación de desechos mediante reciclado y reutilización al 2030, pero hoy solo se reportan estimaciones en papel que no son auditables ni fiables.  
+> Q'UPA WASI resuelve este problema de raíz: cada residuo se identifica con cámara y se pesa digitalmente con celda de carga en tiempo real, generando la **primera base de datos verificable y georreferenciada de residuos** de Piura para que las instituciones y municipios certifiquen su cumplimiento real de los ODS."
 
-### 2. ¿Cómo se vincula el proyecto con los Objetivos de Desarrollo Sostenible (ODS)?
+### 2. ¿Qué convenios sustentan la operación y cómo aseguran que no les cueste dinero?
 > **Respuesta:**  
-> "Aportamos directamente a 3 ODS:  
-> * **ODS 11 (Ciudades y Comunidades Sostenibles):** Reducimos la saturación de botaderos en Piura y transformamos los espacios públicos en puntos limpios tecnificados.  
-> * **ODS 12 (Producción y Consumo Responsables):** Eliminamos la contaminación cruzada en origen, reincorporando el 98% del material a la economía circular.  
-> * **ODS 13 (Acción por el Clima):** Generamos la primera base de datos hiperlocal y auditable de residuos de Piura, permitiendo a municipalidades e instituciones medir su reducción real de huella de carbono con datos duros y no con estimados en papel."
+> "Manejamos una estrategia de 4 tipos de convenios:  
+> 1. **Convenios Institucionales (UNP):** Autorización de espacio físico techado y de alto tránsito frente al comedor central.  
+> 2. **Convenios Comerciales Locales (Tráfico Cruzado):** Concesionarios, librerías y fotocopiadoras del campus otorgan los descuentos (10% en copias o menús) a cambio de los cientos de clientes fidelizados que la app les envía diariamente; a nosotros no nos cuesta efectivo.  
+> 3. **Convenios con Plantas Transformadoras:** Venta directa de PET cristal limpio (98% pureza) a S/ 2.50 el kilo a empresas formales de reciclaje.  
+> 4. **Convenios con Municipalidades de Piura:** Para escalar hacia espacios públicos, permitiendo que los vecinos canjeen puntos por beneficios tributarios (descuentos en arbitrios por segregación en la fuente)."
 
-### 3. ¿Cómo garantizan la escalabilidad a nivel de municipalidades?
+### 3. ¿Cuáles fueron los resultados exactos de la encuesta de validación?
 > **Respuesta:**  
-> "Empezamos en la UNP porque es un entorno controlado de 14,000 personas con dinámicas similares a una pequeña ciudad. Una vez calibrada la adopción y los unit economics, nuestro modelo escala fácilmente hacia municipalidades distritales y provinciales de Piura (como Piura, Castilla y Sullana) porque no les pedimos compras públicas millonarias: les ofrecemos estaciones alimentadas con energía solar que se pagan solas mediante la venta de scrap y reducen sus costos de recolección, entregándoles datos auditables para el cumplimiento de sus metas del MINAM y programas de incentivos."
+> "Encuestamos a **385 personas en el campus de la UNP** (muestra estadísticamente representativa con 95% de nivel de confianza y 5% de margen de error):  
+> * **95.3%** declaró su disposición activa a utilizar la estación inteligente de forma continua si cuenta con incentivos canjeables en su celular.  
+> * **78%** reconoció que hoy no separa residuos porque los tachos actuales son confusos, están lejos o sienten que al final todo se junta en el camión de basura. Esto demuestra que la falta de segregación no es desinterés, sino falta de incentivos y tecnología adecuada."
