@@ -3,15 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Q'UPA WASI — Pitch de 3 Minutos (11 Diapositivas Oficiales)</title>
+  <title>Q'UPA WASI — Plataforma de Pitch Oficial & Defensa PUCP</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
   <style>
     :root {
       --bg: #ffffff;
       --surface: #f8fafc;
+      --surface-elevated: #ffffff;
       --border: #e2e8f0;
+      --border-focus: #059669;
       --text-main: #0f172a;
       --text-muted: #475569;
       --text-subtle: #94a3b8;
@@ -19,8 +21,12 @@
       --primary-dark: #047857;
       --primary-light: #ecfdf5;
       --accent: #0284c7;
-      --danger: #dc2626;
+      --accent-light: #f0f9ff;
       --warning: #d97706;
+      --warning-light: #fffbeb;
+      --danger: #dc2626;
+      --purple: #7c3aed;
+      --purple-light: #f5f3ff;
       --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
       --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07);
       --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
@@ -35,10 +41,11 @@
       font-family: var(--font-sans);
       line-height: 1.6;
       -webkit-font-smoothing: antialiased;
-      padding: 2rem 1rem 6rem;
+      padding: 1.5rem 1rem 6rem;
     }
-    .container { max-width: 880px; margin: 0 auto; }
+    .container { max-width: 960px; margin: 0 auto; }
 
+    /* Top Meta Bar */
     .top-meta {
       display: flex;
       justify-content: space-between;
@@ -48,8 +55,11 @@
       color: var(--text-muted);
       border-bottom: 1px solid var(--border);
       padding-bottom: 0.65rem;
+      flex-wrap: wrap;
+      gap: 0.5rem;
     }
 
+    /* Header */
     header { margin-bottom: 1.5rem; }
     .brand-tag {
       display: inline-flex;
@@ -57,7 +67,7 @@
       gap: 0.4rem;
       background: var(--primary-light);
       color: var(--primary-dark);
-      padding: 0.3rem 0.8rem;
+      padding: 0.3rem 0.85rem;
       border-radius: 9999px;
       font-size: 0.75rem;
       font-weight: 700;
@@ -69,12 +79,12 @@
 
     h1 {
       font-family: var(--font-display);
-      font-size: 2.5rem;
+      font-size: 2.6rem;
       font-weight: 800;
       letter-spacing: -0.03em;
       line-height: 1.1;
       color: var(--text-main);
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.4rem;
     }
 
     .subtitle {
@@ -88,11 +98,13 @@
       display: flex;
       gap: 0.5rem;
       flex-wrap: wrap;
+      margin-bottom: 1.5rem;
     }
 
     .badge {
       display: inline-flex;
       align-items: center;
+      gap: 0.35rem;
       padding: 0.25rem 0.65rem;
       border-radius: 9999px;
       font-size: 0.75rem;
@@ -106,27 +118,107 @@
       color: var(--primary-dark);
       border-color: rgba(5, 150, 105, 0.3);
     }
+    .badge.accent {
+      background: var(--accent-light);
+      color: var(--accent);
+      border-color: rgba(2, 132, 199, 0.3);
+    }
+    .badge.purple {
+      background: var(--purple-light);
+      color: var(--purple);
+      border-color: rgba(124, 58, 237, 0.3);
+    }
 
-    /* Cronómetro Flotante */
-    .timer-sticky {
+    /* Multi-Tab Navigation */
+    .tabs-nav-wrapper {
       position: sticky;
-      top: 1rem;
-      z-index: 100;
-      background: rgba(255, 255, 255, 0.96);
-      backdrop-filter: blur(12px);
+      top: 0;
+      z-index: 90;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      padding: 0.5rem 0;
+      border-bottom: 2px solid var(--border);
+      margin-bottom: 2rem;
+    }
+    .tabs-nav {
+      display: flex;
+      gap: 0.5rem;
+      overflow-x: auto;
+      scrollbar-width: thin;
+      padding-bottom: 0.25rem;
+    }
+    .tabs-nav::-webkit-scrollbar { height: 4px; }
+    .tabs-nav::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
+    .tab-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.65rem 1.15rem;
+      border-radius: 10px;
+      font-size: 0.875rem;
+      font-weight: 700;
+      font-family: var(--font-sans);
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text-muted);
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s ease;
+    }
+    .tab-btn:hover {
+      background: #ffffff;
+      color: var(--text-main);
+      border-color: var(--primary);
+    }
+    .tab-btn.active {
+      background: var(--text-main);
+      color: #ffffff;
+      border-color: var(--text-main);
+      box-shadow: var(--shadow-sm);
+    }
+    .tab-btn.active .tab-pill {
+      background: var(--primary);
+      color: #ffffff;
+    }
+    .tab-pill {
+      font-size: 0.7rem;
+      padding: 0.15rem 0.45rem;
+      border-radius: 9999px;
+      background: var(--border);
+      color: var(--text-muted);
+      font-weight: 800;
+    }
+
+    /* Tab Panes */
+    .tab-pane {
+      display: none;
+      animation: fadeIn 0.2s ease forwards;
+    }
+    .tab-pane.active {
+      display: block;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Cronómetro Flotante (Tab 1) */
+    .timer-sticky {
+      background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 12px;
-      padding: 0.75rem 1.25rem;
-      margin: 1.5rem 0 2rem;
+      padding: 0.85rem 1.25rem;
+      margin-bottom: 2rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      box-shadow: var(--shadow-lg);
+      box-shadow: var(--shadow-sm);
     }
 
     .timer-display {
       font-family: var(--font-display);
-      font-size: 1.85rem;
+      font-size: 2rem;
       font-weight: 800;
       font-variant-numeric: tabular-nums;
       color: var(--text-main);
@@ -141,27 +233,27 @@
       letter-spacing: 0.05em;
     }
 
-    .timer-controls { display: flex; gap: 0.4rem; }
+    .timer-controls { display: flex; gap: 0.5rem; }
     .btn {
-      padding: 0.45rem 0.85rem;
+      padding: 0.45rem 0.95rem;
       font-size: 0.825rem;
       font-weight: 600;
-      border-radius: 6px;
+      border-radius: 8px;
       border: 1px solid var(--border);
       background: #ffffff;
       color: var(--text-main);
       cursor: pointer;
       transition: all 0.15s ease;
     }
-    .btn:hover { background: var(--surface); }
+    .btn:hover { background: var(--surface); border-color: var(--text-muted); }
     .btn.btn-primary {
-      background: var(--text-main);
+      background: var(--primary);
       color: #ffffff;
-      border-color: var(--text-main);
+      border-color: var(--primary);
     }
-    .btn.btn-primary:hover { background: #334155; }
+    .btn.btn-primary:hover { background: var(--primary-dark); }
 
-    /* Timeline de Diapositivas */
+    /* Timeline Resumen (Tab 1) */
     .timeline-summary {
       background: var(--surface);
       border: 1px solid var(--border);
@@ -169,20 +261,17 @@
       padding: 1.25rem;
       margin-bottom: 2.5rem;
     }
-
     .timeline-summary h2 {
       font-family: var(--font-display);
       font-size: 1.15rem;
       font-weight: 700;
       margin-bottom: 0.75rem;
     }
-
     .timeline-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
       gap: 0.5rem;
     }
-
     .timeline-chip {
       background: #ffffff;
       border: 1px solid var(--border);
@@ -196,7 +285,7 @@
     .timeline-chip strong { color: var(--text-main); }
     .timeline-chip span { color: var(--text-muted); font-size: 0.7rem; }
 
-    /* Tarjetas de Diapositivas */
+    /* Tarjetas de Diapositivas (Tab 1) */
     .slide-block {
       background: #ffffff;
       border: 1px solid var(--border);
@@ -204,9 +293,9 @@
       padding: 1.5rem;
       margin-bottom: 2rem;
       box-shadow: var(--shadow-sm);
-      transition: border-color 0.2s ease;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
     }
-    .slide-block:hover { border-color: var(--primary); }
+    .slide-block:hover { border-color: var(--primary); box-shadow: var(--shadow-md); }
 
     .slide-head {
       display: flex;
@@ -215,6 +304,8 @@
       border-bottom: 2px solid var(--surface);
       padding-bottom: 0.6rem;
       margin-bottom: 1rem;
+      flex-wrap: wrap;
+      gap: 0.5rem;
     }
 
     .slide-title-wrap {
@@ -228,8 +319,9 @@
       color: #ffffff;
       font-size: 0.7rem;
       font-weight: 800;
-      padding: 0.2rem 0.5rem;
+      padding: 0.2rem 0.55rem;
       border-radius: 6px;
+      font-family: var(--font-display);
     }
 
     .slide-title {
@@ -244,7 +336,7 @@
       font-weight: 700;
       color: var(--primary-dark);
       background: var(--primary-light);
-      padding: 0.2rem 0.5rem;
+      padding: 0.2rem 0.55rem;
       border-radius: 9999px;
     }
 
@@ -252,8 +344,8 @@
       background: #f1f5f9;
       border-left: 3px solid var(--accent);
       border-radius: 0 6px 6px 0;
-      padding: 0.5rem 0.85rem;
-      font-size: 0.8rem;
+      padding: 0.55rem 0.85rem;
+      font-size: 0.825rem;
       color: var(--text-muted);
       margin-bottom: 1rem;
     }
@@ -264,7 +356,7 @@
       line-height: 1.65;
       color: var(--text-main);
       font-weight: 500;
-      padding-left: 0.5rem;
+      padding-left: 0.75rem;
       border-left: 3px solid var(--primary-light);
       margin-bottom: 1rem;
     }
@@ -276,7 +368,7 @@
 
     .stage-cues {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
       gap: 0.6rem;
       background: var(--surface);
       border: 1px solid var(--border);
@@ -295,45 +387,271 @@
       margin-bottom: 0.15rem;
     }
 
-    /* Q&A Section */
-    .faq-section {
-      margin-top: 3.5rem;
-      border-top: 2px solid var(--border);
-      padding-top: 2rem;
-    }
-    .faq-section h2 {
-      font-family: var(--font-display);
-      font-size: 1.4rem;
-      font-weight: 800;
-      margin-bottom: 1rem;
-    }
-
-    .faq-card {
+    /* Q&A Section (Tab 2) */
+    .qa-header-box {
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 1.15rem;
-      margin-bottom: 0.85rem;
+      border-radius: 12px;
+      padding: 1.25rem;
+      margin-bottom: 1.5rem;
     }
-    .faq-q { font-size: 0.95rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.35rem; }
-    .faq-a { font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; }
-
-    .sources-section {
-      margin-top: 2.5rem;
-      border-top: 1px solid var(--border);
-      padding-top: 1.5rem;
-    }
-    .sources-section h2 {
-      font-size: 1.25rem;
+    .qa-header-box h2 {
+      font-family: var(--font-display);
+      font-size: 1.35rem;
       font-weight: 800;
-      color: var(--text-main);
+      margin-bottom: 0.35rem;
+    }
+    .qa-header-box p {
+      font-size: 0.875rem;
+      color: var(--text-muted);
       margin-bottom: 1rem;
     }
+
+    .qa-controls {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .search-input-wrap {
+      position: relative;
+      width: 100%;
+    }
+    .search-input {
+      width: 100%;
+      padding: 0.65rem 1rem 0.65rem 2.5rem;
+      font-size: 0.9rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: #ffffff;
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      outline: none;
+      transition: border-color 0.15s ease;
+    }
+    .search-input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.1);
+    }
+    .search-icon {
+      position: absolute;
+      left: 0.85rem;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 0.95rem;
+      color: var(--text-subtle);
+      pointer-events: none;
+    }
+
+    .qa-filter-pills {
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+    }
+    .filter-pill {
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.3rem 0.75rem;
+      border-radius: 9999px;
+      border: 1px solid var(--border);
+      background: #ffffff;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .filter-pill:hover {
+      border-color: var(--primary);
+      color: var(--text-main);
+    }
+    .filter-pill.active {
+      background: var(--text-main);
+      color: #ffffff;
+      border-color: var(--text-main);
+    }
+
+    .qa-cards-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .qa-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem 1.4rem;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.2s ease;
+    }
+    .qa-card:hover {
+      border-color: rgba(5, 150, 105, 0.4);
+      box-shadow: var(--shadow-md);
+    }
+    .qa-card-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.5rem;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .qa-badge {
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 0.2rem 0.5rem;
+      border-radius: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    .qa-badge.finance { background: #fef3c7; color: #92400e; }
+    .qa-badge.hardware { background: #e0f2fe; color: #075985; }
+    .qa-badge.software { background: #f3e8ff; color: #6b21a8; }
+    .qa-badge.legal { background: #dcfce7; color: #166534; }
+
+    .qa-speaker-tag {
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    .qa-question {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 0.6rem;
+      line-height: 1.35;
+    }
+    .qa-answer {
+      font-size: 0.885rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+    .qa-answer strong {
+      color: var(--text-main);
+      font-weight: 700;
+    }
+    .qa-answer ul {
+      margin: 0.5rem 0 0.5rem 1.25rem;
+    }
+    .qa-answer li {
+      margin-bottom: 0.25rem;
+    }
+    .qa-highlight-box {
+      background: var(--surface);
+      border-left: 3px solid var(--primary);
+      padding: 0.5rem 0.75rem;
+      border-radius: 0 6px 6px 0;
+      margin-top: 0.5rem;
+      font-size: 0.825rem;
+    }
+
+    /* Tab 3: Slide Guide for Cristopher */
+    .guide-banner {
+      background: linear-gradient(135deg, #064e3b 0%, #047857 100%);
+      color: #ffffff;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .guide-banner h2 {
+      font-family: var(--font-display);
+      font-size: 1.45rem;
+      font-weight: 800;
+      margin-bottom: 0.35rem;
+    }
+    .guide-banner p {
+      font-size: 0.9rem;
+      color: rgba(255, 255, 255, 0.9);
+      line-height: 1.45;
+    }
+    .guide-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 2.5rem;
+    }
+    .guide-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .guide-card-icon {
+      font-size: 1.6rem;
+      line-height: 1;
+    }
+    .guide-card-title {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+    .guide-card-body {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+    .guide-card-body strong {
+      color: var(--text-main);
+    }
+    .guide-card-action {
+      margin-top: auto;
+      padding-top: 0.75rem;
+      border-top: 1px solid var(--border);
+    }
+    .guide-link-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--primary);
+      text-decoration: none;
+    }
+    .guide-link-btn:hover {
+      text-decoration: underline;
+    }
+
+    .slide-spec-list {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      margin-top: 1.5rem;
+    }
+    .slide-spec-list h3 {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+    .spec-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.825rem;
+    }
+    .spec-table th, .spec-table td {
+      padding: 0.55rem 0.75rem;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+    }
+    .spec-table th {
+      background: rgba(0, 0, 0, 0.03);
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    /* Tab 4: Sources Table */
     .table-container {
       overflow-x: auto;
       border: 1px solid var(--border);
-      border-radius: 10px;
+      border-radius: 12px;
       background: var(--surface);
+      box-shadow: var(--shadow-sm);
     }
     .sources-table {
       width: 100%;
@@ -342,7 +660,7 @@
       text-align: left;
     }
     .sources-table th {
-      background: rgba(0, 0, 0, 0.03);
+      background: rgba(0, 0, 0, 0.04);
       padding: 0.75rem 1rem;
       font-weight: 700;
       color: var(--text-main);
@@ -355,10 +673,10 @@
       color: var(--text-muted);
       vertical-align: top;
     }
-    .sources-table tr:last-child td {
-      border-bottom: none;
-    }
+    .sources-table tr:last-child td { border-bottom: none; }
+    .sources-table tr:hover td { background: rgba(255, 255, 255, 0.7); }
 
+    /* Footer */
     footer {
       margin-top: 4rem;
       border-top: 1px solid var(--border);
@@ -371,7 +689,9 @@
     @media (max-width: 640px) {
       h1 { font-size: 2rem; }
       .speech-box { font-size: 1.1rem; }
-      .timer-display { font-size: 1.5rem; }
+      .timer-display { font-size: 1.6rem; }
+      .tabs-nav { gap: 0.25rem; }
+      .tab-btn { padding: 0.5rem 0.75rem; font-size: 0.8rem; }
     }
   </style>
 </head>
@@ -380,417 +700,984 @@
 
     <div class="top-meta">
       <span>Universidad Nacional de Piura (UNP) · Concurso PUCP</span>
-      <span>11 Diapositivas sin títulos extensos · 3:00 Minutos</span>
+      <span>11 Diapositivas Oficiales Verbatim · 3:00 Minutos Exactos</span>
+      <span class="badge highlight">Orador: Joyser Vásquez</span>
     </div>
 
     <header>
       <div class="brand-tag">🌱 Ecosistema de Reciclaje Inteligente</div>
       <h1>Q'UPA WASI</h1>
-      <div class="subtitle">Guion Oficial Calibrado Slide por Slide (502 Palabras · Pitch Oficial PUCP)</div>
+      <div class="subtitle">Portal Maestro de Pitch, Banco de Preguntas para el Equipo y Guía Visual PUCP</div>
       <div class="badges-bar">
         <span class="badge highlight">⏱️ ~3:10 Minutos</span>
         <span class="badge">📝 502 Palabras (~155 PPM)</span>
-        <span class="badge highlight">📱 Q'UPA WASI: App + Red de Contenedores</span>
-        <span class="badge highlight">🏛️ Fuentes: MINAM · SIGERSOL · D.L. 1278</span>
-        <span class="badge">🤝 Vicerrectorado de Investigación UNP</span>
-        <span class="badge">🌐 ODS 12.2 y 12.5</span>
+        <span class="badge highlight">📱 Q'UPA WASI: App + Red IoT</span>
+        <span class="badge accent">💰 S/ 2.50 / kg PET Cristal (98% Pureza)</span>
+        <span class="badge purple">⚡ BOM S/ 3,500 · Payback 4.5-5 meses</span>
+        <span class="badge">🏛️ Ley D.L. 1278 · ODS 12.2 / 12.5</span>
       </div>
     </header>
 
-    <!-- Cronómetro Sticky -->
-    <div class="timer-sticky">
-      <div>
-        <span class="timer-label">Cronómetro de Ensayo</span>
-        <div class="timer-display" id="timeDisplay">03:00</div>
-      </div>
-      <div class="timer-controls">
-        <button class="btn btn-primary" id="btnStart" onclick="startTimer()">▶ Iniciar</button>
-        <button class="btn" id="btnReset" onclick="resetTimer()">↺ Reiniciar</button>
-      </div>
+    <!-- Multi-Tab Navigation Bar -->
+    <div class="tabs-nav-wrapper">
+      <nav class="tabs-nav">
+        <button class="tab-btn active" onclick="openTab('tab-pitch')" id="btn-tab-pitch">
+          <span>🎙️</span> Guion Oficial & Ensayo <span class="tab-pill">11 Slides</span>
+        </button>
+        <button class="tab-btn" onclick="openTab('tab-qa')" id="btn-tab-qa">
+          <span>❓</span> Banco de Preguntas (Defensa) <span class="tab-pill">20 Q&A</span>
+        </button>
+        <button class="tab-btn" onclick="openTab('tab-slides')" id="btn-tab-slides">
+          <span>📽️</span> Guía de Slides (Cristopher) <span class="tab-pill">x6 Video & 3D</span>
+        </button>
+        <button class="tab-btn" onclick="openTab('tab-sources')" id="btn-tab-sources">
+          <span>📊</span> Fuentes & Respaldo Oficial <span class="tab-pill">10 Métricas</span>
+        </button>
+      </nav>
     </div>
 
-    <!-- Timeline Resumen -->
-    <div class="timeline-summary">
-      <h2>Mapa de Tiempos por Diapositiva (Rúbrica de Evaluación)</h2>
-      <div class="timeline-grid">
-        <div class="timeline-chip"><strong>1. Carátula</strong><span>15s (0:00 - 0:15)</span></div>
-        <div class="timeline-chip"><strong>2. Problema</strong><span>10s (0:15 - 0:25)</span></div>
-        <div class="timeline-chip"><strong>3. App / Clientes</strong><span>15s (0:25 - 0:40)</span></div>
-        <div class="timeline-chip"><strong>4. Actualidad</strong><span>10s (0:40 - 0:50)</span></div>
-        <div class="timeline-chip"><strong>5. La App (Cerebro)</strong><span>10s (0:50 - 1:00)</span></div>
-        <div class="timeline-chip"><strong>6. Solución</strong><span>40s (1:00 - 1:40)</span></div>
-        <div class="timeline-chip"><strong>7. SaaS + Scrap</strong><span>30s (1:40 - 2:10)</span></div>
-        <div class="timeline-chip"><strong>8. Beneficios</strong><span>20s (2:10 - 2:30)</span></div>
-        <div class="timeline-chip"><strong>9. Proyección</strong><span>10s (2:30 - 2:40)</span></div>
-        <div class="timeline-chip"><strong>10. Equipo</strong><span>10s (2:40 - 2:50)</span></div>
-        <div class="timeline-chip"><strong>11. Cierre</strong><span>10s (2:50 - 3:00)</span></div>
-      </div>
-    </div>
+    <!-- ========================================== -->
+    <!-- TAB 1: GUION OFICIAL VERBATIM & ENSAYO    -->
+    <!-- ========================================== -->
+    <div id="tab-pitch" class="tab-pane active">
 
-    <!-- DIAPOSITIVA 1 -->
-    <div class="slide-block">
-      <div class="slide-head">
-        <div class="slide-title-wrap">
-          <span class="slide-pill">SLIDE 01</span>
-          <span class="slide-title">Carátula y Gancho de Entrada (24,000 t/día y 2% Valorizado)</span>
-        </div>
-        <span class="slide-timing">15 segundos · 47 palabras</span>
-      </div>
-      <div class="visual-guide">
-        <strong>Visual en pantalla:</strong> Logo Lab. Emprendimientos + Logo institucional UNP/PUCP + Imagen de Q'UPA WASI.
-        <div style="margin-top:6px;"><span class="badge highlight" style="font-size:0.7rem;">Fuente oficial: MINAM / SIGERSOL</span></div>
-      </div>
-      <div class="speech-box">
-        "¿Sabían cuánto dinero botamos todos los días a la basura?<br><br>
-        En el Perú generamos más de <strong>24,000 toneladas diarias</strong> según el MINAM, y apenas el <strong>2% se valoriza</strong>.<br><br>
-        El <strong>98% restante no es basura</strong>: es capital, recursos y oportunidades que se pierden por falta de tecnología en el origen."
-      </div>
-      <div class="stage-cues">
+      <!-- Cronómetro Sticky -->
+      <div class="timer-sticky">
         <div>
-          <span class="cue-label">Tono & Intención</span>
-          Tono retador y seguro. Mencionar con firmeza "MINAM" y contrastar el "2% valorizado" contra el "98% de capital perdido".
+          <span class="timer-label">Cronómetro Oficial de Ensayo</span>
+          <div class="timer-display" id="timeDisplay">03:00</div>
         </div>
-        <div>
-          <span class="cue-label">Mirada & Pausa</span>
-          Pausa breve de 1 segundo tras la pregunta inicial para que cale el impacto.
+        <div class="timer-controls">
+          <button class="btn btn-primary" id="btnStart" onclick="startTimer()">▶ Iniciar</button>
+          <button class="btn" id="btnReset" onclick="resetTimer()">↺ Reiniciar</button>
         </div>
       </div>
-    </div>
 
-    <!-- DIAPOSITIVA 2 -->
-    <div class="slide-block">
-      <div class="slide-head">
-        <div class="slide-title-wrap">
-          <span class="slide-pill">SLIDE 02</span>
-          <span class="slide-title">Problema (Segregación vs Conectividad)</span>
-        </div>
-        <span class="slide-timing">10 segundos · 41 palabras</span>
-      </div>
-      <div class="visual-guide">
-        <strong>Visual en pantalla:</strong> Contraste: Industria 4.0 automatizada vs contenedores ciegos de hace 100 años.
-        <div style="margin-top:6px;"><span class="badge highlight" style="font-size:0.7rem;">Fuente: Diagnóstico de Innovación Sectorial</span></div>
-      </div>
-      <div class="speech-box">
-        "La industria se automatizó, el comercio se digitalizó y las ciudades se conectaron; pero la <strong>segregación de los residuos se quedó en el pasado</strong>.<br><br>
-        Vivimos en la era de la inteligencia artificial, pero <strong>seguimos botando los residuos en contenedores ciegos de hace 100 años</strong>."
-      </div>
-      <div class="stage-cues">
-        <div>
-          <span class="cue-label">Tono & Contraste</span>
-          Tono analítico. Contrastar con las manos: mano derecha arriba (industria conectada e IA), mano izquierda abajo (contenedores ciegos de hace 100 años).
-        </div>
-        <div>
-          <span class="cue-label">Mirada & Convicción</span>
-          Mirar a los empresarios del jurado. Marcar la brecha tecnológica evidente.
+      <!-- Timeline Resumen -->
+      <div class="timeline-summary">
+        <h2>Mapa de Tiempos y Palabras por Diapositiva (Rúbrica Oficial PUCP)</h2>
+        <div class="timeline-grid">
+          <div class="timeline-chip"><strong>1. Carátula</strong><span>15s (0:00 - 0:15) · 47 pal</span></div>
+          <div class="timeline-chip"><strong>2. Problema</strong><span>10s (0:15 - 0:25) · 41 pal</span></div>
+          <div class="timeline-chip"><strong>3. Mercado B2B</strong><span>15s (0:25 - 0:40) · 45 pal</span></div>
+          <div class="timeline-chip"><strong>4. Actualidad</strong><span>10s (0:40 - 0:50) · 47 pal</span></div>
+          <div class="timeline-chip"><strong>5. Q'UPA WASI</strong><span>10s (0:50 - 1:00) · 26 pal</span></div>
+          <div class="timeline-chip"><strong>6. 5 Pasos</strong><span>40s (1:00 - 1:40) · 75 pal</span></div>
+          <div class="timeline-chip"><strong>7. SaaS + Scrap</strong><span>30s (1:40 - 2:10) · 51 pal</span></div>
+          <div class="timeline-chip"><strong>8. Beneficios</strong><span>20s (2:10 - 2:30) · 50 pal</span></div>
+          <div class="timeline-chip"><strong>9. Proyección</strong><span>10s (2:30 - 2:40) · 51 pal</span></div>
+          <div class="timeline-chip"><strong>10. Equipo</strong><span>10s (2:40 - 2:50) · 53 pal</span></div>
+          <div class="timeline-chip"><strong>11. Cierre</strong><span>10s (2:50 - 3:00) · 16 pal</span></div>
         </div>
       </div>
-    </div>
 
-    <!-- DIAPOSITIVA 3 -->
-    <div class="slide-block">
-      <div class="slide-head">
-        <div class="slide-title-wrap">
-          <span class="slide-pill">SLIDE 03</span>
-          <span class="slide-title">Mercado B2B / Quién Paga (D.L. 1278 y Proyectos UNP)</span>
+      <!-- DIAPOSITIVA 1 -->
+      <div class="slide-block">
+        <div class="slide-head">
+          <div class="slide-title-wrap">
+            <span class="slide-pill">SLIDE 01</span>
+            <span class="slide-title">Carátula y Gancho de Entrada (24,000 t/día y 2% Valorizado)</span>
+          </div>
+          <span class="slide-timing">15 segundos · 47 palabras</span>
         </div>
-        <span class="slide-timing">15 segundos · 45 palabras</span>
-      </div>
-      <div class="visual-guide">
-        <strong>Visual en pantalla:</strong> B2B/B2G: Universidades, Corporaciones y Municipios obligados por Ley D.L. 1278.
-        <div style="margin-top:6px;"><span class="badge highlight" style="font-size:0.7rem;">Evaluación de Proyectos: Vicerrectorado de Investigación UNP</span></div>
-      </div>
-      <div class="speech-box">
-        "Las instituciones públicas y privadas están obligadas a declarar sus residuos según el <strong>Decreto Legislativo 1278 ante el MINAM bajo multas de hasta 100 UIT</strong>.<br><br>
-        En la UNP, el <strong>Vicerrectorado de Investigación ya evalúa proyectos innovadores</strong> para solucionar este tipo de problemáticas regionales."
-      </div>
-      <div class="stage-cues">
-        <div>
-          <span class="cue-label">Enfoque B2B Legal</span>
-          Claridad absoluta: clientes corporativos/estatales obligados a reportar por ley.
+        <div class="visual-guide">
+          <strong>Visual en pantalla:</strong> Logo Lab. Emprendimientos + Logo institucional UNP/PUCP + Imagen de Q'UPA WASI.
+          <div style="margin-top:6px;"><span class="badge highlight" style="font-size:0.7rem;">Fuente oficial: MINAM / SIGERSOL</span></div>
         </div>
-        <div>
-          <span class="cue-label">Tracción Institucional</span>
-          Mencionar con convicción que el Vicerrectorado de Investigación ya evalúa proyectos innovadores.
+        <div class="speech-box">
+          "¿Sabían cuánto dinero botamos todos los días a la basura?<br><br>
+          En el Perú generamos más de <strong>24,000 toneladas diarias</strong> según el MINAM, y apenas el <strong>2% se valoriza</strong>.<br><br>
+          El <strong>98% restante no es basura</strong>: es capital, recursos y oportunidades que se pierden por falta de tecnología en el origen."
+        </div>
+        <div class="stage-cues">
+          <div>
+            <span class="cue-label">Tono & Intención</span>
+            Tono retador y seguro. Mencionar con firmeza "MINAM" y contrastar el "2% valorizado" contra el "98% de capital perdido".
+          </div>
+          <div>
+            <span class="cue-label">Mirada & Pausa</span>
+            Pausa breve de 1 segundo tras la pregunta inicial para que cale el impacto.
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- DIAPOSITIVA 4 -->
-    <div class="slide-block">
-      <div class="slide-head">
-        <div class="slide-title-wrap">
-          <span class="slide-pill">SLIDE 04</span>
-          <span class="slide-title">Actualidad (Fallas del Sistema Actual y Pérdida de Valor)</span>
+      <!-- DIAPOSITIVA 2 -->
+      <div class="slide-block">
+        <div class="slide-head">
+          <div class="slide-title-wrap">
+            <span class="slide-pill">SLIDE 02</span>
+            <span class="slide-title">Problema (Segregación vs Conectividad)</span>
+          </div>
+          <span class="slide-timing">10 segundos · 41 palabras</span>
         </div>
-        <span class="slide-timing">10 segundos · 47 palabras</span>
-      </div>
-      <div class="visual-guide">
-        <strong>Visual en pantalla:</strong> Foto real de residuos mezclados en un contenedor único sin registro alguno.
-        <div style="margin-top:6px;"><span class="badge highlight" style="font-size:0.7rem;">Fuente: Diagnóstico de Segregación en Fuentes UNP</span></div>
-      </div>
-      <div class="speech-box">
-        "El <strong>sistema actual está fracasando</strong>: a pesar de haber iniciativas de reciclaje, los usuarios terminan sin motivación al ver que su esfuerzo ha sido en vano.<br><br>
-        Al final todos los residuos <strong>terminan en el mismo contenedor, perdiendo su valor económico y sin ningún registro alguno</strong>."
-      </div>
-      <div class="stage-cues">
-        <div>
-          <span class="cue-label">Lenguaje Corporal</span>
-          Señalar suavemente la pantalla mostrando la contradicción y el desánimo del sistema actual.
+        <div class="visual-guide">
+          <strong>Visual en pantalla:</strong> Contraste: Industria 4.0 automatizada vs contenedores ciegos de hace 100 años.
+          <div style="margin-top:6px;"><span class="badge highlight" style="font-size:0.7rem;">Fuente: Diagnóstico de Innovación Sectorial</span></div>
         </div>
-        <div>
-          <span class="cue-label">Pausa & Realidad</span>
-          Articular con claridad: "perdiendo su valor económico y sin ningún registro alguno".
+        <div class="speech-box">
+          "La industria se automatizó, el comercio se digitalizó y las ciudades se conectaron; pero la <strong>segregación de los residuos se quedó en el pasado</strong>.<br><br>
+          Vivimos en la era de la inteligencia artificial, pero <strong>seguimos botando los residuos en contenedores ciegos de hace 100 años</strong>."
+        </div>
+        <div class="stage-cues">
+          <div>
+            <span class="cue-label">Tono & Contraste</span>
+            Tono analítico. Contrastar con las manos: mano derecha arriba (industria conectada e IA), mano izquierda abajo (contenedores ciegos de hace 100 años).
+          </div>
+          <div>
+            <span class="cue-label">Mirada & Convicción</span>
+            Mirar a los empresarios del jurado. Marcar la brecha tecnológica evidente.
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- DIAPOSITIVA 5 -->
-    <div class="slide-block">
-      <div class="slide-head">
-        <div class="slide-title-wrap">
-          <span class="slide-pill">SLIDE 05</span>
-          <span class="slide-title">Presentación de Q'UPA WASI</span>
+      <!-- DIAPOSITIVA 3 -->
+      <div class="slide-block">
+        <div class="slide-head">
+          <div class="slide-title-wrap">
+            <span class="slide-pill">SLIDE 03</span>
+            <span class="slide-title">Mercado B2B / Quién Paga (D.L. 1278 y Proyectos UNP)</span>
+          </div>
+          <span class="slide-timing">15 segundos · 45 palabras</span>
         </div>
-        <span class="slide-timing">10 segundos · 26 palabras</span>
-      </div>
-      <div class="visual-guide">
-        <strong>Visual en pantalla:</strong> Render del módulo inteligente Q'UPA WASI con la interfaz de la App Móvil en primer plano.
-      </div>
-      <div class="speech-box">
-        "Frente a esta problemática nace <strong>Q'UPA WASI</strong>: una app que premia a los usuarios por saber clasificar sus residuos en nuestra red de contenedores inteligentes."
-      </div>
-      <div class="stage-cues">
-        <div>
-          <span class="cue-label">Presentación de Marca</span>
-          Presentar la marca con fuerza y seguridad vocal: "Q'UPA WASI".
+        <div class="visual-guide">
+          <strong>Visual en pantalla:</strong> B2B/B2G: Universidades, Corporaciones y Municipios obligados por Ley D.L. 1278.
+          <div style="margin-top:6px;"><span class="badge highlight" style="font-size:0.7rem;">Evaluación de Proyectos: Vicerrectorado de Investigación UNP</span></div>
         </div>
-        <div>
-          <span class="cue-label">Sonrisa & Energía</span>
-          Gesto de orgullo y satisfacción técnica.
+        <div class="speech-box">
+          "Las instituciones públicas y privadas están obligadas a declarar sus residuos según el <strong>Decreto Legislativo 1278 ante el MINAM bajo multas de hasta 100 UIT</strong>.<br><br>
+          En la UNP, el <strong>Vicerrectorado de Investigación ya evalúa proyectos innovadores</strong> para solucionar este tipo de problemáticas regionales."
+        </div>
+        <div class="stage-cues">
+          <div>
+            <span class="cue-label">Enfoque B2B Legal</span>
+            Claridad absoluta: clientes corporativos/estatales obligados a reportar por ley.
+          </div>
+          <div>
+            <span class="cue-label">Tracción Institucional</span>
+            Mencionar con convicción que el Vicerrectorado de Investigación ya evalúa proyectos innovadores.
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- DIAPOSITIVA 6 -->
-    <div class="slide-block">
-      <div class="slide-head">
-        <div class="slide-title-wrap">
-          <span class="slide-pill">SLIDE 06</span>
-          <span class="slide-title">Solución (Flujo de 5 Pasos + Visualización en App)</span>
+      <!-- DIAPOSITIVA 4 -->
+      <div class="slide-block">
+        <div class="slide-head">
+          <div class="slide-title-wrap">
+            <span class="slide-pill">SLIDE 04</span>
+            <span class="slide-title">Actualidad (Fallas del Sistema Actual y Pérdida de Valor)</span>
+          </div>
+          <span class="slide-timing">10 segundos · 47 palabras</span>
         </div>
-        <span class="slide-timing">40 segundos · 75 palabras</span>
-      </div>
-      <div class="visual-guide">
-        <strong>Visual en pantalla:</strong> Animación del flujo de 5 pasos en el módulo inteligente + Pantalla de la app con mapa de tachos en campus.
-      </div>
-      <div class="speech-box">
-        "El proceso de reciclar es simple y transparente:<br><br>
-        <strong>1. Paso 1:</strong> Seleccionas el material que vas a dejar.<br>
-        <strong>2. Paso 2:</strong> La cámara captura el material y valida lo seleccionado.<br>
-        <strong>3. Paso 3:</strong> Si lo anterior fue correcto, el sistema te otorga puntos en un código QR.<br>
-        <strong>4. Paso 4:</strong> Escaneas tu código y reclamas tus puntos en la aplicación.<br>
-        <strong>5. Paso 5:</strong> Canjeas tus puntos por algún beneficio dentro de la app.<br><br>
-        Además, <strong>en la app podrás visualizar los tachos disponibles en el campus</strong>."
-      </div>
-      <div class="stage-cues">
-        <div>
-          <span class="cue-label">Estructura Escénica</span>
-          Enumerar con los dedos de la mano izquierda del 1 al 5. Tono didáctico y fluido.
+        <div class="visual-guide">
+          <strong>Visual en pantalla:</strong> Foto real de residuos mezclados en un contenedor único sin registro alguno.
+          <div style="margin-top:6px;"><span class="badge highlight" style="font-size:0.7rem;">Fuente: Diagnóstico de Segregación en Fuentes UNP</span></div>
         </div>
-        <div>
-          <span class="cue-label">Facilidad de Uso</span>
-          Resaltar la facilidad de uso y la visualización de tachos en el campus.
+        <div class="speech-box">
+          "El <strong>sistema actual está fracasando</strong>: a pesar de haber iniciativas de reciclaje, los usuarios terminan sin motivación al ver que su esfuerzo ha sido en vano.<br><br>
+          Al final todos los residuos <strong>terminan en el mismo contenedor, perdiendo su valor económico y sin ningún registro alguno</strong>."
+        </div>
+        <div class="stage-cues">
+          <div>
+            <span class="cue-label">Lenguaje Corporal</span>
+            Señalar suavemente la pantalla mostrando la contradicción y el desánimo del sistema actual.
+          </div>
+          <div>
+            <span class="cue-label">Pausa & Realidad</span>
+            Articular con claridad: "perdiendo su valor económico y sin ningún registro alguno".
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- DIAPOSITIVA 7 -->
-    <div class="slide-block">
-      <div class="slide-head">
-        <div class="slide-title-wrap">
-          <span class="slide-pill">SLIDE 07</span>
-          <span class="slide-title">Modelo de Negocio (SaaS Vinculado a Sistema Electrónico)</span>
+      <!-- DIAPOSITIVA 5 -->
+      <div class="slide-block">
+        <div class="slide-head">
+          <div class="slide-title-wrap">
+            <span class="slide-pill">SLIDE 05</span>
+            <span class="slide-title">Presentación de Q'UPA WASI</span>
+          </div>
+          <span class="slide-timing">10 segundos · 26 palabras</span>
         </div>
-        <span class="slide-timing">30 segundos · 51 palabras</span>
-      </div>
-      <div class="visual-guide">
-        <strong>Visual en pantalla:</strong> Adquisición de contenedores + Suscripción mensual App SaaS + Alianzas con empresas recicladoras formales.
-        <div style="margin-top:6px;"><span class="badge highlight" style="font-size:0.7rem;">Modelo Software as a Service</span></div>
-      </div>
-      <div class="speech-box">
-        "Operamos con un <strong>modelo SaaS (Software as a Service o software como servicio)</strong> vinculado a un sistema electrónico de nuestra propiedad: la institución adquiere los contenedores y <strong>paga una suscripción mensual por la aplicación</strong>.<br><br>
-        Contamos con <strong>alianzas con empresas recicladoras formales</strong> que facilitan la recolección de los residuos, generando un valor económico."
-      </div>
-      <div class="stage-cues">
-        <div>
-          <span class="cue-label">Tono de Negocios</span>
-          Mirar fijamente a los jurados empresarios. Articular con convicción "modelo SaaS", "sistema electrónico propio" y "alianzas formales".
+        <div class="visual-guide">
+          <strong>Visual en pantalla:</strong> Render del módulo inteligente Q'UPA WASI con la interfaz de la App Móvil en primer plano.
         </div>
-        <div>
-          <span class="cue-label">Monetización Dual</span>
-          Destacar la doble vía: suscripción SaaS recurrente + recolección con valor económico.
+        <div class="speech-box">
+          "Frente a esta problemática nace <strong>Q'UPA WASI</strong>: una app que premia a los usuarios por saber clasificar sus residuos en nuestra red de contenedores inteligentes."
+        </div>
+        <div class="stage-cues">
+          <div>
+            <span class="cue-label">Presentación de Marca</span>
+            Presentar la marca con fuerza y seguridad vocal: "Q'UPA WASI".
+          </div>
+          <div>
+            <span class="cue-label">Sonrisa & Energía</span>
+            Gesto de orgullo y satisfacción técnica.
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- DIAPOSITIVA 8 -->
-    <div class="slide-block">
-      <div class="slide-head">
-        <div class="slide-title-wrap">
-          <span class="slide-pill">SLIDE 08</span>
-          <span class="slide-title">Beneficios para el Cliente y Aporte al Estado / ODS</span>
+      <!-- DIAPOSITIVA 6 -->
+      <div class="slide-block">
+        <div class="slide-head">
+          <div class="slide-title-wrap">
+            <span class="slide-pill">SLIDE 06</span>
+            <span class="slide-title">Solución (Flujo de 5 Pasos + Visualización en App)</span>
+          </div>
+          <span class="slide-timing">40 segundos · 75 palabras</span>
         </div>
-        <span class="slide-timing">20 segundos · 50 palabras</span>
-      </div>
-      <div class="visual-guide">
-        <strong>Visual en pantalla:</strong> 5 Beneficios Institucionales + Aporte al Estado: Aporte al MINAM y registros en avance de los ODS 12.2 y 12.5.
-        <div style="margin-top:6px;"><span class="badge highlight" style="font-size:0.7rem;">Aporte al MINAM & Registros ODS 12.2 / 12.5</span></div>
-      </div>
-      <div class="speech-box">
-        "Nuestros clientes obtienen los siguientes beneficios:<br><br>
-        <strong>1.</strong> Ahorro operativo.<br>
-        <strong>2.</strong> Estudio técnico.<br>
-        <strong>3.</strong> Reportes auditables.<br>
-        <strong>4.</strong> Prestigio institucional.<br>
-        <strong>5.</strong> Seguridad y cumplimiento de la ley.<br><br>
-        Y como aporte al Estado: <strong>generamos aportes directos al MINAM y registros en cuanto al avance de los ODS 12.2 y 12.5</strong>."
-      </div>
-      <div class="stage-cues">
-        <div>
-          <span class="cue-label">Ritmo & Énfasis</span>
-          Enumerar con autoridad los 5 beneficios institucionales y remarcar el impacto para el Estado y los ODS.
+        <div class="visual-guide">
+          <strong>Visual en pantalla:</strong> Video acelerado x6 del flujo en la app + Animación del módulo inteligente recibiendo el residuo.
+        </div>
+        <div class="speech-box">
+          "El proceso de reciclar es simple y transparente:<br><br>
+          <strong>1. Paso 1:</strong> Seleccionas el material que vas a dejar.<br>
+          <strong>2. Paso 2:</strong> La cámara captura el material y valida lo seleccionado.<br>
+          <strong>3. Paso 3:</strong> Si lo anterior fue correcto, el sistema te otorga puntos en un código QR.<br>
+          <strong>4. Paso 4:</strong> Escaneas tu código y reclamas tus puntos en la aplicación.<br>
+          <strong>5. Paso 5:</strong> Canjeas tus puntos por algún beneficio dentro de la app.<br><br>
+          Además, <strong>en la app podrás visualizar los tachos disponibles en el campus</strong>."
+        </div>
+        <div class="stage-cues">
+          <div>
+            <span class="cue-label">Estructura Escénica</span>
+            Enumerar con los dedos de la mano izquierda del 1 al 5. Tono didáctico y fluido.
+          </div>
+          <div>
+            <span class="cue-label">Facilidad de Uso</span>
+            Resaltar la facilidad de uso y la visualización de tachos en el campus.
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- DIAPOSITIVA 9 -->
-    <div class="slide-block">
-      <div class="slide-head">
-        <div class="slide-title-wrap">
-          <span class="slide-pill">SLIDE 09</span>
-          <span class="slide-title">Alcance Legal y Proyección Departamental</span>
+      <!-- DIAPOSITIVA 7 -->
+      <div class="slide-block">
+        <div class="slide-head">
+          <div class="slide-title-wrap">
+            <span class="slide-pill">SLIDE 07</span>
+            <span class="slide-title">Modelo de Negocio (SaaS Vinculado a Sistema Electrónico)</span>
+          </div>
+          <span class="slide-timing">30 segundos · 51 palabras</span>
         </div>
-        <span class="slide-timing">10 segundos · 51 palabras</span>
-      </div>
-      <div class="visual-guide">
-        <strong>Visual en pantalla:</strong> Expansión: 4 Meses (Prototipo UNP) ➔ 8 Meses (Campus UNP) ➔ 1 Año (Otras Universidades y Municipalidades).
-      </div>
-      <div class="speech-box">
-        "El <strong>D.L. 1278 no distingue entre entidades públicas ni privadas</strong>; por eso, nuestra proyección es que en <strong>4 meses validemos el primer prototipo funcional en la UNP</strong>, en <strong>8 meses expandirnos a todo el campus universitario</strong>, y en el plazo de <strong>1 año queremos llegar a otras universidades y a municipalidades</strong>."
-      </div>
-      <div class="stage-cues">
-        <div>
-          <span class="cue-label">Gesto de Escala</span>
-          Apertura con las manos hacia adelante marcando la progresión de 4 meses, 8 meses y 1 año.
+        <div class="visual-guide">
+          <strong>Visual en pantalla:</strong> Adquisición de contenedores + Suscripción mensual App SaaS + Alianzas con empresas recicladoras formales.
+          <div style="margin-top:6px;"><span class="badge highlight" style="font-size:0.7rem;">Modelo Software as a Service</span></div>
+        </div>
+        <div class="speech-box">
+          "Operamos con un <strong>modelo SaaS (Software as a Service o software como servicio)</strong> vinculado a un sistema electrónico de nuestra propiedad: la institución adquiere los contenedores y <strong>paga una suscripción mensual por la aplicación</strong>.<br><br>
+          Contamos con <strong>alianzas con empresas recicladoras formales</strong> que facilitan la recolección de los residuos, generando un valor económico."
+        </div>
+        <div class="stage-cues">
+          <div>
+            <span class="cue-label">Tono de Negocios</span>
+            Mirar fijamente a los jurados empresarios. Articular con convicción "modelo SaaS", "sistema electrónico propio" y "alianzas formales".
+          </div>
+          <div>
+            <span class="cue-label">Monetización Dual</span>
+            Destacar la doble vía: suscripción SaaS recurrente + recolección con valor económico.
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- DIAPOSITIVA 10 -->
-    <div class="slide-block">
-      <div class="slide-head">
-        <div class="slide-title-wrap">
-          <span class="slide-pill">SLIDE 10</span>
-          <span class="slide-title">Equipo y Asesoramiento Multidisciplinario</span>
+      <!-- DIAPOSITIVA 8 -->
+      <div class="slide-block">
+        <div class="slide-head">
+          <div class="slide-title-wrap">
+            <span class="slide-pill">SLIDE 08</span>
+            <span class="slide-title">Beneficios para el Cliente y Aporte al Estado / ODS</span>
+          </div>
+          <span class="slide-timing">20 segundos · 50 palabras</span>
         </div>
-        <span class="slide-timing">10 segundos · 53 palabras</span>
-      </div>
-      <div class="visual-guide">
-        <strong>Visual en pantalla:</strong> Fotos de los 4 integrantes: Ingeniería Informática (Software) e Ingeniería Electrónica (Hardware) + Panel de docentes especialistas asesores.
-      </div>
-      <div class="speech-box">
-        "Nuestro equipo está conformado por dos estudiantes de Ingeniería Informática: <strong>Luis y Cristopher</strong>, quienes son encargados del software; y dos estudiantes de Ingeniería Electrónica: <strong>Fernando y Joyser, que es quien les habla</strong>.<br><br>
-        Aparte, contamos con el <strong>asesoramiento continuo de docentes especialistas</strong> en informática, electrónica, ingeniería ambiental y economía."
-      </div>
-      <div class="stage-cues">
-        <div>
-          <span class="cue-label">Orador Identificado</span>
-          Señalarse con naturalidad al decir "Joyser, que es quien les habla". Tono cálido, solvente y seguro.
+        <div class="visual-guide">
+          <strong>Visual en pantalla:</strong> 5 Beneficios Institucionales + Aporte al Estado: Aporte al MINAM y registros en avance de los ODS 12.2 y 12.5.
+          <div style="margin-top:6px;"><span class="badge highlight" style="font-size:0.7rem;">Aporte al MINAM & Registros ODS 12.2 / 12.5</span></div>
+        </div>
+        <div class="speech-box">
+          "Nuestros clientes obtienen los siguientes beneficios:<br><br>
+          <strong>1.</strong> Ahorro operativo.<br>
+          <strong>2.</strong> Estudio técnico.<br>
+          <strong>3.</strong> Reportes auditables.<br>
+          <strong>4.</strong> Prestigio institucional.<br>
+          <strong>5.</strong> Seguridad y cumplimiento de la ley.<br><br>
+          Y como aporte al Estado: <strong>generamos aportes directos al MINAM y registros en cuanto al avance de los ODS 12.2 y 12.5</strong>."
+        </div>
+        <div class="stage-cues">
+          <div>
+            <span class="cue-label">Ritmo & Énfasis</span>
+            Enumerar con autoridad los 5 beneficios institucionales y remarcar el impacto para el Estado y los ODS.
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- DIAPOSITIVA 11 -->
-    <div class="slide-block">
-      <div class="slide-head">
-        <div class="slide-title-wrap">
-          <span class="slide-pill">SLIDE 11</span>
-          <span class="slide-title">Cierre (Slogan Oficial)</span>
+      <!-- DIAPOSITIVA 9 -->
+      <div class="slide-block">
+        <div class="slide-head">
+          <div class="slide-title-wrap">
+            <span class="slide-pill">SLIDE 09</span>
+            <span class="slide-title">Alcance Legal y Proyección Departamental</span>
+          </div>
+          <span class="slide-timing">10 segundos · 51 palabras</span>
         </div>
-        <span class="slide-timing">10 segundos · 16 palabras</span>
-      </div>
-      <div class="visual-guide">
-        <strong>Visual en pantalla:</strong> Logo oficial Q'UPA WASI + Slogan central: "Aquí premiamos tu decisión de cuidar el planeta" + Contacto.
-      </div>
-      <div class="speech-box">
-        "<strong>Somos Q'UPA WASI y aquí premiamos tu decisión de cuidar el planeta.</strong> Muchas gracias."
-      </div>
-      <div class="stage-cues">
-        <div>
-          <span class="cue-label">Pausa & Cierre</span>
-          Pausa breve de 1 segundo. Mirar a todo el jurado, sonreír y agradecer firmemente.
+        <div class="visual-guide">
+          <strong>Visual en pantalla:</strong> Expansión: 4 Meses (Prototipo UNP) ➔ 8 Meses (Campus UNP) ➔ 1 Año (Otras Universidades y Municipalidades).
+        </div>
+        <div class="speech-box">
+          "El <strong>D.L. 1278 no distingue entre entidades públicas ni privadas</strong>; por eso, nuestra proyección es que en <strong>4 meses validemos el primer prototipo funcional en la UNP</strong>, en <strong>8 meses expandirnos a todo el campus universitario</strong>, y en el plazo de <strong>1 año queremos llegar a otras universidades y a municipalidades</strong>."
+        </div>
+        <div class="stage-cues">
+          <div>
+            <span class="cue-label">Gesto de Escala</span>
+            Apertura con las manos hacia adelante marcando la progresión de 4 meses, 8 meses y 1 año.
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Q&A OFICIAL -->
-    <section class="faq-section">
-      <h2>Matriz de Defensa ante el Jurado (Rúbrica Oficial y Sugerencias del Asesor)</h2>
-      <div class="faq-card">
-        <div class="faq-q">1. ¿Cómo funciona la recarga de celular y por qué no entregan dinero en efectivo?</div>
-        <div class="faq-a">"Entregar dinero en efectivo genera incentivos perversos y costos de administración inviables. Nuestro enfoque entrega <strong>utilidad inmediata sin costo de caja</strong>: la estación cuenta con un panel solar monocristalino de 100 Wp y una batería AGM de ciclo profundo que alimentan tres puertos USB de carga rápida temporizada. El usuario deposita sus botellas o latas y la app le activa minutos de carga directa para su teléfono en el propio módulo. Es una solución práctica que resuelve una necesidad urgente de los estudiantes en el campus y no cuesta un solo sol de caja."</div>
+      <!-- DIAPOSITIVA 10 -->
+      <div class="slide-block">
+        <div class="slide-head">
+          <div class="slide-title-wrap">
+            <span class="slide-pill">SLIDE 10</span>
+            <span class="slide-title">Equipo y Asesoramiento Multidisciplinario</span>
+          </div>
+          <span class="slide-timing">10 segundos · 53 palabras</span>
+        </div>
+        <div class="visual-guide">
+          <strong>Visual en pantalla:</strong> Fotos de los 4 integrantes: Software (Luis y Cristopher) vs Electrónica (Fernando y Joyser) + Asesores docentes.
+        </div>
+        <div class="speech-box">
+          "Nuestro equipo está conformado por dos estudiantes de Ingeniería Informática: <strong>Luis y Cristopher</strong>, quienes son encargados del software; y dos estudiantes de Ingeniería Electrónica: <strong>Fernando y Joyser, que es quien les habla</strong>.<br><br>
+          Aparte, contamos con el <strong>asesoramiento continuo de docentes especialistas</strong> en informática, electrónica, ingeniería ambiental y economía."
+        </div>
+        <div class="stage-cues">
+          <div>
+            <span class="cue-label">Orador Identificado</span>
+            Señalarse con naturalidad al decir "Joyser, que es quien les habla". Tono cálido, solvente y seguro.
+          </div>
+        </div>
       </div>
-      <div class="faq-card">
-        <div class="faq-q">2. ¿Cómo logran vaciar la estación en solo 30 segundos frente a los 5 minutos convencionales?</div>
-        <div class="faq-a">"En los tachos convencionales, el trabajador de limpieza debe meter los brazos al fondo del contenedor fijo, lidiar con bolsas rotas, lixiviados y riesgo constante de cortes con latas o vidrios, demorando entre 4 y 5 minutos por tacho. Q'UPA WASI resuelve esto con dos innovaciones: (1) <strong>Alertas en la App:</strong> los sensores ultrasónicos notifican al personal en su celular cuando un compartimento llega al 80%, evitando rondas a ciegas; y (2) <strong>Bandejas Frontales Ergonómicas:</strong> la estación se abre por delante y los contenedores modulares HDPE se deslizan suavemente hacia afuera, retirando la bolsa a la altura de la cintura en <strong>menos de 30 segundos</strong>, sin sobreesfuerzo lumbar ni riesgo biológico."</div>
-      </div>
-      <div class="faq-card">
-        <div class="faq-q">3. ¿Por qué mencionan los ODS 12.2 y 12.5 y la falta de data en Sudamérica?</div>
-        <div class="faq-a">"Porque a nivel regional en Sudamérica y en el Perú existe un vacío de datos verificado: el <strong>ODS 12.2</strong> exige gestión eficiente de recursos, pero los municipios no miden cuánto material reincorporan realmente; y el <strong>ODS 12.5</strong> busca reducir desechos al 2030, pero hoy solo se reportan estimaciones en papel no auditables. Q'UPA WASI resuelve este problema de raíz: cada residuo se identifica con cámara y se pesa digitalmente en tiempo real, generando la <strong>primera base de datos verificable y georreferenciada de residuos de Piura</strong>."</div>
-      </div>
-      <div class="faq-card">
-        <div class="faq-q">4. ¿Por qué afirman que la recolección de residuos no ha escalado como los demás sectores productivos?</div>
-        <div class="faq-a">"Porque en las últimas décadas la industria, el comercio, el agro y la tecnología se automatizaron a escala masiva, pero todos ellos inevitablemente generan residuos. Sin embargo, el sector de recolección jamás evolucionó a esa escala: seguimos usando tachos estáticos de plástico inventados hace cincuenta años, recojo manual a ciegas y pesajes en papel. Q'UPA WASI rompe ese atraso histórico llevando la recolección a la misma escala tecnológica de la industria moderna: trazabilidad IoT, telemetría ODS e incentivos automáticos."</div>
-      </div>
-      <div class="faq-card">
-        <div class="faq-q">5. ¿Cuál es la diferencia exacta entre sus "usuarios" y sus "clientes"? ¿Quién les paga realmente?</div>
-        <div class="faq-a">"Es una distinción de modelo B2B fundamental:<br><br>
-        • <strong>Usuarios (quienes interactúan):</strong> La <strong>comunidad universitaria</strong> (14,000 personas entre estudiantes, docentes, personal administrativo y de servicios). Ellos depositan el residuo y reciben valor tangible: minutos de recarga solar de celular, impresiones y promociones de comercios aliados.<br><br>
-        • <strong>Clientes (quienes pagan y sostienen el negocio):</strong> Dos grupos específicos y solventes:<br>
-        (1) <strong>Entidades Generadoras Obligadas por Ley (B2B/B2G):</strong> Universidades, municipalidades y empresas que por el <strong>D.L. 1278 (Ley de Gestión Integral de Residuos Sólidos)</strong> tienen la obligación legal de reportar a SIGERSOL y certificar trazabilidad ambiental bajo riesgo de multas de hasta 100 UIT de OEFA. A ellos les cobramos una suscripción SaaS de S/ 150 a S/ 200 mensuales por módulo para entregarles datos certificados y dashboards ODS 12.2 y 12.5.<br>
-        (2) <strong>Empresas Transformadoras y Recicladoras Formales:</strong> Compran nuestro scrap de PET cristal segregado en origen con 98% de pureza a S/ 2.50 el kilo (triplicando el precio de acopio informal)."</div>
-      </div>
-      <div class="faq-card">
-        <div class="faq-q">6. ¿Cuáles son las opciones de estaciones (paquetes) y las métricas financieras del proyecto?</div>
-        <div class="faq-a">"Ofrecemos tres niveles de estaciones según las necesidades del cliente:<br><br>
-        • <strong>Nivel 1 (Esencial):</strong> Pesaje básico y compuerta con sensores para puntos de bajo tránsito.<br>
-        • <strong>Nivel 2 (Conectado):</strong> Telemetría continua, control de volumen ultrasónico y sincronización con la app móvil.<br>
-        • <strong>Nivel 3 (Avanzado IA / Solar - Recomendado UNP):</strong> Clasificación por visión computacional, celda de carga HX711, panel solar monocristalino de 100 Wp, batería AGM y puertos USB para recarga de celular. Su costo de insumos de hardware (BOM) es de <strong>S/ 3,500</strong>.<br>
-        Incluimos sin costo adicional el <strong>estudio técnico de puntos estratégicos</strong> de tráfico en el campus o sede.<br><br>
-        • <strong>Métricas Financieras:</strong> Ingreso mensual por estación: ~S/ 750 a S/ 900 (Scrap PET: S/ 450 + SaaS: S/ 180 + Publicidad: S/ 150) · <strong>Payback: 4.5 a 5 meses</strong> · Red de 5 módulos a 3 años: Inversión S/ 17,500 | <strong>VAN (12% COK): S/ 28,450</strong> | <strong>TIR: 48.6%</strong>."</div>
-      </div>
-      <div class="faq-card">
-        <div class="faq-q">7. ¿Cuál es el estado formal del proyecto con el Vicerrectorado de Investigación de la UNP?</div>
-        <div class="faq-a">"El proyecto ya cuenta con tracción institucional concreta: hemos presentado formalmente el expediente técnico y la propuesta de pilotaje ante el <strong>Vicerrectorado de Investigación de la UNP</strong>, y actualmente se encuentra en <strong>etapa de evaluación técnica para el financiamiento de nuestro primer prototipo funcional</strong> para autorizar la instalación del primer módulo frente al Comedor Central, convirtiendo a la UNP en la primera universidad pública del norte peruano con telemetría en tiempo real de residuos."</div>
-      </div>
-      <div class="faq-card">
-        <div class="faq-q">8. ¿Por qué las entidades públicas y privadas están legalmente obligadas a certificar sus residuos?</div>
-        <div class="faq-a">"En el Perú, la <strong>Ley de Gestión Integral de Residuos Sólidos (Decreto Legislativo N° 1278)</strong> y el D.S. 014-2017-MINAM establecen que todo generador no municipal (universidades, centros comerciales e instituciones) está obligado por ley a formular un Plan de Manejo de Residuos y presentar su Declaración Anual en SIGERSOL No Municipal. El incumplimiento o reporte en papel no auditable es sancionado por el <strong>OEFA con multas de hasta 100 UIT</strong>. Q'UPA WASI convierte esta obligación regulatoria en un proceso automático, auditable y en tiempo real."</div>
-      </div>
-      <div class="faq-card">
-        <div class="faq-q">9. ¿Por qué afirman que su verdadero producto es la app y no los tachos de basura?</div>
-        <div class="faq-a">"Porque los tachos son solo un contenedor físico comoditizado; sin nuestra tecnología, un tacho no identifica, no pesa, no entrega incentivos ni certifica datos ante el Estado. Nuestro modelo es <strong>SaaS Vinculado a Hardware Exclusivo</strong>:<br><br>
-        (1) <strong>Hardware Exclusivo:</strong> Las estaciones físicas solo operan con el software de Q'UPA WASI; no vendemos el código ni permitimos otra app. El cliente adquiere los módulos según el nivel elegido (S/ 3,500 para Nivel 3).<br>
-        (2) <strong>Suscripción Mensual SaaS:</strong> La institución paga una mensualidad recurrente por el uso de la app, el sistema de puntos, el dashboard de telemetría y los reportes oficiales auditables para el MINAM y OEFA.<br>
-        (3) <strong>Recolección Articulada:</strong> La recolección la realiza nuestra red asociada de recicladores formales (EO-RS / asociaciones registradas) que reciben alertas de llenado por la app. El cliente no sobrecarga a su personal de limpieza.<br>
-        (4) <strong>Monetización Dual:</strong> Ganamos por la suscripción mensual del software más el margen neto de venta del material de alta pureza (S/ 2.50/kg).<br><br>
-        Es un modelo <strong>altamente escalable y liviano en activos (asset-light)</strong>: no compramos camiones de basura ni cargamos planillas de recolección, sino que escalamos a nivel departamental y nacional a través del software."</div>
-      </div>
-    </section>
 
-    <!-- TABLA MAESTRA DE FUENTES -->
-    <section class="sources-section">
-      <h2>Tabla Maestra de Fuentes, Metodología y Respaldo Institucional</h2>
+      <!-- DIAPOSITIVA 11 -->
+      <div class="slide-block">
+        <div class="slide-head">
+          <div class="slide-title-wrap">
+            <span class="slide-pill">SLIDE 11</span>
+            <span class="slide-title">Cierre (Slogan Oficial)</span>
+          </div>
+          <span class="slide-timing">10 segundos · 16 palabras</span>
+        </div>
+        <div class="visual-guide">
+          <strong>Visual en pantalla:</strong> Logo oficial Q'UPA WASI + Slogan central: "Aquí premiamos tu decisión de cuidar el planeta" + Contacto.
+        </div>
+        <div class="speech-box">
+          "<strong>Somos Q'UPA WASI y aquí premiamos tu decisión de cuidar el planeta.</strong> Muchas gracias."
+        </div>
+        <div class="stage-cues">
+          <div>
+            <span class="cue-label">Pausa & Cierre</span>
+            Pausa breve de 1 segundo. Mirar a todo el jurado, sonreír y agradecer firmemente.
+          </div>
+        </div>
+      </div>
+
+    </div><!-- Fin Tab 1 -->
+
+
+    <!-- ========================================== -->
+    <!-- TAB 2: BANCO EXTENSIVO DE PREGUNTAS (DEF)  -->
+    <!-- ========================================== -->
+    <div id="tab-qa" class="tab-pane">
+
+      <div class="qa-header-box">
+        <h2>Banco de Preguntas Estratégicas para la Defensa</h2>
+        <p>Preparación técnica, económica, legal y operativa calibrada para el Jurado PUCP. Usa el buscador o filtra por área.</p>
+        
+        <div class="qa-controls">
+          <div class="search-input-wrap">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="qaSearchInput" class="search-input" placeholder="Buscar por palabra clave: scrap, sensor, racha, HMAC, BOM, VAN, D.L. 1278..." onkeyup="filterQuestions()">
+          </div>
+
+          <div class="qa-filter-pills">
+            <button class="filter-pill active" onclick="setQAFilter('all', this)">Todas (20)</button>
+            <button class="filter-pill" onclick="setQAFilter('finance', this)">💰 Finanzas & Unit Economics</button>
+            <button class="filter-pill" onclick="setQAFilter('hardware', this)">⚡ Electrónica & Hardware (Fernando/Joyser)</button>
+            <button class="filter-pill" onclick="setQAFilter('software', this)">💻 Software & IA (Luis/Cristopher)</button>
+            <button class="filter-pill" onclick="setQAFilter('legal', this)">🏛️ Legal, OEFA & ODS</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="qa-cards-grid" id="qaCardsGrid">
+
+        <!-- 1. FINANZAS: PREMIOS SIN QUEMAR CAJA -->
+        <div class="qa-card" data-category="finance" data-keywords="premios incentivos dinero caja recarga solar convenios comercios racha">
+          <div class="qa-card-meta">
+            <span class="qa-badge finance">💰 Finanzas & Premios</span>
+            <span class="qa-speaker-tag">Defiende: Joyser / Equipo</span>
+          </div>
+          <div class="qa-question">1. ¿Cómo pagan los premios o incentivos sin fundir la caja o quedarse sin dinero en efectivo?</div>
+          <div class="qa-answer">
+            <strong>Nunca entregamos dinero en efectivo.</strong> Eso generaría fraudes y costos de administración inviables. Nuestro sistema se sustenta en <strong>utilidad real de costo cero de caja</strong> mediante tres pilares:
+            <ul>
+              <li><strong>Minutos de Recarga Solar Inmediata:</strong> El panel solar de 100 Wp y la batería AGM de la estación alimentan 3 puertos USB de carga rápida. Al depositar botellas, la app activa tiempo de carga directa en el campus. La energía es 100% solar y no le cuesta un sol a la empresa.</li>
+              <li><strong>Convenios de Tráfico con Comercios del Campus:</strong> Las fotocopiadoras, librerías y cafeterías de la UNP ofrecen beneficios (descuentos del 10% o impresiones) a cambio de que nuestra app dirija a miles de estudiantes a sus locales. El comercio gana clientes y nosotros no pagamos el beneficio.</li>
+              <li><strong>Gamificación y Contador de Racha:</strong> Los estudiantes acumulan puntos para competir entre facultades y ganar diplomas de honor en sostenibilidad avalados por el Vicerrectorado.</li>
+            </ul>
+            <div class="qa-highlight-box">
+              <strong>Resultado:</strong> El 95.3% de intención de uso de la encuesta se activa con incentivos no monetarios que protegen al 100% el flujo de caja del proyecto.
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. FINANZAS: FLUJO DIARIO DE BOTELLAS -->
+        <div class="qa-card" data-category="finance" data-keywords="botellas dia diarias cantidad volumen kilos kg peso mensual">
+          <div class="qa-card-meta">
+            <span class="qa-badge finance">💰 Operaciones & Volumen</span>
+            <span class="qa-speaker-tag">Defiende: Joyser / Fernando</span>
+          </div>
+          <div class="qa-question">2. ¿Cuántas botellas o residuos ingresan al día por estación inteligente y cuánto pesa en total?</div>
+          <div class="qa-answer">
+            En un punto de alto tránsito universitario como el Comedor Central o el Pabellón Central de la UNP:
+            <ul>
+              <li><strong>Captura Diaria:</strong> Estimamos entre <strong>150 y 200 botellas plásticas PET al día</strong> por módulo.</li>
+              <li><strong>Peso Diario:</strong> Considerando que una botella estándar de 500-625 ml pesa entre 28 y 32 gramos, recolectamos entre <strong>5 y 7 kg de PET diario</strong> por estación.</li>
+              <li><strong>Volumen Mensual por Módulo:</strong> Son de <strong>4,500 a 6,000 botellas al mes</strong>, equivalentes a <strong>150 a 210 kg de plástico PET segregado puro</strong>.</li>
+            </ul>
+            <div class="qa-highlight-box">
+              <strong>Capacidad del Tacho:</strong> Cada compartimento interno alberga hasta 120 botellas sin compactar o 300 compactadas manualmente. Con nuestra alerta de 80% de llenado, la empresa recicladora aliada realiza el retiro programado 2 a 3 veces por semana sin desbordes.
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. FINANZAS: PRECIO SCRAP PET -->
+        <div class="qa-card" data-category="finance" data-keywords="precio scrap venta kilo kg pet cristal ganancia informal comparacion">
+          <div class="qa-card-meta">
+            <span class="qa-badge finance">💰 Mercado & Precios</span>
+            <span class="qa-speaker-tag">Defiende: Joyser / Luis</span>
+          </div>
+          <div class="qa-question">3. ¿A cuánto se vende el residuo segregado y por qué ganamos el triple que el reciclaje informal?</div>
+          <div class="qa-answer">
+            Vendemos el PET cristal segregado a <strong>S/ 2.50 por kilo</strong> directamente a plantas transformadoras y empresas recicladoras formales (EO-RS).
+            <ul>
+              <li><strong>El Reciclaje Informal (S/ 0.70 - S/ 0.80 / kg):</strong> El acopiador informal compra plástico mezclado con restos orgánicos, tierra y etiquetas sucias de botaderos como Curumuy. La industria le castiga el precio porque requiere lavado químico intensivo y genera 40% de merma.</li>
+              <li><strong>Q'UPA WASI (S/ 2.50 / kg):</strong> Al segregarse en el origen mediante visión artificial y celda de pesaje, nuestro material alcanza una <strong>pureza del 98%</strong>. Es PET cristal grado alimentario/industrial listo para escamado (flake) o pelletizado. Capturamos más del triple del precio de mercado.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 4. FINANZAS: GANANCIA MENSUAL POR ESTACIÓN -->
+        <div class="qa-card" data-category="finance" data-keywords="ganancia mensual estacion dinero ingresos egresos costo operativo margen">
+          <div class="qa-card-meta">
+            <span class="qa-badge finance">💰 Flujo Mensual</span>
+            <span class="qa-speaker-tag">Defiende: Joyser / Asesor Economía</span>
+          </div>
+          <div class="qa-question">4. ¿Cuánto dinero genera y cuánto gana en neto una estación inteligente al mes?</div>
+          <div class="qa-answer">
+            Cada estación inteligente opera como una unidad de negocio híbrida altamente rentable:
+            <ul>
+              <li><strong>Ingreso por Venta de Scrap PET:</strong> 180 kg/mes × S/ 2.50 = <strong>~S/ 450 mensuales</strong>.</li>
+              <li><strong>Ingreso por Suscripción SaaS:</strong> Pagado por la universidad/empresa por el dashboard de telemetría y reportes ODS = <strong>S/ 180 mensuales</strong> por módulo.</li>
+              <li><strong>Publicidad en Panel Lateral:</strong> Auspicio de marcas universitarias aliadas en vinil eco-amigable = <strong>~S/ 150 a S/ 200 mensuales</strong>.</li>
+              <li><strong>Ingreso Bruto Total:</strong> <strong>~S/ 780 a S/ 830 mensuales</strong> por estación.</li>
+              <li><strong>Costos Operativos (Opex):</strong> Chips SIM IoT + mantenimiento preventivo de rieles/sensores prorrateado = <strong>~S/ 80 mensuales</strong>.</li>
+            </ul>
+            <div class="qa-highlight-box">
+              <strong>Margen Neto Mensual:</strong> <strong>~S/ 700 a S/ 750 netos por mes por cada estación</strong> instalada.
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. FINANZAS: BOM / COSTO FABRICACIÓN -->
+        <div class="qa-card" data-category="finance" data-keywords="costo fabricacion bom hardware tacho dinero comprar piezas componentes">
+          <div class="qa-card-meta">
+            <span class="qa-badge finance">💰 Costo de Hardware</span>
+            <span class="qa-speaker-tag">Defiende: Fernando / Joyser</span>
+          </div>
+          <div class="qa-question">5. ¿Cuánto cuesta fabricar un tacho inteligente? (Inversión BOM Nivel 3)</div>
+          <div class="qa-answer">
+            El costo de insumos de ingeniería (Bill of Materials - BOM) para la estación completa <strong>Nivel 3 (Avanzado Solar / IA)</strong> es de <strong>S/ 3,500</strong>:
+            <ul>
+              <li><strong>Estructura y Chasis:</strong> Perfilería de aluminio estructural + láminas de HDPE reciclado termoformado de alta durabilidad: S/ 1,150.</li>
+              <li><strong>Sistema Mecatrónico:</strong> Tolva lineal sobre rieles, motor paso a paso NEMA 17, drivers A4988/TMC2209, compuerta con servo MG996R: S/ 620.</li>
+              <li><strong>Sensores y Visión:</strong> Cámara ESP32-CAM / procesador Edge AI, celda de carga 10 kg con amplificador HX711, 2 sensores ultrasónicos JSN-SR04T impermeables y barrera infrarroja: S/ 480.</li>
+              <li><strong>Alimentación Fotovoltaica:</strong> Panel solar monocristalino 100 Wp, controlador de carga MPPT 10A, batería AGM ciclo profundo 12V 35Ah y convertidores step-down USB: S/ 850.</li>
+              <li><strong>Pantalla e Interfaz:</strong> Pantalla LCD 20x4 I2C / matriz LED para códigos QR e instrucciones: S/ 250.</li>
+              <li><strong>Cableado, protecciones y fusibles industriales:</strong> S/ 150.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 6. FINANZAS: PAYBACK, VAN Y TIR -->
+        <div class="qa-card" data-category="finance" data-keywords="payback van tir rentabilidad retorno inversion 3 anos cok horizonte">
+          <div class="qa-card-meta">
+            <span class="qa-badge finance">💰 Métricas de Inversión</span>
+            <span class="qa-speaker-tag">Defiende: Joyser / Asesor Economía</span>
+          </div>
+          <div class="qa-question">6. ¿Cuál es el tiempo de recuperación (Payback) y las métricas VAN y TIR a 3 años?</div>
+          <div class="qa-answer">
+            Con un flujo neto de ~S/ 720 al mes y un costo BOM de S/ 3,500:
+            <ul>
+              <li><strong>Payback Simple:</strong> Se recupera en <strong>4.8 meses (menos de 5 meses)</strong> por módulo instalado.</li>
+              <li><strong>Evaluación Económica a 3 Años (Piloto 5 Estaciones en UNP):</strong>
+                <ul>
+                  <li>Inversión Inicial (5 módulos Nivel 3): <strong>S/ 17,500</strong>.</li>
+                  <li>Flujo de Caja Neto Anual (5 módulos): <strong>~S/ 18,200</strong> netos anuales.</li>
+                  <li>Tasa de Descuento (COK de proyectos tecnológicos en Perú): <strong>12.0% anual</strong>.</li>
+                  <li><strong>VAN (Valor Actual Neto a 3 años):</strong> <strong>S/ 28,450</strong> (Proyecto sumamente rentable).</li>
+                  <li><strong>TIR (Tasa Interna de Retorno):</strong> <strong>48.6%</strong> (Supera ampliamente el costo de oportunidad).</li>
+                  <li><strong>Relación Beneficio / Costo (B/C):</strong> <strong>1.62</strong>.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 7. FINANZAS: PAQUETES DE TACHOS -->
+        <div class="qa-card" data-category="finance" data-keywords="paquetes niveles tipos tachos precios recomendacion unp estudio tecnico">
+          <div class="qa-card-meta">
+            <span class="qa-badge finance">💰 Portafolio B2B</span>
+            <span class="qa-speaker-tag">Defiende: Joyser / Luis</span>
+          </div>
+          <div class="qa-question">7. ¿Qué paquetes de tachos ofrecen a los clientes y cuál se recomienda para la UNP?</div>
+          <div class="qa-answer">
+            Ofrecemos tres paquetes escalables según el flujo del cliente:
+            <ul>
+              <li><strong>Nivel 1 (Esencial - S/ 1,800):</strong> Pesaje digital con celda HX711 y apertura manual con sensor de presencia. Diseñado para oficinas administrativas o pasillos de bajo tránsito.</li>
+              <li><strong>Nivel 2 (Conectado - S/ 2,600):</strong> Telemetría IoT en tiempo real, sensor ultrasónico de llenado y pantalla LCD conectada a la red WiFi institucional.</li>
+              <li><strong>Nivel 3 (Avanzado Solar / IA - S/ 3,500 - Recomendado UNP):</strong> Visión artificial por cámara para validación estricta, tolva motorizada sobre rieles lineales, panel solar 100 Wp con batería AGM para independencia de la red eléctrica, puertos de carga rápida USB para estudiantes y QR dinámico firmado con HMAC.</li>
+            </ul>
+            <div class="qa-highlight-box">
+              <strong>Valor Agregado Incluido:</strong> Por la compra de cualquier paquete realizamos sin costo el <strong>estudio técnico de flujo y puntos estratégicos de tráfico</strong> en el campus, y entregamos reportes mensuales auditables para cumplir con el D.L. 1278 ante el MINAM.
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. HARDWARE: MECÁNICA DE TOLVA Y RIELES -->
+        <div class="qa-card" data-category="hardware" data-keywords="tolva rieles motor nema 17 correa compuerta deslizamiento mecanica">
+          <div class="qa-card-meta">
+            <span class="qa-badge hardware">⚡ Electrónica & Mecánica</span>
+            <span class="qa-speaker-tag">Defiende: Fernando / Joyser</span>
+          </div>
+          <div class="qa-question">8. ¿Cómo funciona mecánicamente la tolva de inspección sobre rieles?</div>
+          <div class="qa-answer">
+            El sistema mecatrónico fue diseñado para separar residuos de forma infalible sin intervención humana directa en la clasificación:
+            <ul>
+              <li><strong>Tolva de Inspección:</strong> El usuario deposita el residuo en la boca de entrada; este se posa sobre una tolva móvil equipada con una cámara cenital y una celda de carga.</li>
+              <li><strong>Rieles Lineales y Tracción:</strong> La tolva corre sobre guías lineales con rodamientos MGN12 accionadas por un <strong>motor paso a paso NEMA 17</strong> y una correa síncrona dentada GT2 de alta precisión.</li>
+              <li><strong>Apertura por Servomotor:</strong> Una vez validada la categoría (ej. plástico PET), la tolva se desplaza milimétricamente hasta ubicarse sobre el contenedor correspondiente. Su compuerta inferior se abre mediante un servomotor de alto torque (MG996R con piñonería metálica), dejando caer el residuo por gravedad.</li>
+              <li><strong>Retorno Seguro:</strong> La compuerta se cierra y la tolva retorna a su posición inicial en menos de 2.5 segundos, quedando lista para recibir el siguiente residuo.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 9. HARDWARE: CELDAS DE CARGA VS ULTRASÓNICO -->
+        <div class="qa-card" data-category="hardware" data-keywords="sensores celda hx711 ultrasonico peso volumen nivel masa diferencia">
+          <div class="qa-card-meta">
+            <span class="qa-badge hardware">⚡ Sensores e Instrumentación</span>
+            <span class="qa-speaker-tag">Defiende: Fernando Zapata</span>
+          </div>
+          <div class="qa-question">9. ¿Por qué usan plataforma de pesaje Y sensor ultrasónico? ¿No basta con uno de ellos?</div>
+          <div class="qa-answer">
+            <strong>Miden magnitudes físicas totalmente distintas y complementarias:</strong>
+            <ul>
+              <li><strong>Celda de Carga con HX711 (Mide Masa):</strong> Mide los kilogramos exactos de material acopiado. Esto es vital para dos cosas: (1) Calcular el valor monetario real del scrap a S/ 2.50/kg, y (2) Emitir el reporte oficial exigido por el D.L. 1278 ante el MINAM y los ODS 12.2. El peso evita que alguien engañe al sistema con objetos livianos no autorizados.</li>
+              <li><strong>Sensor Ultrasónico JSN-SR04T (Mide Volumen / Nivel):</strong> Mide la distancia libre desde el techo del contenedor hasta los residuos. Las botellas de plástico vacías ocupan muchísimo volumen pero pesan casi nada: 50 botellas infladas pueden saturar el tacho volumétricamente aunque apenas pesen 1.5 kg.</li>
+            </ul>
+            <div class="qa-highlight-box">
+              <strong>Sinergia Técnica:</strong> Si solo usáramos peso, el tacho se desbordaría físicamente sin darnos cuenta. Si solo usáramos ultrasonido, no podríamos liquidar el dinero del scrap ni auditar las metas del MINAM. La combinación de ambos es lo que hace inteligente al sistema.
+            </div>
+          </div>
+        </div>
+
+        <!-- 10. HARDWARE: SENSOR DE PASO INFRARROJO -->
+        <div class="qa-card" data-category="hardware" data-keywords="sensor paso infrarrojo caida cruce deteccion transito atasco">
+          <div class="qa-card-meta">
+            <span class="qa-badge hardware">⚡ Sensores e Instrumentación</span>
+            <span class="qa-speaker-tag">Defiende: Fernando / Joyser</span>
+          </div>
+          <div class="qa-question">10. ¿Qué función cumple el sensor de paso infrarrojo en la caída y cuáles son sus límites?</div>
+          <div class="qa-answer">
+            Es una barrera optoelectrónica infrarroja de cruce instalada en el ducto de descarga inferior de la tolva:
+            <ul>
+              <li><strong>Propósito:</strong> Detecta el tránsito dinámico del residuo cuando la compuerta se abre y el objeto cae por gravedad hacia el tacho inferior.</li>
+              <li><strong>Límite Técnico Importante:</strong> El sensor de paso solo confirma que el objeto <em>abandonó la tolva</em>, pero no puede garantizar por sí solo que haya llegado hasta el fondo del contenedor sin quedarse atorado a mitad de camino.</li>
+              <li><strong>Validación Cruzada:</strong> Por eso, nuestro firmware valida la caída con la variación de distancia del sensor ultrasónico y la variación de masa de la celda de carga inferior. Solo cuando se cumplen las tres condiciones se valida la entrega exitosa de puntos.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 11. HARDWARE: ATASCOS Y FAIL-SAFE -->
+        <div class="qa-card" data-category="hardware" data-keywords="atasco tacho lleno falla sensor bloqueo error fail-safe seguridad parada">
+          <div class="qa-card-meta">
+            <span class="qa-badge hardware">⚡ Control & Seguridad</span>
+            <span class="qa-speaker-tag">Defiende: Fernando Zapata</span>
+          </div>
+          <div class="qa-question">11. ¿Qué protocolo ocurre si hay un atasco, tacho lleno o falla en un sensor?</div>
+          <div class="qa-answer">
+            Nuestro sistema cuenta con una arquitectura de <strong>tolerancia a fallas (fail-safe)</strong>: nunca finge que la operación terminó ni regala puntos si ocurrió un error:
+            <ul>
+              <li><strong>Si un Tacho está Lleno (>85% volumen):</strong> La app y la pantalla LCD del módulo inhabilitan esa categoría antes de que el usuario inserte el residuo, informando: <em>"Tacho de botellas lleno, cuadrilla de retiro notificada"</em>. Se impide abrir la compuerta para esa categoría.</li>
+              <li><strong>Si Ocurre un Atasco Mecánico:</strong> El driver del motor NEMA 17 monitorea la corriente (StallGuard). Si detecta resistencia mecánica anormal en la tolva, detiene el movimiento de inmediato para proteger el motor, revierte la compuerta y muestra en pantalla: <em>"Obstrucción detectada. Por favor retire el residuo"</em>.</li>
+              <li><strong>Si Falla un Sensor de Caída:</strong> Si la compuerta se abre pero el sensor infrarrojo no detecta el paso tras 3 segundos, el sistema no otorga puntos al QR, emite un aviso sonoro y envía una alerta técnica prioritaria vía MQTT al panel de mantenimiento.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 12. HARDWARE: ENERGÍA SOLAR Y AUTONOMÍA -->
+        <div class="qa-card" data-category="hardware" data-keywords="panel solar bateria agm autonomia dias nublados consumo watts corriente">
+          <div class="qa-card-meta">
+            <span class="qa-badge hardware">⚡ Energía Renovable</span>
+            <span class="qa-speaker-tag">Defiende: Fernando / Joyser</span>
+          </div>
+          <div class="qa-question">12. ¿Cómo se dimensionó el sistema solar y qué pasa si hay días nublados en Piura?</div>
+          <div class="qa-answer">
+            El sistema está diseñado para ser energéticamente autónomo (off-grid):
+            <ul>
+              <li><strong>Panel Fotovoltaico:</strong> Panel monocristalino de <strong>100 Wp</strong> instalado en el techo inclinado del módulo (aprovechando la alta radiación solar de Piura de >5.5 kWh/m²/día).</li>
+              <li><strong>Batería y Almacenamiento:</strong> Batería de ciclo profundo <strong>AGM de 12V y 35Ah</strong> (capacidad de almacenamiento de 420 Wh), conectada a un controlador solar MPPT de alta eficiencia.</li>
+              <li><strong>Presupuesto Energético:</strong>
+                <ul>
+                  <li>En estado de espera (Deep Sleep de microcontroladores y sensores en reposo): consumo de <strong>1.8 W</strong>.</li>
+                  <li>En ciclo activo de inspección (cámara + movimiento motor + pantalla durante 15s): consumo pico de <strong>18 W</strong>.</li>
+                  <li>Puertos de carga USB de celular: limitados a 10W por puerto con corte automático temporizado de 10 minutos.</li>
+                </ul>
+              </li>
+            </ul>
+            <div class="qa-highlight-box">
+              <strong>Autonomía Comprobada:</strong> Con la batería al 100%, el módulo puede operar durante <strong>más de 36 horas continuas en oscuridad total</strong>, garantizando operatividad ininterrumpida ante días nublados o lluvias en Piura.
+            </div>
+          </div>
+        </div>
+
+        <!-- 13. SOFTWARE: MODELO DE INTELIGENCIA ARTIFICIAL -->
+        <div class="qa-card" data-category="software" data-keywords="inteligencia artificial modelo vision cnn mobilenet yolo red neuronal edge local">
+          <div class="qa-card-meta">
+            <span class="qa-badge software">💻 Software & IA</span>
+            <span class="qa-speaker-tag">Defiende: Luis Felix Gonzales</span>
+          </div>
+          <div class="qa-question">13. ¿Qué modelo de Inteligencia Artificial usan y dónde se procesa la imagen?</div>
+          <div class="qa-answer">
+            Utilizamos una red neuronal convolucional (CNN) optimizada: <strong>MobileNetV2 / YOLOv8 Nano cuantizada a INT8</strong>:
+            <ul>
+              <li><strong>Procesamiento en el Borde (Edge Computing):</strong> La inferencia se realiza directamente en el hardware local (microcontrolador ESP32-S3 con aceleración vectorial o Raspberry Pi Zero 2W con TensorFlow Lite).</li>
+              <li><strong>Velocidad de Inferencia:</strong> Clasifica el material en <strong>menos de 380 milisegundos</strong>.</li>
+              <li><strong>Independencia de Conexión:</strong> Al ejecutarse en el borde, el tacho puede validar y clasificar residuos incluso si la red WiFi o celular del campus se cae temporalmente.</li>
+              <li><strong>Entrenamiento Local:</strong> El modelo fue entrenado con un dataset fotográfico propio de botellas plásticas PET de las marcas más consumidas en Piura (San Luis, Cielo, Inca Kola), latas de aluminio y descartes típicos de estudiantes.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 14. SOFTWARE: UMBRAL DE CONFIANZA -->
+        <div class="qa-card" data-category="software" data-keywords="confianza umbral certeza error duda camina residuo aplastado clasificacion">
+          <div class="qa-card-meta">
+            <span class="qa-badge software">💻 Software & IA</span>
+            <span class="qa-speaker-tag">Defiende: Cristopher Carrasco</span>
+          </div>
+          <div class="qa-question">14. ¿Qué ocurre si la cámara no puede identificar el residuo con certeza?</div>
+          <div class="qa-answer">
+            Tenemos programado un <strong>umbral de confianza estricto del 85% (&tau; &ge; 0.85)</strong>:
+            <ul>
+              <li><strong>Cero Decisiones al Azar:</strong> Si un residuo ingresa aplastado de forma extraña, sucio o en un ángulo no concluyente y la red arroja una confianza menor al 85%, el sistema <strong>nunca lo envía a un contenedor al azar</strong>.</li>
+              <li><strong>Interacción con el Usuario:</strong> La pantalla del módulo le solicita una acción correctiva: <em>"Gire el residuo sobre la tolva para re-inspección"</em> o le permite elegir la categoría manualmente en pantalla para una doble confirmación por masa.</li>
+              <li><strong>Rechazo Seguro:</strong> Si tras dos intentos el residuo sigue sin cumplir los parámetros de material reciclable, la tolva expulsa el residuo hacia la bandeja de devolución, evitando contaminar el lote de 98% de pureza.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 15. SOFTWARE: QR DINÁMICO Y PREVENCIÓN DE FRAUDE -->
+        <div class="qa-card" data-category="software" data-keywords="qr dinamico hmac sha256 fraude foto whatsapp clonacion trampa puntos">
+          <div class="qa-card-meta">
+            <span class="qa-badge software">💻 Ciberseguridad & QR</span>
+            <span class="qa-speaker-tag">Defiende: Luis Felix Gonzales</span>
+          </div>
+          <div class="qa-question">15. ¿Cómo evitan que la gente haga trampa, le tome foto al QR y lo pase por WhatsApp?</div>
+          <div class="qa-answer">
+            Implementamos un protocolo de <strong>Tokens QR Dinámicos Efímeros (OTP Criptográfico)</strong>:
+            <ul>
+              <li><strong>Firma Digital HMAC-SHA256:</strong> El código QR generado en la pantalla del tacho contiene un payload firmado criptográficamente con HMAC-SHA256: <code>{tacho_id, sesion_id, puntos, timestamp, hash}</code>.</li>
+              <li><strong>Caducidad de 60 Segundos:</strong> El código QR expira a los 60 segundos de ser generado. Una foto tomada y enviada por WhatsApp quedará inválida casi de inmediato.</li>
+              <li><strong>Transacción Atómica de Un Solo Uso:</strong> Cuando un usuario escanea el QR con la app de Q'UPA WASI, nuestro backend en Supabase procesa una función PostgreSQL atómica con Row Level Security (RLS) que <strong>quema el token inmediatamente</strong>. Si otro teléfono intenta escanear el mismo código, el sistema arroja: <em>"Error: Código QR ya canjeado"</em>.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 16. SOFTWARE: STACK Y TELEMETRÍA -->
+        <div class="qa-card" data-category="software" data-keywords="arquitectura software stack supabase postgresql mqtt flutter websockets telemetria">
+          <div class="qa-card-meta">
+            <span class="qa-badge software">💻 Arquitectura Cloud & IoT</span>
+            <span class="qa-speaker-tag">Defiende: Cristopher / Luis</span>
+          </div>
+          <div class="qa-question">16. ¿Cuál es la arquitectura de software, base de datos y telemetría de Q'UPA WASI?</div>
+          <div class="qa-answer">
+            Arquitectura Serverless moderna, segura y escalable:
+            <ul>
+              <li><strong>App Móvil:</strong> Desarrollada en <strong>Flutter</strong> para compilación nativa fluida en Android e iOS desde un único código base.</li>
+              <li><strong>Backend y Base de Datos:</strong> <strong>Supabase sobre PostgreSQL 15</strong>, con autenticación segura OAuth, Row Level Security (RLS) para aislamiento de datos entre usuarios y almacenamiento seguro.</li>
+              <li><strong>Protocolo de Telemetría IoT:</strong> Protocolo <strong>MQTT con cifrado TLS/SSL sobre WebSockets</strong>. Los módulos transmiten cada 5 segundos su estado (nivel de batería, porcentaje de llenado, peso acumulado y disponibilidad) permitiendo ver el mapa de tachos en tiempo real en la app.</li>
+              <li><strong>Dashboard B2B:</strong> Desarrollado en Next.js para que el Vicerrectorado de Investigación y la oficina de gestión ambiental de la UNP descarguen reportes en PDF y Excel auditables ante MINAM.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 17. SOFTWARE: GAMIFICACIÓN Y RACHA -->
+        <div class="qa-card" data-category="software" data-keywords="gamificacion racha constancia habitos medallas multiplicador app">
+          <div class="qa-card-meta">
+            <span class="qa-badge software">💻 Gamificación & UX</span>
+            <span class="qa-speaker-tag">Defiende: Cristopher Carrasco</span>
+          </div>
+          <div class="qa-question">17. ¿Cómo funciona la gamificación y el contador de racha para fidelizar al universitario?</div>
+          <div class="qa-answer">
+            Aplicamos principios de <strong>economía conductual (Behavioral Economics)</strong> para crear un hábito diario:
+            <ul>
+              <li><strong>Contador de Racha (Streaks):</strong> La app premia la <em>frecuencia y constancia</em>, no solo la cantidad. Si un estudiante recicla al menos una botella durante 5 días seguidos en la semana, activa un <strong>multiplicador de puntos de 1.5x</strong>.</li>
+              <li><strong>Ranking Inter-Facultades:</strong> Tabla de posiciones semanal donde compiten las facultades de la UNP (Ingeniería Industrial vs Informática vs Medicina). La facultad ganadora recibe reconocimiento ambiental institucional en sus redes.</li>
+              <li><strong>Insignias de Impacto Real:</strong> La app traduce los puntos en impacto tangible: <em>"Has evitado 3.2 kg de CO2 y ahorrado 15 litros de agua este mes"</em>.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 18. LEGAL: D.L. 1278 Y FISCALIZACIÓN OEFA -->
+        <div class="qa-card" data-category="legal" data-keywords="ley d.l. 1278 decreto legislativo oefa multas 100 uit sigersol no municipal">
+          <div class="qa-card-meta">
+            <span class="qa-badge legal">🏛️ Legal & Regulatorio</span>
+            <span class="qa-speaker-tag">Defiende: Joyser / Equipo</span>
+          </div>
+          <div class="qa-question">18. ¿Por qué el D.L. 1278 obliga tanto a universidades públicas como a empresas privadas?</div>
+          <div class="qa-answer">
+            La <strong>Ley de Gestión Integral de Residuos Sólidos (Decreto Legislativo N° 1278)</strong> y su Reglamento (D.S. 014-2017-MINAM) no hacen distinción entre instituciones públicas y privadas:
+            <ul>
+              <li><strong>Ámbito No Municipal Obligatorio:</strong> Toda institución o empresa que genere residuos similares a municipales en volúmenes institucionales está clasificada como generador no municipal.</li>
+              <li><strong>Declaración Anual ante SIGERSOL:</strong> Tienen la obligación jurídica de presentar anualmente su Plan de Minimización y Manejo de Residuos y registrar su Declaración en el sistema SIGERSOL No Municipal del MINAM.</li>
+              <li><strong>Multas del OEFA de hasta 100 UIT:</strong> El Organismo de Evaluación y Fiscalización Ambiental (OEFA) tipifica como infracción grave carecer de registros auditables o enviar residuos reciclables a botaderos informales, aplicando <strong>multas que alcanzan las 100 Unidades Impositivas Tributarias (más de S/ 515,000)</strong>.</li>
+            </ul>
+            <div class="qa-highlight-box">
+              <strong>Propuesta de Valor B2B:</strong> Q'UPA WASI convierte esta amenaza legal en un clic: nuestros dashboards emiten el balance de masa mensual auditable exigido por OEFA.
+            </div>
+          </div>
+        </div>
+
+        <!-- 19. LEGAL: ALIANZA RECICLADORES FORMALES -->
+        <div class="qa-card" data-category="legal" data-keywords="recicladores formales eo-rs empresas operadoras recojo alianza minam">
+          <div class="qa-card-meta">
+            <span class="qa-badge legal">🏛️ Alianzas & Logística</span>
+            <span class="qa-speaker-tag">Defiende: Joyser Vásquez</span>
+          </div>
+          <div class="qa-question">19. ¿Cómo se articulan las alianzas con empresas recicladoras formales (EO-RS)?</div>
+          <div class="qa-answer">
+            El marco normativo peruano prohíbe comercializar residuos con recicladores informales en la vía pública. Nuestro modelo opera bajo total formalidad:
+            <ul>
+              <li><strong>Articulación con EO-RS Autorizadas:</strong> Nos asociamos con Empresas Operadoras de Residuos Sólidos (EO-RS) registradas en el MINAM y asociaciones formalizadas de recicladores de Piura.</li>
+              <li><strong>Notificación Automática por App:</strong> Cuando las estaciones llegan al 80% de capacidad, el sistema despacha una ruta de retiro georreferenciada a la EO-RS aliada.</li>
+              <li><strong>Retiro Ergonómico en 30 Segundos:</strong> Gracias al chasis modular con bandejas frontales deslizantes, el personal de la recicladora extrae la bolsa de PET a la altura de la cintura en 30 segundos, sin tocar basura descompuesta ni correr riesgos de cortes. Se emite la guía de remisión formal correspondiente.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 20. LEGAL: ODS 12.2 Y 12.5 -->
+        <div class="qa-card" data-category="legal" data-keywords="ods 12.2 12.5 objetivos desarrollo sostenible cepal unp acreditacion sineace sunedu">
+          <div class="qa-card-meta">
+            <span class="qa-badge legal">🏛️ Sostenibilidad & ODS</span>
+            <span class="qa-speaker-tag">Defiende: Joyser / Equipo</span>
+          </div>
+          <div class="qa-question">20. ¿Qué significan exactamente los ODS 12.2 y 12.5 y cómo benefician la acreditación de la UNP?</div>
+          <div class="qa-answer">
+            Forman parte de la Agenda 2030 de las Naciones Unidas sobre Consumo y Producción Sostenibles:
+            <ul>
+              <li><strong>ODS 12.2 (Gestión Sostenible y Uso Eficiente de los Recursos):</strong> Exige desacoplar el crecimiento económico de la degradación ambiental. Q'UPA WASI mide la masa exacta de polímeros reintroducidos a la economía circular, evitando la extracción de resina virgen de petróleo.</li>
+              <li><strong>ODS 12.5 (Reducción Sustancial de Desechos al 2030):</strong> Meta internacional de reducir la basura vertida mediante prevención, reducción, reciclado y reutilización. Evitamos que toneladas de plástico terminen en el botadero informal de Curumuy.</li>
+              <li><strong>Acreditación Universitaria:</strong> La UNP requiere evidenciar cumplimiento de responsabilidad social universitaria y gestión ambiental para sus procesos de evaluación institucional ante SINEACE y posicionamiento en rankings internacionales de sostenibilidad (UI GreenMetric). Q'UPA WASI provee la telemetría certificada en tiempo real.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div><!-- Fin Grid Q&A -->
+
+    </div><!-- Fin Tab 2 -->
+
+
+    <!-- ========================================== -->
+    <!-- TAB 3: GUÍA DE DIAPOSITIVAS (CRISTOPHER)   -->
+    <!-- ========================================== -->
+    <div id="tab-slides" class="tab-pane">
+
+      <div class="guide-banner">
+        <h2>Guía de Diapositivas e Indicaciones Visuales para Cristopher</h2>
+        <p>Requisitos de producción multimedia para proyectar en el Concurso PUCP: video acelerado de la app en velocidad x6, integración de la página web oficial, visualización del modelo 3D y reglas de oro de alto contraste.</p>
+      </div>
+
+      <div class="guide-cards-grid">
+
+        <!-- CARD 1: VIDEO EN X6 -->
+        <div class="guide-card">
+          <div class="guide-card-icon">⚡📹</div>
+          <div class="guide-card-title">1. Video de la App en Velocidad 6x (x6)</div>
+          <div class="guide-card-body">
+            En la <strong>Diapositiva 5 o 6</strong>, no pongas capturas estáticas aburridas. Incrusta un <strong>video de la pantalla del celular acelerado a velocidad x6</strong> en bucle continuo y sin audio (duración total en pantalla: 12 a 15 segundos).
+            <br><br>
+            <strong>Flujo exacto a mostrar en el video:</strong>
+            <ul>
+              <li>1. Apertura de la app y mapa del campus UNP con tachos en verde/amarillo.</li>
+              <li>2. Escaneo del código QR generado en la pantalla del tacho inteligente.</li>
+              <li>3. Animación de otorgamiento instantáneo de puntos y subida en el <strong>Contador de Racha</strong>.</li>
+              <li>4. Pantalla de catálogo de canje (minutos de recarga solar de celular y beneficios).</li>
+            </ul>
+            <em>Razón: El jurado capta en 10 segundos que el software está 100% desarrollado y probado sin cortar el discurso de Joyser.</em>
+          </div>
+          <div class="guide-card-action">
+            <span class="badge highlight">Ubicación: Diapositiva 5 o 6</span>
+          </div>
+        </div>
+
+        <!-- CARD 2: PÁGINA WEB OFICIAL -->
+        <div class="guide-card">
+          <div class="guide-card-icon">🌐📱</div>
+          <div class="guide-card-title">2. Enlace a la Página Web Oficial Desplegada</div>
+          <div class="guide-card-body">
+            Coloca en la esquina inferior de las Diapositivas 7, 8 y 11 un código QR pequeño y limpio con el texto: <em>"Explora el portal en vivo y telemetría"</em>.
+            <br><br>
+            <strong>URL oficial del proyecto en producción:</strong><br>
+            <a href="https://luisfelix122.github.io/p-final/" target="_blank" style="color:var(--primary); font-weight:700; word-break:break-all;">https://luisfelix122.github.io/p-final/</a>
+            <br><br>
+            Esto permite que los jurados más técnicos abran el dossier completo, revisen las fuentes oficiales de MINAM y comprueben el cronómetro y el banco de preguntas desde sus teléfonos durante la ronda de preguntas.
+          </div>
+          <div class="guide-card-action">
+            <a href="https://luisfelix122.github.io/p-final/" target="_blank" class="guide-link-btn">Visitar GitHub Pages ↗</a>
+          </div>
+        </div>
+
+        <!-- CARD 3: MODELO 3D INTERACTIVO -->
+        <div class="guide-card">
+          <div class="guide-card-icon">🧊⚙️</div>
+          <div class="guide-card-title">3. Visualización y Render del Modelo 3D</div>
+          <div class="guide-card-body">
+            En la <strong>Diapositiva 6 o 7</strong>, muestra una vista de render o corte transparente del modelo CAD/3D del módulo físico:
+            <ul>
+              <li><strong>Corte Mecánico:</strong> Vista de la tolva motorizada desplazándose sobre los rieles lineales con el motor NEMA 17 y la compuerta abatible.</li>
+              <li><strong>Compartimentos Separados:</strong> Contenedores independientes para PET cristal y latas con sus celdas de carga y sensores de nivel.</li>
+              <li><strong>Cabezal Solar:</strong> Techo inclinado con el panel solar de 100 Wp y los 3 puertos de carga rápida USB en el panel frontal.</li>
+            </ul>
+          </div>
+          <div class="guide-card-action">
+            <span class="badge accent">Render de Ingeniería Mecatrónica</span>
+          </div>
+        </div>
+
+        <!-- CARD 4: REGLAS DE DISEÑO PUCP -->
+        <div class="guide-card">
+          <div class="guide-card-icon">🎨💡</div>
+          <div class="guide-card-title">4. Reglas de Oro de Diseño Visual PUCP</div>
+          <div class="guide-card-body">
+            Los proyectores de auditorios universitarios lavan los colores. Sigue estrictamente estas reglas:
+            <ul>
+              <li><strong>Fondo Claro / Blanco:</strong> Usa fondos blancos (#ffffff) o gris perla (#f8fafc). ¡Cero fondos oscuros o degradados pesados!</li>
+              <li><strong>Contraste Extremo:</strong> Tipografía en negro carbón (#0f172a). Elementos destacados en verde esmeralda (#059669).</li>
+              <li><strong>Tipografía Gigante:</strong> Mínimo 28pt para viñetas y 54pt para números clave (ej. <strong>24,000 t</strong>, <strong>2%</strong>, <strong>100 UIT</strong>, <strong>S/ 2.50</strong>, <strong>95.3%</strong>).</li>
+              <li><strong>Cero Bloques de Texto:</strong> Máximo 4 palabras por viñeta. Las diapositivas son soporte de Joyser, no un teleprompter.</li>
+            </ul>
+          </div>
+          <div class="guide-card-action">
+            <span class="badge purple">Checklist de Alto Impacto</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Tabla de Especificaciones Diapositiva por Diapositiva -->
+      <div class="slide-spec-list">
+        <h3>Pauta Técnica de Elementos Visuales Diapositiva por Diapositiva</h3>
+        <div class="table-container">
+          <table class="spec-table">
+            <thead>
+              <tr>
+                <th>Slide</th>
+                <th>Concepto Clave</th>
+                <th>Elemento Visual Obligatorio</th>
+                <th>Cifra / Texto Destacado en Pantalla</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>01</strong></td>
+                <td>Carátula y Gancho</td>
+                <td>Logo UNP + Logo PUCP + Foto Q'UPA WASI</td>
+                <td><strong>24,000 t/día</strong> (MINAM) · Solo <strong>2%</strong> valorizado</td>
+              </tr>
+              <tr>
+                <td><strong>02</strong></td>
+                <td>Problema</td>
+                <td>Contraste: Industria 4.0 conectada vs Contenedor ciego</td>
+                <td><strong>Contenedores ciegos de hace 100 años</strong></td>
+              </tr>
+              <tr>
+                <td><strong>03</strong></td>
+                <td>Mercado B2B</td>
+                <td>Logos de instituciones obligadas + Sello UNP</td>
+                <td><strong>D.L. 1278</strong> · Multas hasta <strong>100 UIT</strong></td>
+              </tr>
+              <tr>
+                <td><strong>04</strong></td>
+                <td>Actualidad</td>
+                <td>Foto real de residuos mezclados en un solo tacho</td>
+                <td><strong>Mismo contenedor: pérdida de valor y sin registro</strong></td>
+              </tr>
+              <tr>
+                <td><strong>05</strong></td>
+                <td>Q'UPA WASI</td>
+                <td>Foto del módulo inteligente + Mockup de la app</td>
+                <td><strong>Q'UPA WASI: App + Red Inteligente</strong></td>
+              </tr>
+              <tr>
+                <td><strong>06</strong></td>
+                <td>Solución (5 Pasos)</td>
+                <td><strong>Video en x6 de la app</strong> + Diagrama de 5 pasos</td>
+                <td>Paso 1 al 5 · <strong>Tachos disponibles en campus</strong></td>
+              </tr>
+              <tr>
+                <td><strong>07</strong></td>
+                <td>Modelo SaaS</td>
+                <td>Diagrama B2B: Hardware + Suscripción SaaS + Scrap</td>
+                <td><strong>Modelo SaaS</strong> + Scrap a <strong>S/ 2.50 / kg</strong></td>
+              </tr>
+              <tr>
+                <td><strong>08</strong></td>
+                <td>Beneficios</td>
+                <td>Iconos de los 5 beneficios + Logos MINAM / ODS</td>
+                <td><strong>5 Beneficios Clave · ODS 12.2 y 12.5</strong></td>
+              </tr>
+              <tr>
+                <td><strong>09</strong></td>
+                <td>Proyección</td>
+                <td>Línea de tiempo de hitos departamentales</td>
+                <td><strong>4 Meses</strong> UNP ➔ <strong>8 Meses</strong> Campus ➔ <strong>1 Año</strong> Municipios</td>
+              </tr>
+              <tr>
+                <td><strong>10</strong></td>
+                <td>Equipo</td>
+                <td>Fotos: Software (Luis y Cristopher) vs Hardware (Fernando y Joyser)</td>
+                <td><strong>Ing. Informática & Ing. Electrónica</strong> (UNP)</td>
+              </tr>
+              <tr>
+                <td><strong>11</strong></td>
+                <td>Cierre Oficial</td>
+                <td>Logo Q'UPA WASI + QR web + Datos de contacto</td>
+                <td><strong>"Aquí premiamos tu decisión de cuidar el planeta"</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div><!-- Fin Tab 3 -->
+
+
+    <!-- ========================================== -->
+    <!-- TAB 4: FUENTES Y RESPALDO INSTITUCIONAL    -->
+    <!-- ========================================== -->
+    <div id="tab-sources" class="tab-pane">
+
+      <div class="qa-header-box">
+        <h2>Tabla Maestra de Fuentes, Metodología y Respaldo Institucional</h2>
+        <p>Base empírica y regulatoria verificable ante el jurado de la PUCP, inversionistas y autoridades universitarias.</p>
+      </div>
+
       <div class="table-container">
         <table class="sources-table">
           <thead>
@@ -842,7 +1729,7 @@
               <td><strong>Aceptación del Sistema de Incentivos</strong></td>
               <td>95.3% intención activa de uso</td>
               <td><span class="badge">Encuesta UNP 2026</span></td>
-              <td>Muestra probabilística de n = 385 universitarios, 95% de confianza, ±5% de error muestral.</td>
+              <td>Muestra probabilística de n = 388 universitarios, 95% de confianza, ±5% de error muestral (Pregunta 12: 64.9% sí definitivamente + 30.4% probablemente sí).</td>
             </tr>
             <tr>
               <td><strong>Cero Carga Operativa y Retiro Veloz</strong></td>
@@ -853,27 +1740,79 @@
             <tr>
               <td><strong>Costo BOM del Prototipo MVP</strong></td>
               <td>S/ 3,500 en insumos de hardware</td>
-              <td><span class="badge">BOM Ingeniería</span></td>
-              <td>Cotización: celda de carga HX711, ESP32, panel monocristalino 100 Wp, batería AGM 35 Ah, estructura HDPE.</td>
+              <td><span class="badge purple">BOM Ingeniería</span></td>
+              <td>Cotización: celda de carga HX711, ESP32-S3 / RPi, panel monocristalino 100 Wp, batería AGM 35 Ah, chasis HDPE.</td>
             </tr>
             <tr>
               <td><strong>Precio de Venta PET Cristal Limpio</strong></td>
               <td>S/ 2.50 / kg (98% pureza)</td>
-              <td><span class="badge">Mercado Formal</span></td>
+              <td><span class="badge accent">Mercado Formal</span></td>
               <td>Cotización directa con empresas formales transformadoras de PET (vs S/ 0.80 en centros de acopio informales sucios).</td>
             </tr>
           </tbody>
         </table>
       </div>
-    </section>
+
+    </div><!-- Fin Tab 4 -->
 
     <footer>
-      Q'UPA WASI · Concurso de Emprendimiento e Innovación PUCP · Universidad Nacional de Piura (UNP)
+      Q'UPA WASI · Concurso de Emprendimiento e Innovación PUCP · Universidad Nacional de Piura (UNP) · Piura, Perú
     </footer>
 
   </div>
 
   <script>
+    // Navegación por Pestañas
+    function openTab(tabId) {
+      document.querySelectorAll('.tab-pane').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+
+      const targetPane = document.getElementById(tabId);
+      if (targetPane) targetPane.classList.add('active');
+
+      const targetBtn = document.getElementById('btn-' + tabId);
+      if (targetBtn) targetBtn.classList.add('active');
+
+      // Actualizar hash en URL sin recargar
+      history.replaceState(null, null, '#' + tabId);
+    }
+
+    // Comprobar hash en la carga inicial
+    window.addEventListener('DOMContentLoaded', () => {
+      const hash = window.location.hash.replace('#', '');
+      if (hash && document.getElementById(hash)) {
+        openTab(hash);
+      }
+    });
+
+    // Filtros de Preguntas en Tab 2
+    let currentCategory = 'all';
+
+    function setQAFilter(category, btnElement) {
+      currentCategory = category;
+      document.querySelectorAll('.filter-pill').forEach(btn => btn.classList.remove('active'));
+      if (btnElement) btnElement.classList.add('active');
+      filterQuestions();
+    }
+
+    function filterQuestions() {
+      const query = document.getElementById('qaSearchInput').value.toLowerCase().trim();
+      const cards = document.querySelectorAll('.qa-card');
+
+      cards.forEach(card => {
+        const categoryMatch = (currentCategory === 'all') || (card.getAttribute('data-category') === currentCategory);
+        const textContent = (card.textContent + ' ' + (card.getAttribute('data-keywords') || '')).toLowerCase();
+        const searchMatch = !query || textContent.includes(query);
+
+        if (categoryMatch && searchMatch) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // Cronómetro de Ensayo (Tab 1)
     let timeLeft = 180;
     let timerId = null;
     let isRunning = false;
@@ -913,7 +1852,7 @@
           clearInterval(timerId);
           isRunning = false;
           document.getElementById('btnStart').textContent = '✔ Finalizado';
-          alert('¡Tiempo cumplido! 3:00 minutos exactos.');
+          alert('¡Tiempo cumplido! 3:00 minutos exactos de pitch.');
         }
       }, 1000);
     }
