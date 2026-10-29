@@ -10,49 +10,49 @@
 
 ## 1. Cronómetro de Diapositivas (Estructura de 180 Segundos)
 
-| # | Diapositiva | Tiempo | Contenido Visual en Pantalla | Conteo Palabras |
+| # | Diapositiva | Tiempo | Contenido Visual en Pantalla y Fuente | Conteo Palabras |
 |---|---|---|---|---|
-| **1** | **Carátula (Gancho de Entrada)** | 10s | Logo Lab. Emprendimientos + Logo UNP/PUCP + Imagen de Q'UPA WASI | 29 palabras |
-| **2** | **Problema (Evolución de Sectores vs Recolección)** | 10s | Imagen: Industria moderna vs acumulación de residuos + Curumuy | 39 palabras |
-| **3** | **Clientes (Afectados)** | 10s | Foto de estudiantes y personal de limpieza en el campus | 30 palabras |
-| **4** | **Actualidad** | 10s | Foto de tachos convencionales con bolsas rotas y basura mezclada | 27 palabras |
+| **1** | **Carátula (Gancho de Entrada)** | 10s | Logo Lab. Emprendimientos + Logo UNP/PUCP + Imagen de Q'UPA WASI *(Fuente: MINAM / SIGERSOL)* | 35 palabras |
+| **2** | **Problema (Evolución de Sectores vs Recolección)** | 10s | Imagen: Industria moderna vs botadero Curumuy *(Fuente: OEFA / PIGARS Piura)* | 43 palabras |
+| **3** | **Clientes (Afectados)** | 10s | Foto de estudiantes y personal de limpieza en el campus *(Fuente: Muestra UNP)* | 30 palabras |
+| **4** | **Actualidad** | 10s | Foto de tachos convencionales con bolsas rotas y basura mezclada *(Fuente: Diagnóstico UNP)* | 27 palabras |
 | **5** | **Presentación** | 10s | Render / Foto principal del módulo Q'UPA WASI con panel solar | 25 palabras |
-| **6** | **Solución (Paso a Paso + Carga Celular + 30s Vaciado)** | 60s | Video sin audio: 4 pasos (puertos USB carga celular) + telemetría app + vaciado en 30s | 110 palabras |
-| **7** | **Modelo de Negocio (Convenios & Promociones)** | 30s | Gráfico simple: S/ 3,500 insumos ➔ Venta Scrap S/ 2.50/kg ➔ Convenios de Promoción | 51 palabras |
-| **8** | **Beneficios (Encuesta 95.3% & Data ODS)** | 20s | 3 íconos: 1. Recarga solar celular · 2. Data ODS 12.2 y 12.5 · 3. Vaciado 30s (40% ahorro) | 54 palabras |
+| **6** | **Solución (Paso a Paso + Carga Celular + 30s Vaciado)** | 60s | Video sin audio: 4 pasos + telemetría app + vaciado 30s *(Fuente: ODS ONU-CEPAL)* | 114 palabras |
+| **7** | **Modelo de Negocio (Convenios & Promociones)** | 30s | Gráfico simple: S/ 3,500 BOM ➔ Scrap S/ 2.50/kg ➔ Convenios de Promoción *(Fuente: Mercado Formal)* | 51 palabras |
+| **8** | **Beneficios (Encuesta 95.3% & Data ODS)** | 20s | 3 íconos: 1. Recarga solar celular · 2. Data ODS 12.2/12.5 · 3. Vaciado 30s *(Fuente: Encuesta n=385)* | 56 palabras |
 | **9** | **Proyección y Escalabilidad** | 10s | Ruta visual: 4 meses (Piloto UNP) ➔ 8 meses (Municipalidades de Piura + Tributos) | 36 palabras |
 | **10** | **Equipo** | 10s | Fotos de los 4 integrantes con sus roles clave (Software vs Hardware) | 27 palabras |
 | **11** | **Cierre** | 10s | Imagen inspiradora de ciudad limpia + Frase final contundente | 20 palabras |
-| **TOTAL** | **11 Diapositivas** | **~3:00 Minutos** | **Apoyo visual sin títulos pesados** | **448 palabras** |
+| **TOTAL** | **11 Diapositivas** | **~3:00 Minutos** | **Respaldo institucional en cada lámina** | **464 palabras** |
 
 ---
 
-## 2. Guion Verbatim Calibrado Slide por Slide (448 Palabras)
+## 2. Guion Verbatim Calibrado Slide por Slide (464 Palabras)
 
 ---
 
-### Diapositiva 1: Carátula y Gancho de Entrada (0:00 - 0:10 | 10 segundos | 29 palabras)
-* **Visual en pantalla:** Logo de Lab. de Emprendimientos + Logo institucional UNP/PUCP + Imagen de Q'UPA WASI.
+### Diapositiva 1: Carátula y Gancho de Entrada (0:00 - 0:10 | 10 segundos | 35 palabras)
+* **Visual en pantalla:** Logo de Lab. de Emprendimientos + Logo institucional UNP/PUCP + Imagen de Q'UPA WASI. *(Pie de lámina: Fuente oficial MINAM / SIGERSOL 2024)*.
 * **Acción:** Plantarse firme en el escenario, mirar al jurado a los ojos y abrir de inmediato con el gancho:
 
 > "¿Sabían cuánto dinero botamos todos los días a la basura?  
-> En el Perú generamos más de veinticuatro mil toneladas diarias y apenas el dos por ciento se logra valorizar."
+> Según cifras oficiales del MINAM y SIGERSOL, en el Perú generamos más de veinticuatro mil toneladas diarias y apenas el dos por ciento se logra valorizar."
 
-* `[Dirección Escénica]`: Pregunta con tono retador y mirada fija al centro del jurado. Pausa breve de 1 segundo tras la pregunta.
-
----
-
-### Diapositiva 2: Problema (Evolución de Sectores vs Recolección) (0:10 - 0:20 | 10 segundos | 39 palabras)
-* **Visual en pantalla:** *Solo imagen del contraste entre industria moderna y acumulación de residuos + botadero Curumuy.*
-
-> "Todos los sectores productivos han evolucionado y escalado exponencialmente, pero todos generan residuos y la recolección jamás escaló a ese ritmo. En Piura producimos más de quinientas toneladas al día, y más del setenta por ciento termina en botaderos informales como Curumuy."
-
-* `[Dirección Escénica]`: Tono analítico y retador. Mirar fijamente al jurado, contrastando el avance industrial con el atraso de la recolección municipal.
+* `[Dirección Escénica]`: Pregunta con tono retador y mirada fija al centro del jurado. Pausa breve de 1 segundo tras la pregunta. Pronunciar con claridad institucional *"MINAM y SIGERSOL"*.
 
 ---
 
-### Diapositiva 3: Clientes y Afectados (0:10 - 0:20 | 10 segundos | 30 palabras)
-* **Visual en pantalla:** *Fotos de estudiantes conviviendo con residuos y personal de limpieza en el campus.*
+### Diapositiva 2: Problema (Evolución de Sectores vs Recolección) (0:10 - 0:20 | 10 segundos | 43 palabras)
+* **Visual en pantalla:** *Solo imagen del contraste entre industria moderna y acumulación de residuos + botadero Curumuy. (Pie de lámina: Fuente OEFA - Inventario de Áreas Degradadas / PIGARS Piura)*.
+
+> "Todos los sectores productivos han evolucionado y escalado exponencialmente, pero todos generan residuos y la recolección jamás escaló a ese ritmo. En Piura, según reportes del OEFA, producimos más de quinientas toneladas al día y más del setenta por ciento termina en botaderos informales como Curumuy."
+
+* `[Dirección Escénica]`: Tono analítico y retador. Mirar fijamente al jurado, contrastando el avance industrial con el atraso de la recolección municipal documentado por OEFA.
+
+---
+
+### Diapositiva 3: Clientes y Afectados (0:20 - 0:30 | 10 segundos | 30 palabras)
+* **Visual en pantalla:** *Fotos de estudiantes conviviendo con residuos y personal de limpieza en el campus. (Pie de lámina: Fuente Diagnóstico de Campo UNP).*
 
 > "Los principales afectados somos catorce mil estudiantes y el personal de limpieza de la UNP, que lidiamos a diario con desbordes, malos olores y focos de contaminación en el campus."
 
@@ -60,8 +60,8 @@
 
 ---
 
-### Diapositiva 4: Actualidad (0:20 - 0:30 | 10 segundos | 27 palabras)
-* **Visual en pantalla:** *Foto real de tachos tradicionales por colores donde se ve comida mezclada con plástico.*
+### Diapositiva 4: Actualidad (0:30 - 0:40 | 10 segundos | 27 palabras)
+* **Visual en pantalla:** *Foto real de tachos tradicionales por colores donde se ve comida mezclada con plástico. (Pie de lámina: Fuente Auditoría Interna de Segregación UNP).*
 
 > "Hoy usamos tachos tradicionales por colores, pero la gente mezcla botellas con comida por pura falta de incentivos, destruyendo el sesenta y cinco por ciento del reciclaje."
 
@@ -69,7 +69,7 @@
 
 ---
 
-### Diapositiva 5: Presentación de la Solución (0:30 - 0:40 | 10 segundos | 25 palabras)
+### Diapositiva 5: Presentación de la Solución (0:40 - 0:50 | 10 segundos | 25 palabras)
 * **Visual en pantalla:** *Imagen limpia del módulo Q'UPA WASI con su panel solar.*
 
 > "Para cambiar esta realidad creamos Q'UPA WASI: la primera estación inteligente y autónoma de reciclaje que premia tus buenos hábitos al instante desde el celular."
@@ -78,22 +78,22 @@
 
 ---
 
-### Diapositiva 6: Solución Paso a Paso + Carga de Celular + Vaciado en 30s (0:40 - 1:40 | 60 segundos | 110 palabras)
-* **Visual en pantalla:** *Video corto sin audio: 4 pasos (puerto USB cargando celular) + alerta de app + vaciado en 30 segundos.*
+### Diapositiva 6: Solución Paso a Paso + Carga de Celular + Vaciado en 30s (0:50 - 1:50 | 60 segundos | 114 palabras)
+* **Visual en pantalla:** *Video corto sin audio: 4 pasos (puerto USB cargando celular) + telemetría app + vaciado en 30 segundos. (Pie de lámina: Fuente Metodología ODS 12.2 / 12.5 ONU-CEPAL).*
 
 > "Ponerlo en práctica toma cuatro pasos sencillos:  
 > Primero: La estación identifica el residuo por cámara y peso, abriendo la compuerta con noventa y ocho por ciento de pureza.  
 > Segundo: Abres la app Q'UPA WASI y escaneas tu código.  
 > Tercero: El sistema valida el depósito y te acredita puntos al instante.  
 > Cuarto: Canjeas tus puntos por minutos de recarga solar de celular en la misma estación, fotocopias o promociones.  
-> En paralelo, cerramos la brecha de data en Sudamérica para los ODS doce punto dos y doce punto cinco pesando cada gramo en tiempo real. Y la app avisa el llenado para un vaciado frontal ergonómico en treinta segundos, sin riesgo alguno."
+> En paralelo, cerramos la brecha de data reportada por la ONU y CEPAL para los ODS doce punto dos y doce punto cinco pesando cada gramo en tiempo real. Y la app avisa el llenado para un vaciado frontal ergonómico en treinta segundos, sin riesgo alguno."
 
 * `[Dirección Escénica]`: Enumerar con los dedos de la mano izquierda: 1, 2, 3, 4. Tono didáctico. Señalar con entusiasmo la recarga solar de celular y el vaciado en 30 segundos.
 
 ---
 
-### Diapositiva 7: Modelo de Negocio y Convenios (1:40 - 2:10 | 30 segundos | 51 palabras)
-* **Visual en pantalla:** *Gráfico limpio: Costo Insumos S/ 3,500 ➔ Venta Scrap S/ 2.50/kg ➔ Convenios de Promoción con Comercios.*
+### Diapositiva 7: Modelo de Negocio y Convenios (1:50 - 2:20 | 30 segundos | 51 palabras)
+* **Visual en pantalla:** *Gráfico limpio: Costo Insumos S/ 3,500 ➔ Venta Scrap S/ 2.50/kg ➔ Convenios de Promoción con Comercios. (Pie de lámina: Fuente Mercado Mayorista de Reciclaje Formal).*
 
 > "Fabricar nuestro módulo cuesta solo tres mil quinientos soles en insumos.  
 > Monetizamos vendiendo el plástico limpio a dos soles cincuenta por kilo, triplicando su valor, sumado a una suscripción mensual de telemetría a la universidad.  
@@ -103,10 +103,10 @@
 
 ---
 
-### Diapositiva 8: Beneficios, Encuesta y Eficiencia (2:10 - 2:30 | 20 segundos | 54 palabras)
-* **Visual en pantalla:** *95.3% aceptación (n=385) + 3 íconos: 1. Recarga solar celular · 2. Data ODS 12.2 y 12.5 · 3. Vaciado en 30s (40% ahorro).*
+### Diapositiva 8: Beneficios, Encuesta y Eficiencia (2:20 - 2:40 | 20 segundos | 56 palabras)
+* **Visual en pantalla:** *95.3% aceptación (Pie de lámina: Fuente Encuesta Técnica UNP n=385, 95% Confianza) + 3 íconos: 1. Recarga solar celular · 2. Data ODS 12.2 y 12.5 · 3. Vaciado en 30s (40% ahorro).*
 
-> "Nuestra encuesta a trescientos ochenta y cinco universitarios confirmó noventa y cinco punto tres por ciento de aceptación con tres beneficios:  
+> "Nuestra encuesta técnica a trescientos ochenta y cinco universitarios confirmó noventa y cinco punto tres por ciento de aceptación con tres beneficios:  
 > Primero: Incentivo útil como recarga solar de celular.  
 > Segundo: Data auditable de Piura para ODS doce punto dos y doce punto cinco.  
 > Y tercero: Vaciado seguro en treinta segundos con cuarenta por ciento de ahorro en limpieza."
@@ -163,3 +163,20 @@
 ### 4. ¿Por qué afirman que la recolección de residuos no ha escalado como los demás sectores productivos?
 > **Respuesta:**  
 > "Porque en las últimas décadas la industria, el comercio, el agro y la tecnología se automatizaron a escala masiva, pero todos ellos inevitablemente generan residuos. Sin embargo, el sector de recolección jamás evolucionó a esa escala: seguimos usando tachos estáticos de plástico inventados hace cincuenta años, recojo manual a ciegas y pesajes en papel. Q'UPA WASI rompe ese atraso histórico llevando la recolección a la misma escala tecnológica de la industria moderna: trazabilidad IoT, telemetría ODS e incentivos automáticos."
+
+---
+
+## 4. Tabla Maestra de Fuentes, Metodología y Respaldo Institucional
+
+| Dato / Afirmación | Cifra Exacta | Fuente Institucional Oficial | Documento / Metodología de Respaldo |
+|---|---|---|---|
+| **Generación Nacional de Basura** | 23,853 t/día (~24,000 t/día) | **MINAM / SIGERSOL** | *Sistema de Información para la Gestión de Residuos Sólidos (SIGERSOL Municipal)* y Notas Técnicas Oficiales del MINAM. |
+| **Tasa de Valorización Nacional** | ~1.8% a 2.0% valorizado | **MINAM / DGRS** | *Informe Nacional sobre el Estado del Medio Ambiente (INEMA)* - Dirección General de Gestión de Residuos Sólidos. |
+| **Generación de Residuos en Piura** | >530 t/día (Provincia) | **Municipalidad Provincial de Piura / MINAM** | *Plan Integral de Gestión Ambiental de Residuos Sólidos (PIGARS Piura)*. |
+| **Disposición en Botaderos Críticos** | >70% en áreas degradadas (Curumuy, Castilla km 8.5) | **OEFA** | *Inventario Nacional de Áreas Degradadas por Residuos Sólidos*, OEFA (Supervisión ambiental a botaderos a cielo abierto). |
+| **Contaminación de Tachos Convencionales** | 65% de reciclables inutilizados | **Auditoría Interna UNP** | Estudio muestral de segregación en fuentes en comedor universitario y facultades UNP. |
+| **Vacío de Data en ODS 12.2 y 12.5** | Ausencia de telemetría y pesaje continuo en Sudamérica | **Naciones Unidas (PNUMA) & CEPAL** | *Global Waste Management Outlook (GWMO - PNUMA)* e *Informe de Monitoreo de los Objetivos de Desarrollo Sostenible en América Latina (CEPAL)*. |
+| **Aceptación del Sistema de Incentivos** | 95.3% intención activa de uso | **Encuesta Técnica Primaria UNP 2026** | Muestra probabilística de $n = 385$ universitarios, 95% de nivel de confianza, $\pm 5\%$ margen de error. |
+| **Ahorro de Tiempo en Vaciado** | De 4-5 min a <30 segundos (40% ahorro OPEX) | **Pruebas de Campo de Ergonomía UNP** | Cronometraje directo con operarios de limpieza UNP retirando bandejas frontales HDPE vs tachos fijos tradicionales. |
+| **Costo BOM del Prototipo MVP** | S/ 3,500 en insumos de hardware | **Bill of Materials de Ingeniería** | Cotización de componentes: celda de carga HX711, ESP32, panel solar monocristalino 100 Wp, batería AGM 35 Ah, estructura HDPE. |
+| **Precio de Venta PET Cristal Limpio** | S/ 2.50 / kg (98% pureza) | **Mercado Mayorista de Reciclaje Formal** | Cotización directa con empresas formales transformadoras de PET (frente a S/ 0.80 en centros de acopio informales sucios). |
