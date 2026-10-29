@@ -17,9 +17,9 @@
 | **3** | **Usuarios vs Clientes (Licenciamiento de App SaaS)** | 15s | Comunidad universitaria (usuarios) vs Clientes de App SaaS (Vicerrectorado) + Sello de convenio | 65 palabras |
 | **4** | **Actualidad** | 10s | Foto de tachos convencionales con bolsas rotas y basura mezclada *(Fuente: Auditoría UNP)* | 31 palabras |
 | **5** | **Presentación (La App es el Cerebro de Todo)** | 10s | Módulo Q'UPA WASI + Dashboard de la App Móvil en primer plano | 38 palabras |
-| **6** | **Solución (Paso a Paso + Carga Celular + 30s Vaciado)** | 40s | Video sin audio: 4 pasos + telemetría app + vaciado 30s *(Fuente: ODS ONU-CEPAL)* | 96 palabras |
-| **7** | **Modelo de Negocio (SaaS Asset-Light + Venta Scrap)** | 30s | Gráfico: Cliente asume tachos (CAPEX) ➔ Suscripción mensual App SaaS + Venta Scrap puro | 57 palabras |
-| **8** | **Beneficios (Encuesta 95.3% & Data ODS)** | 20s | 3 íconos: 1. Recarga solar celular · 2. Certificación oficial · 3. Vaciado 30s *(Fuente: Encuesta n=385)* | 53 palabras |
+| **6** | **Solución (Paso a Paso + Carga Celular + Recojo en Red)** | 40s | Video sin audio: 4 pasos + telemetría app + recojo en 30s *(Fuente: ODS ONU-CEPAL)* | 96 palabras |
+| **7** | **Modelo de Negocio (SaaS Llave en Mano + Venta Scrap)** | 30s | Gráfico: Cliente financia estaciones ➔ Suscripción mensual App SaaS + Recojo por empresa aliada + Venta Scrap puro | 58 palabras |
+| **8** | **Beneficios (Encuesta 95.3% & Data ODS)** | 20s | 3 íconos: 1. Recarga solar celular · 2. Certificación oficial · 3. Cero carga operativa *(Fuente: Encuesta n=385)* | 56 palabras |
 | **9** | **Proyección y Escalabilidad** | 10s | Ruta visual: 4 meses (Piloto UNP) ➔ 8 meses (Municipalidades de Piura + Tributos) | 40 palabras |
 | **10** | **Equipo** | 10s | Fotos de los 4 integrantes con sus roles clave (Software vs Hardware) | 24 palabras |
 | **11** | **Cierre** | 10s | Imagen inspiradora de ciudad limpia + Frase final contundente | 21 palabras |
@@ -77,38 +77,38 @@
 
 ---
 
-### Diapositiva 6: Solución Paso a Paso + Carga de Celular + Vaciado en 30s (1:00 - 1:40 | 40 segundos | 96 palabras)
-* **Visual en pantalla:** *Video corto sin audio: 4 pasos (puertos USB carga celular) + telemetría app + vaciado en 30s. (Pie de lámina: Fuente Metodología ODS 12.2 / 12.5 ONU-CEPAL).*
+### Diapositiva 6: Solución Paso a Paso + Carga de Celular + Recojo en 30s (1:00 - 1:40 | 40 segundos | 96 palabras)
+* **Visual en pantalla:** *Video corto sin audio: 4 pasos (puertos USB carga celular) + telemetría app + recojo en 30s. (Pie de lámina: Fuente Metodología ODS 12.2 / 12.5 ONU-CEPAL).*
 
 > "Funciona en cuatro pasos sencillos:  
 > Primero: La estación identifica el residuo por cámara y peso, abriendo la compuerta con noventa y ocho por ciento de pureza.  
 > Segundo: Escaneas tu código en la app Q'UPA WASI.  
 > Tercero: Recibes puntos al instante.  
 > Cuarto: Canjeas minutos de recarga solar de celular en el módulo, impresiones o promociones aliadas.  
-> En paralelo, entregamos a la institución telemetría auditable en tiempo real para certificar ante el MINAM y los ODS doce punto dos y doce punto cinco. Y la app alerta el llenado para un vaciado ergonómico en treinta segundos."
+> En paralelo, entregamos a la institución telemetría auditable en tiempo real para certificar ante el MINAM y los ODS doce punto dos y doce punto cinco. Y la app alerta el llenado para el recojo programado por nuestra red aliada en apenas treinta segundos."
 
-* `[Dirección Escénica]`: Enumerar con los dedos de la mano izquierda: 1, 2, 3, 4. Tono didáctico. Señalar con entusiasmo la recarga solar de celular, la telemetría ODS y el vaciado en 30 segundos.
-
----
-
-### Diapositiva 7: Modelo de Negocio (SaaS Asset-Light + Venta Scrap) (1:40 - 2:10 | 30 segundos | 57 palabras)
-* **Visual en pantalla:** *Gráfico de flujo: Cliente invierte en tachos (CAPEX) ➔ Suscripción mensual App SaaS (Ingreso recurrente) ➔ Venta Scrap S/ 2.50/kg (Ganancia directa). (Pie de lámina: Modelo Asset-Light sin costo logístico).*
-
-> "Nuestro modelo de negocio es Software as a Service: la institución financia la inversión inicial de los tachos y nosotros les licenciamos la app con una suscripción mensual. La universidad se encarga del vaciado con su propio personal, mientras nosotros capturamos ingresos recurrentes por la app y nos quedamos con la ganancia de la venta del plástico puro."
-
-* `[Dirección Escénica]`: Tono seguro de negocios. Mirar fijamente a los empresarios del tribunal. Articular con nitidez *"Software as a Service"*, *"la institución financia los tachos"* y *"nosotros capturamos ingresos recurrentes"*."*
+* `[Dirección Escénica]`: Enumerar con los dedos de la mano izquierda: 1, 2, 3, 4. Tono didáctico. Señalar con entusiasmo la recarga solar de celular, la telemetría ODS y el recojo veloz en 30 segundos.
 
 ---
 
-### Diapositiva 8: Beneficios, Encuesta y Eficiencia (2:10 - 2:30 | 20 segundos | 53 palabras)
-* **Visual en pantalla:** *95.3% aceptación (Pie de lámina: Fuente Encuesta Técnica UNP n=385, 95% Confianza) + 3 íconos: 1. Recarga solar celular · 2. Certificación oficial · 3. Vaciado 30s (40% ahorro).*
+### Diapositiva 7: Modelo de Negocio (SaaS Llave en Mano + Venta Scrap) (1:40 - 2:10 | 30 segundos | 58 palabras)
+* **Visual en pantalla:** *Gráfico de flujo: Cliente financia estaciones (CAPEX) ➔ Suscripción mensual App SaaS (Ingreso recurrente) ➔ Empresa recicladora aliada retira residuo (Cero fricción operativa) ➔ Venta Scrap S/ 2.50/kg (Ganancia directa). (Pie de lámina: Modelo SaaS Llave en Mano Asset-Light).*
+
+> "Nuestro modelo es Software as a Service llave en mano: la institución financia las estaciones y paga la suscripción mensual de la app. El cliente se olvida de la recolección: nuestra red de empresas recicladoras aliadas retira el material alertada por la plataforma. Nosotros capturamos ingresos recurrentes por el software y monetizamos la venta del plástico puro."
+
+* `[Dirección Escénica]`: Tono seguro de negocios. Mirar fijamente a los empresarios del tribunal. Articular con nitidez *"Software as a Service llave en mano"*, *"el cliente se olvida de la recolección"* y *"nosotros capturamos ingresos recurrentes"*.
+
+---
+
+### Diapositiva 8: Beneficios, Encuesta y Cero Fricción (2:10 - 2:30 | 20 segundos | 56 palabras)
+* **Visual en pantalla:** *95.3% aceptación (Pie de lámina: Fuente Encuesta Técnica UNP n=385, 95% Confianza) + 3 íconos: 1. Recarga solar celular · 2. Certificación oficial · 3. Cero carga operativa (retiro en 30s por red aliada).*
 
 > "Nuestra encuesta técnica a trescientos ochenta y cinco universitarios confirmó noventa y cinco punto tres por ciento de aceptación con tres beneficios:  
 > Primero: Utilidad inmediata con recarga solar de celular.  
 > Segundo: Certificación oficial de datos para la universidad.  
-> Y tercero: Vaciado seguro en treinta segundos con cuarenta por ciento de ahorro en limpieza."
+> Y tercero: Cero carga operativa para la institución gracias al retiro directo de nuestra red aliada en menos de treinta segundos."
 
-* `[Dirección Escénica]`: Marcar con seguridad los 3 puntos: *"recarga solar"*, *"certificación oficial"* y *"ahorro en limpieza"*.
+* `[Dirección Escénica]`: Marcar con seguridad los 3 puntos: *"recarga solar"*, *"certificación oficial"* y *"cero carga operativa"*.
 
 ---
 
@@ -191,12 +191,12 @@
 
 ### 9. ¿Por qué afirman que su verdadero producto es la app y no los tachos de basura?
 > **Respuesta:**  
-> "Porque los tachos son solo un contenedor físico; sin nuestra tecnología, un tacho no identifica, no pesa, no entrega incentivos ni certifica datos ante el Estado. Nuestro modelo es **Hardware-Enabled SaaS (Software as a Service)**:  
-> 1. **El cliente asume el CAPEX:** La institución o empresa invierte en la fabricación o compra de las estaciones físicas (S/ 3,500 por módulo).  
-> 2. **El cliente asume la operación:** La universidad o empresa se encarga del vaciado y limpieza con su propio personal, quienes ahora ahorran 40% de tiempo gracias a las alertas de la app.  
+> "Porque los tachos son solo un contenedor físico; sin nuestra tecnología, un tacho no identifica, no pesa, no entrega incentivos ni certifica datos ante el Estado. Nuestro modelo es **Hardware-Enabled SaaS (Software as a Service) Llave en Mano**:  
+> 1. **El cliente asume el CAPEX:** La institución o empresa financia la compra de las estaciones físicas (S/ 3,500 por módulo).  
+> 2. **Operación tercerizada sin fricción (Llave en mano):** La institución cliente no gasta tiempo de su personal ni se preocupa por la basura: la recolección la realiza nuestra red vinculada de empresas recicladoras formales (EO-RS / asociaciones registradas), que reciben alertas automáticas de llenado y rutas optimizadas desde la app. El cliente se desentiende por completo de la logística operativa y solo recibe reportes limpios y certificados.  
 > 3. **Nosotros vendemos el software:** Les cobramos una suscripción mensual recurrente por la app móvil, la gestión de puntos, el dashboard de telemetría y los reportes oficiales auditables para el MINAM y OEFA.  
 > 4. **Ganancia del scrap:** El material segregado con 98% de pureza se vende a la industria transformadora formal (S/ 2.50/kg), convirtiéndose en un margen neto directo para nosotros.  
-> Esto nos convierte en un negocio **altamente escalable y liviano en activos (asset-light)**: no compramos camiones de basura, no contratamos cuadrillas de limpieza municipal, sino que escalamos a nivel nacional mediante software."
+> Esto nos convierte en un negocio **altamente escalable y liviano en activos (asset-light)**: no compramos camiones de basura, no cargamos planillas de limpieza, sino que escalamos a nivel nacional articulando a los actores mediante software."
 
 ---
 
@@ -211,6 +211,6 @@
 | **Contaminación de Tachos Convencionales** | 65% de reciclables inutilizados | **Auditoría Interna UNP** | Estudio muestral de segregación en fuentes en comedor universitario y facultades UNP. |
 | **Vacío de Data en ODS 12.2 y 12.5** | Ausencia de telemetría y pesaje continuo en Sudamérica | **Naciones Unidas (PNUMA) & CEPAL** | *Global Waste Management Outlook (GWMO - PNUMA)* e *Informe de Monitoreo de los Objetivos de Desarrollo Sostenible en América Latina (CEPAL)*. |
 | **Aceptación del Sistema de Incentivos** | 95.3% intención activa de uso | **Encuesta Técnica Primaria UNP 2026** | Muestra probabilística de $n = 385$ universitarios, 95% de nivel de confianza, $\pm 5\%$ margen de error. |
-| **Ahorro de Tiempo en Vaciado** | De 4-5 min a <30 segundos (40% ahorro OPEX) | **Pruebas de Campo de Ergonomía UNP** | Cronometraje directo con operarios de limpieza UNP retirando bandejas frontales HDPE vs tachos fijos tradicionales. |
+| **Cero Carga Operativa y Retiro Veloz** | Menos de 30 segundos por recojo vía red aliada | **Pruebas de Campo de Retiro Logístico** | Cronometraje directo con bandejas frontales modulares HDPE, permitiendo retiro inmediato a la empresa recicladora aliada. |
 | **Costo BOM del Prototipo MVP** | S/ 3,500 en insumos de hardware | **Bill of Materials de Ingeniería** | Cotización de componentes: celda de carga HX711, ESP32, panel solar monocristalino 100 Wp, batería AGM 35 Ah, estructura HDPE. |
 | **Precio de Venta PET Cristal Limpio** | S/ 2.50 / kg (98% pureza) | **Mercado Mayorista de Reciclaje Formal** | Cotización directa con empresas formales transformadoras de PET (frente a S/ 0.80 en centros de acopio informales sucios). |
